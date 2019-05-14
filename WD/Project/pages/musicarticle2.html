@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <link rel="shortcut icon" href="../images/icon.ico" />
+
+        <title>Octothorpe Magazine - Article</title> <!--Title of my webpage-->
+
+        <meta charset="utf-8"/>     <!--for accepting unicode-->
+
+        <meta name="author" content="Avhimanhu Sapkota"/>           <!--Determining the author of the website-->
+
+        <meta name="keywords" content=" "/>     <!--search engine keywords-->
+
+        <meta name="description" content=" "/>   <!--search engine discription-->
+
+        <link rel="stylesheet" type="text/css" href="../style/bootstrap.min.css">
+
+        <link rel="stylesheet" type="text/css" href="../style/style.css">
+
+        <script>
+            
+            function evalid(f1){
+                var e=f1.email.value;
+					   if (e.indexOf('@', 0)==-1 ||e.indexOf('.',0) ==-1){
+					   alert ("P L E A S E    E N T E R    V A L I D    E - M A I L    A D D R E S S    A N D    T R Y    A G A I N ! ! !");
+                           f1.email.value="";
+                           f1.email.focus();
+					   }  
+                       else {
+                        alert("T H A N K    Y O U    F O R    S U B S C R I B I N G    O C T O T H O R P E !");
+                       }
+            }
+        </script>
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+            <a href="../index.html">
+                <img src="../images/octothorpeLogo.PNG" alt="Octothorpe Logo" height="45"> 
+            </a>
+            
+            <div class="collapse navbar-collapse justify-content-center" >
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">HOME <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="explore.html">EXPLORE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">PORTFOLIO</a>
+                    </li>
+                </ul>
+            </div>
+        
+            <div class="nav-right-content">
+                <ul class="navbar-nav">
+                    <li>
+                        <a class="nav-link active collapse navbar-collapse" href="search.html">
+                            <br><br>
+                            <img src="../images/search.png" alt="Search" height="30">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link active collapse navbar-collapse" href="login.html">
+                            <br><br>
+                            <img src="../images/login.png" alt="Login" height="45">
+                        </a>
+                    </li>
+                    <li>
+                        <div style="font-size: 40px; cursor:pointer;" onClick="openNav()">
+                            <img src="../images/drop.png" alt="Dropdown" height="35">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+                
+        <div class="overlay" id="mynav">
+                <a href="#" class="closebtn" onClick="closeNav()">&times;</a>
+                <div class="overlay-content"> 
+                    <a href="../index.html">HOME</a>
+                    <a href="explore.html">EXPLORE</a>
+                    <a href="portfolio.html">PORTFOLIO</a>
+                    <a href="login.html">LOGIN</a>
+                    <a href="search.html">SEARCH</a>
+                    <a href="../../home.html">ASSIGNMENTS</a>
+                </div>
+            </div>
+
+        <div class="box">
+            <img class="image-fluid" src="../images/articlecover2.jpg" alt="NEWSPAPERS" height="300" style="width:100%">
+            <div class="text">
+                <h2>O C T O T H O R P E&nbsp;&nbsp;&nbsp;&nbsp; M A G A Z I N E</h2>  
+            </div>
+        </div>
+
+        <div class="empty-box"> </div>
+        
+            <div class="container">
+            <div class="row">
+            <div class="box">
+                <h3>B I R D&nbsp;&nbsp;&nbsp;S O U N D S ' S&nbsp;&nbsp;&nbsp;S O N G S&nbsp;&nbsp;&nbsp;A R E&nbsp;&nbsp;&nbsp;<br>
+                    S O A R I N G&nbsp;&nbsp;&nbsp;U P&nbsp;&nbsp;&nbsp;T H E&nbsp;&nbsp;&nbsp;M U S I C&nbsp;&nbsp;&nbsp;<br>C H A R T S
+                </h3>
+                <br>
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                        Nestled between pop music’s hottest acts, a decidedly unlikely song is climbing most popular musical singles chart in the UK.
+                </p>
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                        As Good News Network recently pointed out, a song called “Let Nature Sing”—a track made up entirely of bird sounds—is currently
+                         ranked as the 11th most popular musical single. And we can see why. The two-and-a-half-minute song is truly enchanting.
+                </p>
+                
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                        The Royal Society for the Protection of Birds (RSPB) released the single last month to raise awareness for vulnerable bird species.
+                         The track features the songs of many threatened and endangered birds of the UK to “get more people talking about the beautiful sounds 
+                         the we could lose.”
+                </p>
+
+            </div>
+            </div>
+        </div>
+        <div class="empty-box"> </div>
+        
+        <div class="box">
+            <img class="image-fluid " src="../images/musicarticle2i.jpg" alt="SINGING BIRD" style="width:100%">
+            <div class="text-inside-article">
+                    <h5>S I N G I N G  &nbsp;&nbsp;&nbsp;B I R D</h5>
+                </div>
+        </div>
+        
+        <div class="empty-box"> </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="box">
+                    
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                        According to RSPB, more than 40 million birds have vanished from UK skies in just 50 years. Furthermore, 56% of
+                         species in the UK are in decline, and one in ten members of the wildlife population are critically endangered.
+                </p>
+
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                    “Birdsong has been one of the biggest influences of our song, poetry and literature,” Sam Lee, who helped edit the single,
+                     said in a release. “The loss of it should concern us all, because it is a signal that all is not well in the world.
+                      We should see birdsong as a barometer for the health of this planet, and hence of ourselves.”
+                </p>                
+                
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                        Martin Harper, RSPB Director of Conservation, agrees.
+                        <br>
+                        “The signs are all around us that something is not right, that nature is falling silent and you only need to stop
+                         and listen to find the beautiful bird song that should be the background music to our life is absent,” he said.
+                </p>    
+
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                    <em>
+                        Originally written by Meghan Overdeep.<br>
+                        Compiled from <a href="https://www.southernliving.com/news/let-nature-sing-single-rspb">
+                        Southern Living</a>
+                    </em>    
+                </p>  
+
+                </div>
+            </div>
+        </div>
+
+        <div class="empty-box"> </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                   <div class="box">
+                        <img  class="img-fluid " src="../images/musicarticle2ii.jpg" alt="SINGING BIRD" style="width:100%">
+                        <div class="text-inside-article">
+                            <h5>S I N G I N G  &nbsp;&nbsp;&nbsp;B I R D</h5>
+                        </div>
+                    </div>   
+                </div>
+    
+                <div class="col-6">
+                    <div class="box">
+                            <img  class="img-fluid " src="../images/musicarticle2iii.jpg" alt="SINGING BIRD" style="width:100%">
+                            <div class="text-inside-article">
+                                <h5>S I N G I N G  &nbsp;&nbsp;&nbsp;B I R D</h5>
+                            </div>
+                    </div>   
+                </div>
+            </div>
+        </div>    
+
+        <div class="empty-box"> </div>
+        <div class="empty-box"> </div>
+
+        <div class="box">
+            <img class="image-fluid" src="../images/homecover1.jpg" alt="HILLS AND CLOUDS" height="300" style="width:100%">
+            <div class="text" id="middletext" >
+                <h3>S U B S C R I B E&nbsp;&nbsp;&nbsp;&nbsp;U S </h3>
+                THE BEST OF OCTOTHORPE DELIVERED TO YOUR INBOX
+                <br><br>
+                <form name="f1">
+                <textarea rows="1" cols="32" name="email" onsubmit="evalid(f1)" >Your E-mail</textarea>
+                </form>
+                <button id="Bt" class="btn btn-dark bg-dark" onclick="evalid(f1)">
+                    SUBSCRIBE
+                </button>
+            </div>
+        </div>
+
+        <div class="empty-box"> </div>
+        <div class="empty-box"> </div>
+
+        <footer class="page-footer font-small blue pt-4">
+            <div class="container-fluid text-center text-md-left">
+                <div class="row">
+                    <div class="col-md-4 mt-md-0 mt-3">
+                        <a href="../index.html"><img src="../images/octothorpeLogo.PNG" height="40" alt="octothorpeLogo"></a>
+                    </div>
+                    <hr class="clearfix w-100 d-md-none pb-3">
+                    <div class="col-md-4 mb-md-0 mb-3">
+                        <h5 class="text-uppercase">N A V I G A T I O N</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="../index.html">HOME</a><br>
+                            </li>
+                            <li>
+                                <a href="explore.html">EXPLORE</a><br>
+                             </li>
+                            <li>
+                                <a href="portfolio.html">PORTFOLIO</a><br>
+                            </li>
+                            <li>
+                                <a href="../../home.html">ASSIGNMENTS</a><br>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 mb-md-0 mb-3">
+                        <h5 class="text-uppercase">F O L L O W&nbsp;&nbsp;U S </h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="https://facebook.com"><img src="../images/facebook.png" height="30" alt="facebook"></a><br>
+                            </li>
+                            
+                            <li>
+                                <a href="https://twitter.com"><img src="../images/twitter.png" height="30" alt="twitter"></a><br>
+                            </li>
+                            <li>
+                                <a href="https://instagram.com"><img src="../images/instagram.png" height="30" alt="instagram"></a><br>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                </div>
+                <div class="footer-copyright text-center py-3">O C T O T H O R P E&nbsp;&nbsp;&nbsp;
+                    M A G A Z I N E&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;© 2 0 1 9&nbsp;&nbsp;&nbsp;&nbsp;|
+                    &nbsp;&nbsp;&nbsp;&nbsp;  A V H I M A N H U&nbsp;&nbsp;S A P K O T A
+                    &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp; A L L&nbsp;&nbsp;R I G H T S &nbsp;&nbsp;R E S E R V E D<br>
+                    <p style="font-size:0.9vw">
+                        Some Content have been copied from other websites as it is quite difficult to fulfill
+                         all contents of the Magazine in a short period of time.
+                    </p>
+                </div>
+        </footer>
+       
+        <script>
+                function openNav(){
+                  document.getElementById("mynav").style.height="100%";
+                }
+                
+                function closeNav(){
+                  document.getElementById("mynav").style.height="0";
+                }
+        </script>
+          
+    </body>
+</html>

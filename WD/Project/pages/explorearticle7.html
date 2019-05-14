@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <link rel="shortcut icon" href="../images/icon.ico" />
+
+        <title>Octothorpe Magazine - Article</title> <!--Title of my webpage-->
+
+        <meta charset="utf-8"/>     <!--for accepting unicode-->
+
+        <meta name="author" content="Avhimanhu Sapkota"/>           <!--Determining the author of the website-->
+
+        <meta name="keywords" content=" "/>     <!--search engine keywords-->
+
+        <meta name="description" content=" "/>   <!--search engine discription-->
+
+        <link rel="stylesheet" type="text/css" href="../style/bootstrap.min.css">
+
+        <link rel="stylesheet" type="text/css" href="../style/style.css">
+
+        <script>
+            
+            function evalid(f1){
+                var e=f1.email.value;
+					   if (e.indexOf('@', 0)==-1 ||e.indexOf('.',0) ==-1){
+					   alert ("P L E A S E    E N T E R    V A L I D    E - M A I L    A D D R E S S    A N D    T R Y    A G A I N ! ! !");
+                           f1.email.value="";
+                           f1.email.focus();
+					   }  
+                       else {
+                        alert("T H A N K    Y O U    F O R    S U B S C R I B I N G    O C T O T H O R P E !");
+                       }
+            }
+        </script>
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+            <a href="../index.html">
+                <img src="../images/octothorpeLogo.PNG" alt="Octothorpe Logo" height="45"> 
+            </a>
+            
+            <div class="collapse navbar-collapse justify-content-center" >
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">HOME <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="explore.html">EXPLORE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">PORTFOLIO</a>
+                    </li>
+                </ul>
+            </div>
+        
+            <div class="nav-right-content">
+                <ul class="navbar-nav">
+                    <li>
+                        <a class="nav-link active collapse navbar-collapse" href="search.html">
+                            <br><br>
+                            <img src="../images/search.png" alt="Search" height="30">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link active collapse navbar-collapse" href="login.html">
+                            <br><br>
+                            <img src="../images/login.png" alt="Login" height="45">
+                        </a>
+                    </li>
+                    <li>
+                        <div style="font-size: 40px; cursor:pointer;" onClick="openNav()">
+                            <img src="../images/drop.png" alt="Dropdown" height="35">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+                
+        <div class="overlay" id="mynav">
+                <a href="#" class="closebtn" onClick="closeNav()">&times;</a>
+                <div class="overlay-content"> 
+                    <a href="../index.html">HOME</a>
+                    <a href="explore.html">EXPLORE</a>
+                    <a href="portfolio.html">PORTFOLIO</a>
+                    <a href="login.html">LOGIN</a>
+                    <a href="search.html">SEARCH</a>
+                    <a href="../../home.html">ASSIGNMENTS</a>
+                </div>
+            </div>
+        <div class="box">
+            <img class="image-fluid" src="../images/articlecover2.jpg" alt="NEWSPAPERS" height="300" style="width:100%">
+            <div class="text">
+                <h2>O C T O T H O R P E&nbsp;&nbsp;&nbsp;&nbsp; M A G A Z I N E</h2>  
+            </div>
+        </div>
+
+        <div class="empty-box"> </div>
+        
+            <div class="container">
+            <div class="row">
+            <div class="box">
+                <h3> S C U B A&nbsp;&nbsp;&nbsp;D I V I N G :&nbsp;&nbsp;&nbsp;W H A T
+                        &nbsp;&nbsp;&nbsp;T O&nbsp;&nbsp;&nbsp;<br>E X P E C T&nbsp;&nbsp;&nbsp;O N
+                        &nbsp;&nbsp;&nbsp;Y O U R&nbsp;&nbsp;&nbsp;F I R S T&nbsp;&nbsp;&nbsp;<br>D E E P
+                        &nbsp;&nbsp;&nbsp;S E A&nbsp;&nbsp;&nbsp;D I V I N G&nbsp;&nbsp;&nbsp;
+                </h3>
+                <br>
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                        Chest-deep in calm turquoise waters, buoyancy compensator inflated, regulator in hand, you begin to wonder if 
+                        learning to dive was really such a great idea. When you signed up for the open water course, scuba diving seemed 
+                        like a great adventure, but now you're being asked to put your face in the water and inhale. Seriously?
+                        <br>
+                        When you first start your scuba-diving course, you might not have any idea what to expect, but your instructors
+                         will paint a very clear picture of what safety steps you must master before you'll be allowed to venture into 
+                         the depths of whatever sea or lake or river sits nearby.
+                </p>
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                        <strong>Scuba Courses Are Taught in 'Baby Steps'</strong><br>
+                        A dive student's first dive will be at a controlled dive site such as a pool or shallow bay. At least one area
+                         of the dive site will be shallow enough to stand up in. What's more, before ever entering the water, a scuba 
+                         instructor will explain to new divers how all the dive gear works and will familiarize them with safe-dive techniques. 
+                </p>
+                
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                        <Strong>Breathing Through a Scuba Regulator</Strong><br>
+                        Breathing through a scuba regulator for the first time feels strange — you're drawing breaths while your face is beneath the
+                         water. This is not a typical human behavior, so it's normal to be a little hesitant at first.<br>
+                         One trick is for students to put on their dive masks and practice breathing through the regulator above the water
+                          until they become comfortable with mouth-only breathing. Then, they lower just their faces into the water while
+                           exhaling fully through the regulator. This usually tricks the divers into breathing automatically, pushing them 
+                       past the first, disconcerting step of inhaling underwater. The most important thing is to exhale fully after each breath.
+                        This practice prevents divers from hyperventilating and feeling starved for air. Some students adjust to regulator
+                         breathing after just a few breaths, while others take longer to gain confidence in their scuba equipment. 
+
+                </p>
+
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                        <strong> The Noisy Underwater Environment</strong><br>
+                        Divers who have done research into scuba diving have probably read about the silent, relaxing underwater world. 
+                        This description is not completely accurate. Breathing underwater generates significant noise. After a diver becomes
+                         accustomed to breathing underwater, he starts to tune out the bubbling sound of exhalation and the comforting whoosh
+                          of air as he inhales, but at the beginning, the sounds are surprisingly loud!
+                        <br>
+                        Water conducts sounds much more efficiently than air does because of its density. Sound waves travel more quickly 
+                        in water and reach each of diver's ears almost simultaneously. Pinpointing the origin of a sound is difficult, 
+                        as the physics of sound-wave transmission underwater make it seem that all sounds are coming from directly behind
+                         a diver's head. While these signals can be confusing at first, after a few dives you will adjust to this aspect of
+                          the underwater environment and will hardly notice it.
+                </p>
+
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                        <strong>Underwater Vision</strong><br>
+                        Most scuba masks cut off a diver's peripheral vision. At first, this restriction may make some divers feel claustrophobic.
+                         As with most aspects of scuba diving, however, new divers quickly acclimate to their limited field of vision. 
+                         Imagine that you are driving a new car with some significant blind spots. These blind spots can be annoying the first
+                          time you use the vehicle, but after a few trips, you will become aware of exactly where the blind spots are and will
+                       learn to turn your head when you need to see into an area which is out of your field of vision. Scuba diving is just 
+                        the same! If you cannot see your instructor, simply look left, right, up and down and you will find her.
+                        <br><br>
+                        Light behaves differently in water. Objects appear about 33 percent closer than they actually are. The implication of this change
+                         is that your dive buddy, instructor, the floor, the surface and every other object seems nearer than they are. (This also makes it
+                      really easy to read your gauges!) Most experienced divers do not even notice the magnification because a diver's brain quickly 
+                      learns to adjust to the difference. A good way to speed the learning process is to touch objects such as the pool floor, pool wall,
+                       or your dive buddy. This technique will teach you how distant these objects really are. Never touch corals, fish, or other aquatic
+                         life, however.
+                </p>
+
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                        <strong>Weightlessness and Freedom of Movement</strong> <br>
+                        One of the best parts of scuba diving is the feeling of weightlessness. Scuba divers can fly up, down, left and right.
+                         Divers can move easily in three dimensions. The trick is to relax into the weightless feeling of the water and let the
+                          water and your buoyancy compensator support you. Don't fight the water. At first, a new diver may feel that he needs to
+                       move to stay in position — he doesn't. Try to be as still as possible and enjoy the freedom from gravity. It's like
+                         being an astronaut!
+                </p>
+
+            </div>
+            </div>
+        </div>
+        <div class="empty-box"> </div>
+        
+        <div class="box">
+            <img class="image-fluid " src="../images/explorearticle7.jpg" alt="SCUBA DIVER INSIDE SEA" style="width:100%">
+            <div class="text-inside-article">
+                    <h5>S C U B A&nbsp;&nbsp;&nbsp; D I V E R&nbsp;&nbsp;&nbsp; I N S I D E&nbsp;&nbsp;&nbsp; S E A</h5>
+                </div>
+        </div>
+        
+        <div class="empty-box"> </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="box">
+
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                        <strong>The Density of Water Restricts Movements</strong><br>
+                        Water is, of course, denser than air. A diver who tries to move quickly will feel resistance to his movements 
+                        from the water and may quickly exhaust himself. Underwater movements, including swimming and arm motions, 
+                        should be slow and controlled. After a diver accustoms himself to the resistance of the water, underwater movements 
+                        become an exercise in forced relaxation, almost like Tai Chi.
+                </p>
+
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                    <strong>You Might Need to Pee</strong><br>
+                    The human body reacts in unusual ways to the underwater environment. Being surrounded by water lower than body
+                     temperature may lead to a physiological reaction known as cold water immersion diuresis. The body speeds up the 
+                     synthesis of urine, leading to an immediate urge to urinate. On ocean dives, many divers simply pee in their wetsuits,
+                      but if a new diver is learning to dive in a pool, or is using a rental wetsuit, he may need to hold it needing to pee 
+                      underwater is a completely normal consequence of scuba diving. If the need becomes too great and peeing in your wetsuit 
+                      is impossible or disgusting to you, simply end the dive.
+                </p>                
+                
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                        <strong>It Is Normal to Forget Skills, Hand Signals, and Other Instructions</strong><br>
+                        The underwater environment exposes new divers to a new world. On your first dive, your brain is working hard to
+                         adjust to the feeling of weightlessness, the magnification of the water, underwater breathing and similar stimuli.
+                          This experience presents a huge amount of information to process, and sometimes instructions that seemed clear 
+                          on the surface such as the use of hand signals and the steps of underwater skills get pushed to the back of a 
+                          new diver's mind.
+                        <br><br>
+                        If your instructor has to bring you to the surface to explain something again, don't feel bad. Be patient with 
+                        yourself and enjoy the new sensations. It is a new, delightful world down there!
+                </p>    
+
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                        <strong>Scuba Diving Takes a Little Getting Used To, but It's Worth the Effort!</strong>
+                        Some divers take to scuba diving as if they were born part-fish. They put regulators in their mouths and off 
+                        they swim! However, this "natural" diver is the exception rather than the rule. For most new divers, 
+                        scuba diving feels a little strange at first. Be patient with yourself, don't rush through skills training,
+                         and take your time beneath the surface.
+                </p>
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                    <em>
+                        Originally written by Natalie Gibb.<br>
+                        Compiled from <a href="https://www.thoughtco.com/your-first-scuba-dive-2963219">
+                        ThoughtCo.</a>
+                    </em>    
+                </p>  
+
+                </div>
+            </div>
+        </div>
+
+        <div class="empty-box"> </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                   <div class="box">
+                        <img  class="img-fluid " src="../images/explorearticle7i.jpg" alt="LEARNING SCUBA DIVING" style="width:100%">
+                        <div class="text-inside-article">
+                            <h5>L E A R N I N G&nbsp;&nbsp;&nbsp; S C U B A&nbsp;&nbsp;&nbsp; D I V I N G</h5>
+                        </div>
+                    </div>   
+                </div>
+    
+                <div class="col-6">
+                    <div class="box">
+                            <img  class="img-fluid " src="../images/explorearticle7ii.jpg" alt="UNDERWATER DIVER" style="width:100%">
+                            <div class="text-inside-article">
+                                <h5>U N D E R W A T E R &nbsp;&nbsp;&nbsp;D I V E R  </h5>
+                            </div>
+                    </div>   
+                </div>
+            </div>
+        </div>    
+
+        <div class="empty-box"> </div>
+        <div class="empty-box"> </div>
+
+        <div class="box">
+            <img class="image-fluid" src="../images/homecover1.jpg" alt="HILLS AND CLOUDS" height="300" style="width:100%">
+            <div class="text" id="middletext" >
+                <h3>S U B S C R I B E&nbsp;&nbsp;&nbsp;&nbsp;U S </h3>
+                THE BEST OF OCTOTHORPE DELIVERED TO YOUR INBOX
+                <br><br>
+                <form name="f1">
+                <textarea rows="1" cols="32" name="email" onsubmit="evalid(f1)" >Your E-mail</textarea>
+                </form>
+                <button id="Bt" class="btn btn-dark bg-dark" onclick="evalid(f1)">
+                    SUBSCRIBE
+                </button>
+            </div>
+        </div>
+
+        <div class="empty-box"> </div>
+        <div class="empty-box"> </div>
+
+        <footer class="page-footer font-small blue pt-4">
+            <div class="container-fluid text-center text-md-left">
+                <div class="row">
+                    <div class="col-md-4 mt-md-0 mt-3">
+                        <a href="../home.html"><img src="../images/octothorpeLogo.PNG" height="40" alt="octothorpeLogo"></a>
+                    </div>
+                    <hr class="clearfix w-100 d-md-none pb-3">
+                    <div class="col-md-4 mb-md-0 mb-3">
+                        <h5 class="text-uppercase">N A V I G A T I O N</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="../home.html">HOME</a><br>
+                            </li>
+                            <li>
+                                <a href="explore.html">EXPLORE</a><br>
+                             </li>
+                            <li>
+                                <a href="portfolio.html">PORTFOLIO</a><br>
+                            </li>
+                            <li>
+                                <a href="../../home.html">ASSIGNMENTS</a><br>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 mb-md-0 mb-3">
+                        <h5 class="text-uppercase">F O L L O W&nbsp;&nbsp;U S </h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="https://facebook.com"><img src="../images/facebook.png" height="30" alt="facebook"></a><br>
+                            </li>
+                            
+                            <li>
+                                <a href="https://twitter.com"><img src="../images/twitter.png" height="30" alt="twitter"></a><br>
+                            </li>
+                            <li>
+                                <a href="https://instagram.com"><img src="../images/instagram.png" height="30" alt="instagram"></a><br>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                </div>
+                <div class="footer-copyright text-center py-3">O C T O T H O R P E&nbsp;&nbsp;&nbsp;
+                    M A G A Z I N E&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;© 2 0 1 9&nbsp;&nbsp;&nbsp;&nbsp;|
+                    &nbsp;&nbsp;&nbsp;&nbsp;  A V H I M A N H U&nbsp;&nbsp;S A P K O T A
+                    &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp; A L L&nbsp;&nbsp;R I G H T S &nbsp;&nbsp;R E S E R V E D<br>
+                    <p style="font-size:0.9vw">
+                        Some Content have been copied from other websites as it is quite difficult to fulfill
+                         all contents of the Magazine in a short period of time.
+                    </p>
+                </div>
+        </footer>
+       
+        <script>
+                function openNav(){
+                  document.getElementById("mynav").style.height="100%";
+                }
+                
+                function closeNav(){
+                  document.getElementById("mynav").style.height="0";
+                }
+        </script>     
+    </body>
+</html>

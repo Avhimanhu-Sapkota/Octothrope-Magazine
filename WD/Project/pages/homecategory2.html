@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <link rel="shortcut icon" href="../images/icon.ico" />
+
+        <title>Octothorpe Magazine - Travel Category</title> <!--Title of my webpage-->
+
+        <meta charset="utf-8"/>     <!--for accepting unicode-->
+
+        <meta name="author" content="Avhimanhu Sapkota"/>           <!--Determining the author of the website-->
+
+        <meta name="keywords" content=" "/>     <!--search engine keywords-->
+
+        <meta name="description" content=" "/>   <!--search engine discription-->
+
+        <link rel="stylesheet" type="text/css" href="../style/bootstrap.min.css">
+
+        <link rel="stylesheet" type="text/css" href="../style/style.css">
+
+        <script>
+            
+            function evalid(f1){
+                var e=f1.email.value;
+					   if (e.indexOf('@', 0)==-1 ||e.indexOf('.',0) ==-1){
+					   alert ("P L E A S E    E N T E R    V A L I D    E - M A I L    A D D R E S S    A N D    T R Y    A G A I N ! ! !");
+                           f1.email.value="";
+                           f1.email.focus();
+					   }  
+                       else {
+                        alert("T H A N K    Y O U    F O R    S U B S C R I B I N G    O C T O T H O R P E !");
+                       }
+            }
+        </script>
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+            <a href="../index.html">
+                <img src="../images/octothorpeLogo.PNG" alt="Octothorpe Logo" height="45"> 
+            </a>
+            
+            <div class="collapse navbar-collapse justify-content-center" >
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">HOME <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="explore.html">EXPLORE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">PORTFOLIO</a>
+                    </li>
+                </ul>
+            </div>
+        
+            <div class="nav-right-content">
+                <ul class="navbar-nav">
+                    <li>
+                        <a class="nav-link active collapse navbar-collapse" href="search.html">
+                            <br><br>
+                            <img src="../images/search.png" alt="Search" height="30">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link active collapse navbar-collapse" href="login.html">
+                            <br><br>
+                            <img src="../images/login.png" alt="Login" height="45">
+                        </a>
+                    </li>
+                    <li>
+                        <div style="font-size: 40px; cursor:pointer;" onClick="openNav()">
+                            <img src="../images/drop.png" alt="Dropdown" height="35">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+                
+        <div class="overlay" id="mynav">
+                <a href="#" class="closebtn" onClick="closeNav()">&times;</a>
+                <div class="overlay-content"> 
+                    <a href="../index.html">HOME</a>
+                    <a href="explore.html">EXPLORE</a>
+                    <a href="portfolio.html">PORTFOLIO</a>
+                    <a href="login.html">LOGIN</a>
+                    <a href="search.html">SEARCH</a>
+                    <a href="../../home.html">ASSIGNMENTS</a>
+                </div>
+            </div>
+
+        <div class="box">
+            <img class="image-fluid" src="../images/cover1.jpg" alt="DESERT" height="300" style="width:100%">
+            <div class="text">
+                <h2>O C T O T H O R P E&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;
+                    T R A V E L
+                </h2>  
+            </div>
+        </div>
+
+        <div class="empty-box"> </div>
+
+        <div class="container">
+            <div class="row no-gutters" style="border:2px solid white">
+                <a href="travelarticle1.html">
+                <div class="box">
+                    <img class="img-fluid ch" src="../images/travelarticle1.jpg" alt="PANAMA CITY LANDSCAPE" style="width:100%">
+                        <div class="text-inside-article">
+                            <h4>
+                                D I S C O V E R I N G&nbsp;&nbsp;&nbsp; P A N A M A&nbsp;&nbsp;&nbsp; C I T Y : &nbsp;&nbsp;&nbsp;<br>
+                                S U P R I S E S&nbsp;&nbsp;&nbsp; A N D &nbsp;&nbsp;&nbsp; D E L I G H T S
+                            </h4>  
+                        </div>
+                </div>
+                </a>
+            </div>
+
+            <div class="row no-gutters">
+                 <div class="col-xl-6 col-sm-12" style="border:2px solid white">
+                    <a href="travelarticle2.html">
+                    <div class="box">
+                        <img  class="img-fluid ch" src="../images/travelarticle5.jpg" alt="MAROCCO" style="width:100%">
+                        <div class="text-inside-article">
+                            
+                            <h5>
+                                    M O V I N G&nbsp;&nbsp;&nbsp; C L O S E R&nbsp;&nbsp;&nbsp; T O&nbsp;&nbsp;&nbsp; G O D:&nbsp;&nbsp;&nbsp; M A R O C C O
+                            </h5>  
+                        </div>
+                    </div>
+                    </a>    
+                </div>
+
+                <div class="col-xl-6 col-sm-12" style="border:2px solid white">
+                    <a href="travelarticle3.html">
+                    <div class="box">
+                        <img class="img-fluid ch" src="../images/travelarticle3.jpg" alt="DOG AND A OPEN LUGGAGE" style="width:100%">
+                        <div class="text-inside-article">
+                            <h5>T H E&nbsp;&nbsp;&nbsp; 1 0&nbsp;&nbsp;&nbsp; B E S T&nbsp;&nbsp;&nbsp; 
+                                A I R L I N E S&nbsp;&nbsp;&nbsp; F O R&nbsp;&nbsp;&nbsp;<br> T R A V E L I N G
+                                &nbsp;&nbsp;&nbsp;W I T H&nbsp;&nbsp;&nbsp; D O G S
+                            </h5>  
+                        </div>
+                    </div> 
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="empty-box"> </div>
+
+        <div class="box">
+            <img class="image-fluid " src="../images/travelcover1.jpg" alt="PEOPLE WALKING AROUND" style="width:100%">
+        </div>
+        
+        <div class="empty-box"></div>
+        <div class="container">
+
+            <div class="row no-gutters">
+             <div class="col-xl-6 col-sm-12" style="border:2px solid white">
+                 <a href="travelarticle6.html">
+                <div class="box">
+                    <img  class="img-fluid ch" src="../images/travelarticle6.jpg" alt="BMW BIKE ON OFF-ROAD" style="width:100%">
+                    <div class="text-inside-article">
+                        <h5>H O W &nbsp;&nbsp;&nbsp;T O&nbsp;&nbsp;&nbsp; G O &nbsp;&nbsp;&nbsp;
+                            B I K I N G&nbsp;&nbsp;&nbsp; <br>T H R O U G H&nbsp;&nbsp;&nbsp; G E R M A N Y&nbsp;&nbsp;&nbsp;
+                             T H I S&nbsp;&nbsp;&nbsp; S U M M E R
+                        </h5>  
+                    </div>
+                </div>   
+                </a> 
+             </div>
+ 
+            <div class="col-xl-6 col-sm-12" style="border:2px solid white">
+                 <a href="travelarticle7.html">
+                <div class="box">
+                    <img class="img-fluid ch" src="../images/travelarticle7.jpg" alt="HEADPHONE AND SOUND MIXER" style="width:100%">
+                    <div class="text-inside-article">
+                        <h5>THE &nbsp;&nbsp;&nbsp;B E S T&nbsp;&nbsp;&nbsp; D E S T I N A T I O N S
+                                &nbsp;&nbsp;&nbsp; T O&nbsp;&nbsp;&nbsp; V I S I T &nbsp;&nbsp;&nbsp; <br>I N
+                                &nbsp;&nbsp;&nbsp; J U N E,&nbsp;&nbsp;&nbsp; A C C O R D I N G&nbsp;&nbsp;&nbsp;
+                                 T O&nbsp;&nbsp;&nbsp; T R A V E L&nbsp;&nbsp;&nbsp;<br> I N F L U E N C E R S
+                        </h5>  
+                    </div>
+                </div>
+                </a>
+            </div>
+        </div>
+ 
+        <div class="empty-box"> </div>
+    </div>
+        
+        <div class="box">
+            <img class="image-fluid" src="../images/travelcover.jpg" alt="SNOW COVERED MOUNTAINS" height="300" style="width:100%">
+            <div class="text" id="middletext" style="color: white" >
+                <h3>S U B S C R I B E&nbsp;&nbsp;&nbsp;&nbsp;U S </h3>
+                THE BEST OF OCTOTHORPE DELIVERED TO YOUR INBOX
+                <br><br>
+                <form name="f1">
+                <textarea rows="1" cols="32" name="email" onsubmit="evalid(f1)" >Your E-mail</textarea>
+                </form>
+                <button id="Bt" class="btn btn-dark bg-dark" onclick="evalid(f1)">
+                    SUBSCRIBE
+                </button>
+            </div>
+        </div>
+
+        <div class="empty-box"> </div>
+         <div class="empty-box"> </div>
+
+            <footer class="page-footer font-small blue pt-4">
+                <div class="container-fluid text-center text-md-left">
+                    <div class="row">
+                        <div class="col-md-4 mt-md-0 mt-3">
+                            <a href="../index.html"><img src="../images/octothorpeLogo.PNG" height="40" alt="octothorpeLogo"></a>
+                        </div>
+                        <hr class="clearfix w-100 d-md-none pb-3">
+                        <div class="col-md-4 mb-md-0 mb-3">
+                            <h5 class="text-uppercase">N A V I G A T I O N</h5>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="../index.html">HOME</a><br>
+                                </li>
+                                <li>
+                                    <a href="explore.html">EXPLORE</a><br>
+                                 </li>
+                                <li>
+                                    <a href="portfolio.html">PORTFOLIO</a><br>
+                                </li>
+                                <li>
+                                    <a href="../../home.html">ASSIGNMENTS</a><br>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4 mb-md-0 mb-3">
+                            <h5 class="text-uppercase">F O L L O W&nbsp;&nbsp;U S </h5>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="https://facebook.com"><img src="../images/facebook.png" height="30" alt="facebook"></a><br>
+                                </li>
+                                
+                                <li>
+                                    <a href="https://twitter.com"><img src="../images/twitter.png" height="30" alt="twitter"></a><br>
+                                </li>
+                                <li>
+                                    <a href="https://instagram.com"><img src="../images/instagram.png" height="30" alt="instagram"></a><br>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="footer-copyright text-center py-3">O C T O T H O R P E&nbsp;&nbsp;&nbsp;
+                        M A G A Z I N E&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;© 2 0 1 9&nbsp;&nbsp;&nbsp;&nbsp;|
+                        &nbsp;&nbsp;&nbsp;&nbsp;  A V H I M A N H U&nbsp;&nbsp;S A P K O T A
+                        &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp; A L L&nbsp;&nbsp;R I G H T S &nbsp;&nbsp;R E S E R V E D<br>
+                        <p style="font-size:0.9vw">
+                            Some Content have been copied from other websites as it is quite difficult to fulfill
+                             all contents of the Magazine in a short period of time.
+                        </p>
+                    </div>
+            </footer>
+           
+            <script>
+                    function openNav(){
+                      document.getElementById("mynav").style.height="100%";
+                    }
+                    
+                    function closeNav(){
+                      document.getElementById("mynav").style.height="0";
+                    }
+            </script>
+            
+    </body>
+</html>

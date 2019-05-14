@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <link rel="shortcut icon" href="../images/icon.ico" />
+
+        <title>Octothorpe Magazine - Portfolio</title> <!--Title of my webpage-->
+
+        <meta charset="utf-8"/>     <!--for accepting unicode-->
+
+        <meta name="author" content="Avhimanhu Sapkota"/>           <!--Determining the author of the website-->
+
+        <meta name="keywords" content=" "/>     <!--search engine keywords-->
+
+        <meta name="description" content=" "/>   <!--search engine discription-->
+
+        <script src="../style/jquery-3.1.1.min.css"></script>
+        
+        <link rel="stylesheet" type="text/css" href="../style/bootstrap.min.css">
+
+        <link rel="stylesheet" type="text/css" href="../style/style.css">
+
+        <script>
+            
+            function evalid(f1){
+                var e=f1.email.value;
+					   if (e.indexOf('@', 0)==-1 ||e.indexOf('.',0) ==-1){
+					   alert ("P L E A S E    E N T E R    V A L I D    E - M A I L    A D D R E S S    A N D    T R Y    A G A I N ! ! !");
+                           f1.email.value="";
+                           f1.email.focus();
+					   }  
+                       else {
+                        alert("T H A N K    Y O U    F O R    S U B S C R I B I N G    O C T O T H O R P E !");
+                       }
+            }
+        </script>
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+            <a href="../index.html">
+                <img src="../images/octothorpeLogo.PNG" alt="Octothorpe Logo" height="45"> 
+            </a>
+            
+            <div class="collapse navbar-collapse justify-content-center" >
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">HOME <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="explore.html">EXPLORE</a>
+                    </li>
+                    <li class="nav-item  active">
+                        <a class="nav-link" href="portfolio.html">PORTFOLIO</a>
+                    </li>
+                </ul>
+            </div>
+        
+            <div class="nav-right-content">
+                <ul class="navbar-nav">
+                    <li>
+                        <a class="nav-link active collapse navbar-collapse" href="search.html">
+                            <br><br>
+                            <img src="../images/search.png" alt="Search" height="30">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link active collapse navbar-collapse" href="login.html">
+                            <br><br>
+                            <img src="../images/login.png" alt="Login" height="45">
+                        </a>
+                    </li>
+                    <li>
+                        <div style="font-size: 40px; cursor:pointer;" onClick="openNav()">
+                            <img src="../images/drop.png" alt="Dropdown" height="35">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+                
+        <div class="overlay" id="mynav">
+                <a href="#" class="closebtn" onClick="closeNav()">&times;</a>
+                <div class="overlay-content"> 
+                    <a href="../index.html">HOME</a>
+                    <a href="explore.html">EXPLORE</a>
+                    <a href="portfolio.html">PORTFOLIO</a>
+                    <a href="login.html">LOGIN</a>
+                    <a href="search.html">SEARCH</a>
+                    <a href="../../home.html">ASSIGNMENTS</a>
+                </div>
+            </div>
+
+        <div class="box">
+            <img class="image-fluid" src="../images/portfoliocover1.jpg" alt="BOOKS ON A BOOKSHELF" height="300" style="width:100%">
+            <div class="text">
+                <h2>O C T O T H O R P E&nbsp;&nbsp;&nbsp;&nbsp;P O R T F O L I O</h2>  
+            </div>
+        </div>
+
+        <div class="empty-box"> </div>
+
+        <div class="container">
+                <div class="row no-gutters" style="border:2px solid white">
+                    <div class="box moreBox blogBox">
+                        <img id="myImg1" class="img-fluid" src="../images/portfolioarticle1.jpg" style="width:100%"
+                        alt="P E O P L E&nbsp;&nbsp;&nbsp;E N J O Y I N G&nbsp;&nbsp;&nbsp;T H E&nbsp;&nbsp;&nbsp;
+                        C O N C E R T<br>This picture was taken in a night club to keep memory of the
+                         concert performance given by a famous artist." >
+                            <div class="text-inside-article">
+                                <h4>P E O P L E&nbsp;&nbsp;&nbsp;E N J O Y I N G&nbsp;&nbsp;&nbsp;T H E&nbsp;&nbsp;&nbsp;
+                                        C O N C E R T
+                                </h4>  
+                            </div>
+                    </div>
+                </div>
+    
+                <div class="row no-gutters">
+                     <div class="col-xl-6 col-sm-12" style="border:2px solid white">
+                        <div class="box moreBox blogBox">
+                            <img  id="myImg2" class="img-fluid" src="../images/portfolioarticle2.jpg"  style="width:100%"
+                            alt="G U Y&nbsp;&nbsp;&nbsp;P L A Y I N G&nbsp;&nbsp;&nbsp;A&nbsp;&nbsp;&nbsp;G U I T A R<br>
+                            This picture was taken for the shoot of the guy's first album which was sponsered by Octothorpe Magazine">
+                            <div class="text-inside-article">
+                                <h5>G U Y&nbsp;&nbsp;&nbsp;P L A Y I N G&nbsp;&nbsp;&nbsp;A&nbsp;&nbsp;&nbsp;G U I T A R
+                                </h5>  
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-xl-6 col-sm-12" style="border:2px solid white">
+                        <div class="box moreBox blogBox">
+                            <img id="myImg3" class="img-fluid" src="../images/portfolioarticle3.jpg" style="width:100%"
+                            alt="U S&nbsp;&nbsp;&nbsp;A R M Y&nbsp;&nbsp;&nbsp;B A N D<br>
+                            This picture was taken while US Army Band (Pershing's Own) were giving a tribute to 
+                            the just elected President: Donald Trump" >
+                            <div class="text-inside-article">
+                                <h5>U S&nbsp;&nbsp;&nbsp;A R M Y&nbsp;&nbsp;&nbsp;B A N D
+                                </h5>  
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+    
+                <div class="row no-gutters">
+                   <div class="col-xl-4 col-sm-12" style="border:2px solid white">
+                        <div class="box moreBox blogBox">
+                            <img id="myImg4" class="img-fluid" src="../images/portfolioarticle4.jpg" style="width:100%" 
+                            alt="P I E R C I N G&nbsp;&nbsp;&nbsp;A&nbsp;&nbsp;&nbsp;T A T T O O&nbsp;&nbsp;&nbsp;O N&nbsp;&nbsp;&nbsp;L E G
+                             <br> This picture was taken in order to reflect the difficultly, faced by tattoo artist, while piercing a tattoo">
+                            <div class="text-inside-article-small">
+                                <h5>P I E R C I N G&nbsp;&nbsp;&nbsp;A&nbsp;&nbsp;&nbsp;T A T T O O&nbsp;&nbsp;&nbsp;<br>O N&nbsp;&nbsp;&nbsp;L E G
+                                </h5>  
+                            </div>
+                        </div> 
+                   </div>
+    
+                   <div class="col-xl-4 col-sm-12" style="border:2px solid white">
+                        <div class="box moreBox blogBox">
+                            <img id="myImg5" class="img-fluid" src="../images/portfolioarticle5.jpg" style="width:100%" 
+                            alt="P A I N T E R&nbsp;&nbsp;&nbsp;C A R R Y I N G&nbsp;&nbsp;&nbsp;P A I N T I N G&nbsp;&nbsp;&nbsp;B R U S H<br>
+                            This picture was taken in the art competition held on 11 September, 2018 on the memory of 9/11 attacks" >
+                            <div class="text-inside-article-small">
+                                <h5>P A I N T E R&nbsp;&nbsp;&nbsp;C A R R Y I N G&nbsp;&nbsp;&nbsp;<br>P A I N T I N G&nbsp;&nbsp;&nbsp;B R U S H
+                                </h5>  
+                            </div>
+                        </div> 
+                   </div>
+
+                   <div class="col-xl-4 col-sm-12" style="border:2px solid white">
+                        <div class="box moreBox blogBox">
+                            <img id="myImg6" class="img-fluid" src="../images/portfolioarticle6.jpg" style="width:100%" 
+                            alt="M A K I N G&nbsp;&nbsp;&nbsp;P O T&nbsp;&nbsp;&nbsp;W I T H&nbsp;&nbsp;&nbsp;C L A Y<br>
+                            This picture was taken during the search of article 'day in a life of a sculpture artist'" >
+                            <div class="text-inside-article-small">
+                                <h5>M A K I N G&nbsp;&nbsp;&nbsp;P O T&nbsp;&nbsp;&nbsp;W I T H&nbsp;&nbsp;&nbsp;C L A Y
+                                </h5>  
+                            </div>
+                        </div> 
+                    </div>
+               </div>
+            </div>
+    
+            <div class="container">            
+                <div class="row no-gutters">
+                     <div class="col-xl-6 col-sm-12" style="border:2px solid white">
+                        <div class="box moreBox blogBox">
+                            <img  id="myImg7" class="img-fluid" src="../images/portfolioarticle7.jpg" style="width:100%" 
+                            alt="A R M Y&nbsp;&nbsp;&nbsp;O F F I C E R&nbsp;&nbsp;&nbsp;P L A Y I N G&nbsp;&nbsp;&nbsp;W I T H
+                            &nbsp;&nbsp;&nbsp;C H I L D R E N<br>This picture was taken when Army Officers visited the rural 
+                            villages to help civilians overcome the problem of hunger">
+                            <div class="text-inside-article">
+                                <h5>A R M Y&nbsp;&nbsp;&nbsp;O F F I C E R&nbsp;&nbsp;&nbsp;P L A Y I N G&nbsp;&nbsp;&nbsp;W I T H
+                                        &nbsp;&nbsp;&nbsp;<br>C H I L D R E N
+                                </h5>  
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-xl-6 col-sm-12" style="border:2px solid white">
+                        <div class="box moreBox blogBox">
+                            <img id="myImg8" class="img-fluid" src="../images/portfolioarticle8.jpg" style="width:100%" 
+                            alt="W O M E N&nbsp;&nbsp;&nbsp;W I N N O W I N G&nbsp;&nbsp;&nbsp;L E N T I L S <br>
+                            This picture was taken in the rural village of Thailand where people winnow their food,
+                             before they cook it, to make it clean and husk free." >
+                            <div class="text-inside-article">
+                                <h5>W O M E N&nbsp;&nbsp;&nbsp;W I N N O W I N G&nbsp;&nbsp;&nbsp;L E N T I L S
+                                </h5>  
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>    
+
+        <div class="container">
+            <div class="row no-gutters" style="border:2px solid white">
+                <div class="box moreBox blogBox">
+                    <img id="myImg9" class="img-fluid" src="../images/portfolioarticle9.jpg"  style="width:100%"
+                    alt="G I R L&nbsp;&nbsp;&nbsp;P L A Y I N G &nbsp;&nbsp;&nbsp;W I T H &nbsp;&nbsp;&nbsp;C O L O R S
+                    <br> This picture was taken in Nepal, in the festival of Holi: which is also known as the festival of colors">
+                        <div class="text-inside-article">
+                            <h4>G I R L&nbsp;&nbsp;&nbsp;P L A Y I N G &nbsp;&nbsp;&nbsp;W I T H &nbsp;&nbsp;&nbsp;C O L O R S
+                            </h4>  
+                        </div>
+                </div>
+            </div>
+
+            <div class="row no-gutters">
+                 <div class="col-xl-6 col-sm-12" style="border:2px solid white">
+                    <div class="box moreBox blogBox">
+                        <img id="myImg10" class="img-fluid" src="../images/portfolioarticle10.jpg" style="width:100%" 
+                        alt="H A T C H I N G&nbsp;&nbsp;&nbsp;E G G <br> This picture was taken to capture the first movement of the chick" >
+                        <div class="text-inside-article">
+                            <h5>H A T C H I N G&nbsp;&nbsp;&nbsp;E G G
+                            </h5>  
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-6 col-sm-12" style="border:2px solid white">
+                    <div class="box moreBox blogBox">
+                        <img id="myImg11" class="img-fluid" src="../images/portfolioarticle11.jpg" style="width:100%"
+                        alt="I N F A N T&nbsp;&nbsp;&nbsp;S L E E P I N G&nbsp;&nbsp;&nbsp;W I T H&nbsp;&nbsp;&nbsp;H I S&nbsp;&nbsp;&nbsp;F A T H E R<br>
+                        This picture was taken to capture the peaceful moment full of warm love in between a father and a child." >
+                        <div class="text-inside-article">
+                            <h5>I N F A N T&nbsp;&nbsp;&nbsp;S L E E P I N G&nbsp;&nbsp;&nbsp;W I T H&nbsp;&nbsp;&nbsp;H I S&nbsp;&nbsp;&nbsp;F A T H E R
+                            </h5>  
+                        </div>
+                    </div> 
+                </div>
+            </div>
+
+            <div class="row no-gutters">
+                <div class="col-xl-4 col-sm-12" style="border:2px solid white">
+                    <div class="box moreBox blogBox">
+                        <img id="myImg12" class="img-fluid" src="../images/portfolioarticle12.jpg"  style="width:100%" 
+                        alt="P E T&nbsp;&nbsp;&nbsp;C A T&nbsp;&nbsp;&nbsp;W A T C H I N G&nbsp;&nbsp;&nbsp;I T S&nbsp;&nbsp;&nbsp;O W N E R<br>
+                        This picture reflects the innocence of a pet cat towards its owner">
+                        <div class="text-inside-article-small">
+                            <h5>P E T&nbsp;&nbsp;&nbsp;C A T&nbsp;&nbsp;&nbsp;W A T C H I N G&nbsp;&nbsp;&nbsp;<br>I T S&nbsp;&nbsp;&nbsp;O W N E R
+                            </h5>  
+                        </div>
+                    </div> 
+               </div>
+
+               <div class="col-xl-4 col-sm-12" style="border:2px solid white">
+                    <div class="box moreBox blogBox">
+                        <img id="myImg13" class="img-fluid" src="../images/portfolioarticle13.jpg"  style="width:100%"
+                        alt="S L E E P I N G &nbsp;&nbsp;&nbsp; F O X <br> This picture was taken during the jungle safari
+                        in Chitwan, Nepal. " >
+                        <div class="text-inside-article-small">
+                            <h5>S L E E P I N G &nbsp;&nbsp;&nbsp; F O X
+                            </h5>  
+                        </div>
+                    </div> 
+               </div>
+
+               <div class="col-xl-4 col-sm-12" style="border:2px solid white">
+                    <div class="box moreBox blogBox">
+                        <img id="myImg14" class="img-fluid" src="../images/portfolioarticle14.jpg"  style="width:100%"
+                         alt="R A B B I T &nbsp;&nbsp;&nbsp; R O A M I N G &nbsp;&nbsp;&nbsp; O N &nbsp;&nbsp;&nbsp; T H E &nbsp;&nbsp;&nbsp;
+                         L A W N <br> This is the candid picture of a rabbit roaming around the lawn to find some food">
+                        <div class="text-inside-article-small">
+                            <h5>R A B B I T &nbsp;&nbsp;&nbsp; R O A M I N G &nbsp;&nbsp;&nbsp; O N &nbsp;&nbsp;&nbsp;<br> T H E &nbsp;&nbsp;&nbsp;
+                                L A W N
+                            </h5>  
+                        </div>
+                    </div> 
+                </div>
+           </div>
+        </div>
+
+        <div class="container">            
+            <div class="row no-gutters">
+                 <div class="col-xl-6 col-sm-12" style="border:2px solid white">
+                    <div class="box moreBox blogBox" >
+                        <img id="myImg15" class="img-fluid" src="../images/portfolioarticle15.jpg"  style="width:100%"
+                        alt="F R E S H&nbsp;&nbsp;&nbsp;B L U E B E R R I E S <br> This picture was taken just after 
+                        it was picked up by the farmer.">
+                        <div class="text-inside-article">
+                            <h5>F R E S H&nbsp;&nbsp;&nbsp;B L U E B E R R I E S
+                            </h5>  
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-6 col-sm-12" style="border:2px solid white">
+                    <div class="box moreBox blogBox" >
+                        <img id="myImg16" class="img-fluid" src="../images/portfolioarticle16.jpg"  style="width:100%"
+                        alt="R A S P B E R R Y&nbsp;&nbsp;&nbsp;P A N C A K E S <br> This is the picture of home made 
+                        raspberry pancakes made by a typical american home cook">
+                        <div class="text-inside-article">
+                            <h5>R A S P B E R R Y&nbsp;&nbsp;&nbsp;P A N C A K E S 
+                            </h5>  
+                        </div>
+                    </div> 
+                </div>
+            </div>
+
+            <div class="row no-gutters" style="border:2px solid white">
+                    <div class="box moreBox blogBox" >
+                        <img id="myImg17" class="img-fluid" src="../images/portfolioarticle17.jpg" style="width:100%"
+                        alt="S C E N E &nbsp;&nbsp;&nbsp;I N S I D E&nbsp;&nbsp;&nbsp; A &nbsp;&nbsp;&nbsp; L E N S<br> 
+                        This picture was taken in front of the foggy environment, which reflects creativity in between a camera lens" >
+                            <div class="text-inside-article">
+                                <h4>S C E N E &nbsp;&nbsp;&nbsp;I N S I D E&nbsp;&nbsp;&nbsp; A &nbsp;&nbsp;&nbsp; L E N S
+                                </h4>  
+                            </div>
+                    </div>
+                </div>
+        </div>
+
+        <div class="container">
+    
+                <div class="row  no-gutters">
+                     <div class="col-xl-6 col-sm-12" style="border:2px solid white">
+                        <div class="box moreBox blogBox" >
+                            <img id="myImg18" class="img-fluid" src="../images/portfolioarticle18.jpg" alt="E L E P H A N T&nbsp;&nbsp;&nbsp;
+                            I N &nbsp;&nbsp;&nbsp;T H E&nbsp;&nbsp;&nbsp;W O O D S<br>This is the picture of 
+                            an elephant lost in the woods who is searching for its family " style="width:100%">
+                            <div class="text-inside-article">
+                                <h5>E L E P H A N T&nbsp;&nbsp;&nbsp;
+                                    I N &nbsp;&nbsp;&nbsp;T H E&nbsp;&nbsp;&nbsp;W O O D S 
+                                </h5>  
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-xl-6 col-sm-12" style="border:2px solid white">
+                        <div class="box moreBox blogBox" >
+                            <img id="myImg19" class="img-fluid" src="../images/portfolioarticle19.jpg"  style="width:100%" 
+                            alt="Y O U N G&nbsp;&nbsp;&nbsp;F A R M E R&nbsp;&nbsp;&nbsp;S I T T I N G&nbsp;&nbsp;&nbsp;
+                            O N &nbsp;&nbsp;&nbsp; A &nbsp;&nbsp;&nbsp; S T O N E<br> This picture was taken during dusk where a 
+                            young farmer is waiting his parents">
+                            <div class="text-inside-article" >
+                                <h5>Y O U N G&nbsp;&nbsp;&nbsp;F A R M E R&nbsp;&nbsp;&nbsp;S I T T I N G&nbsp;&nbsp;&nbsp;<br>
+                                    O N &nbsp;&nbsp;&nbsp; A &nbsp;&nbsp;&nbsp; S T O N E
+                                </h5>  
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+    
+                <div class="row no-gutters">
+                    <div class="col-xl-4 col-sm-12" style="border:2px solid white">
+                        <div class="box moreBox blogBox" style="display: none;">
+                            <img id="myImg20" class="img-fluid" src="../images/portfolioarticle20.jpg" style="width:100%"
+                            alt="T W O &nbsp;&nbsp;&nbsp; L A D Y B U G S &nbsp;&nbsp;&nbsp; O N &nbsp;&nbsp;&nbsp;A &nbsp;&nbsp;&nbsp; L E A F <br>
+                            This picture reflects the love in between two ladybugs" >
+                            <div class="text-inside-article-small">
+                                <h5>T W O &nbsp;&nbsp;&nbsp; L A D Y B U G S &nbsp;&nbsp;&nbsp; O N &nbsp;&nbsp;&nbsp;A &nbsp;&nbsp;&nbsp; L E A F
+                                </h5>  
+                            </div>
+                        </div> 
+                   </div>
+    
+                   <div class="col-xl-4 col-sm-12" style="border:2px solid white">
+                        <div class="box moreBox blogBox" style="display: none;">
+                            <img id="myImg21" class="img-fluid" src="../images/portfolioarticle21.jpg"  style="width:100%"
+                            alt="H O N E Y B E E &nbsp;&nbsp;&nbsp;S U C K I N G &nbsp;&nbsp;&nbsp; A &nbsp;&nbsp;&nbsp; F L O W E R&nbsp;&nbsp;&nbsp; J U I C E<br>
+                            This is the picture taken to capture the beauty of honeybee on a flower">
+                            <div class="text-inside-article-small">
+                                <h5>H O N E Y B E E &nbsp;&nbsp;&nbsp;S U C K I N G &nbsp;&nbsp;&nbsp; A &nbsp;&nbsp;&nbsp;<br> F L O W E R&nbsp;&nbsp;&nbsp; J U I C E
+                                </h5>  
+                            </div>
+                        </div> 
+                   </div>
+    
+                   <div class="col-xl-4 col-sm-12" style="border:2px solid white">
+                        <div class="box moreBox blogBox" style="display: none;">
+                            <img id="myImg22" class="img-fluid" src="../images/portfolioarticle22.jpg" style="width:100%"
+                            alt="G R A S S H O P P E R &nbsp;&nbsp;&nbsp; H O P P I N G &nbsp;&nbsp;&nbsp; T O &nbsp;&nbsp;&nbsp; A N O T H E R 
+                            &nbsp;&nbsp;&nbsp; L E A F <br> This is the picture of grasshopper leaving a leaf and landing to the other one." >
+                            <div class="text-inside-article-small">
+                                <h5>G R A S S H O P P E R &nbsp;&nbsp;&nbsp; H O P P I N G &nbsp;&nbsp;&nbsp;<br>T O &nbsp;&nbsp;&nbsp; A N O T H E R 
+                                        &nbsp;&nbsp;&nbsp; L E A F
+                                </h5>  
+                            </div>
+                        </div> 
+                    </div>
+               </div>
+            </div>
+    
+            <div class="container">            
+                <div class="row no-gutters">
+                     <div class="col-xl-6 col-sm-12" style="border:2px solid white">
+                        <div class="box moreBox blogBox" style="display: none;">
+                            <img id="myImg23" class="img-fluid" src="../images/portfolioarticle23.jpg" style="width:100%"
+                            alt="T W O&nbsp;&nbsp;&nbsp;K E T T L E S &nbsp;&nbsp;&nbsp; O N &nbsp;&nbsp;&nbsp; G A S&nbsp;&nbsp;&nbsp; S T O V E <br>
+                            This picture was taken on the roadside tea stall in rural Nepal" >
+                            <div class="text-inside-article">
+                                <h5>T W O&nbsp;&nbsp;&nbsp;K E T T L E S &nbsp;&nbsp;&nbsp; O N &nbsp;&nbsp;&nbsp; G A S&nbsp;&nbsp;&nbsp; S T O V E
+                                </h5>  
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-xl-6 col-sm-12" style="border:2px solid white">
+                        <div class="box moreBox blogBox" style="display: none;">
+                            <img id="myImg24" class="img-fluid" src="../images/portfolioarticle24.jpg" style="width:100%"
+                            alt="B I C Y C L E &nbsp;&nbsp;&nbsp; W I T H &nbsp;&nbsp;&nbsp; A &nbsp;&nbsp;&nbsp; S T E E L &nbsp;&nbsp;&nbsp; M I L K&nbsp;&nbsp;&nbsp;B U C K E T
+                            <br> This picture was taken when a milkman parked his bicycle near a tree while he was delivering the milk" >
+                            <div class="text-inside-article">
+                                <h5>B I C Y C L E &nbsp;&nbsp;&nbsp; W I T H &nbsp;&nbsp;&nbsp; A &nbsp;&nbsp;&nbsp;<br> S T E E L &nbsp;&nbsp;&nbsp; M I L K &nbsp;&nbsp;&nbsp; B U C K E T
+                                </h5>  
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+    
+                <div class="row no-gutters" style="border:2px solid white">
+                        <div class="box moreBox blogBox" style="display: none;" >
+                            <img id="myImg25" class="img-fluid" src="../images/portfolioarticle25.jpg" style="width:100%"
+                            alt="G R A F F I T I &nbsp;&nbsp;&nbsp; A R T I S T &nbsp;&nbsp;&nbsp; P A I N T I N G &nbsp;&nbsp;&nbsp;T H E&nbsp;&nbsp;&nbsp;W A L L
+                            <br> This picture was taken while a photographer was passing by a graffiti artist who was painting the art on the wall of a house" >
+                                <div class="text-inside-article">
+                                    <h4>G R A F F I T I &nbsp;&nbsp;&nbsp; A R T I S T &nbsp;&nbsp;&nbsp; P A I N T I N G &nbsp;&nbsp;&nbsp;T H E&nbsp;&nbsp;&nbsp;W A L L
+                                    </h4>  
+                                </div>
+                        </div>
+                    </div>
+            </div>
+            
+            <div id="loadMore">
+                    <a href="#">Load More</a>
+                 </div>
+        <div class="empty-box"> </div>
+            <br>
+            <br>
+       
+
+            <footer class="page-footer font-small blue pt-4">
+                <div class="container-fluid text-center text-md-left">
+                    <div class="row">
+                        <div class="col-md-4 mt-md-0 mt-3">
+                            <a href="../index.html"><img src="../images/octothorpeLogo.PNG" height="40" alt="octothorpeLogo"></a>
+                        </div>
+                        <hr class="clearfix w-100 d-md-none pb-3">
+                        <div class="col-md-4 mb-md-0 mb-3">
+                            <h5 class="text-uppercase">N A V I G A T I O N</h5>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="../index.html">HOME</a><br>
+                                </li>
+                                <li>
+                                    <a href="explore.html">EXPLORE</a><br>
+                                 </li>
+                                <li>
+                                    <a href="portfolio.html">PORTFOLIO</a><br>
+                                </li>
+                                <li>
+                                    <a href="../../home.html">ASSIGNMENTS</a><br>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4 mb-md-0 mb-3">
+                            <h5 class="text-uppercase">F O L L O W&nbsp;&nbsp;U S </h5>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="https://facebook.com"><img src="../images/facebook.png" height="30" alt="facebook"></a><br>
+                                </li>
+                                
+                                <li>
+                                    <a href="https://twitter.com"><img src="../images/twitter.png" height="30" alt="twitter"></a><br>
+                                </li>
+                                <li>
+                                    <a href="https://instagram.com"><img src="../images/instagram.png" height="30" alt="instagram"></a><br>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="footer-copyright text-center py-3">O C T O T H O R P E&nbsp;&nbsp;&nbsp;
+                        M A G A Z I N E&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;© 2 0 1 9&nbsp;&nbsp;&nbsp;&nbsp;|
+                        &nbsp;&nbsp;&nbsp;&nbsp;  A V H I M A N H U&nbsp;&nbsp;S A P K O T A
+                        &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp; A L L&nbsp;&nbsp;R I G H T S &nbsp;&nbsp;R E S E R V E D<br>
+                        <p style="font-size:0.9vw">
+                            Some Content have been copied from other websites as it is quite difficult to fulfill
+                             all contents of the Magazine in a short period of time.
+                        </p>
+                    </div>
+            </footer>
+
+                <div id="myModal" class="modal">
+                    <span class="close" style="font-size:40px;color:white">&times;</span>
+                    <img class="modal-content" id="img01" alt="">
+                    <div id="caption"></div>
+                </div>
+                                 
+                <script>
+                    $( document ).ready(function () {
+                        $(".moreBox").slice(0, 3).show();
+                        if ($(".blogBox:hidden").length != 0) {
+                            $("#loadMore").show();
+                        }		
+                        $("#loadMore").on('click', function (e) {
+                            e.preventDefault();
+                            $(".moreBox:hidden").slice(0, 6).slideDown();
+                            if ($(".moreBox:hidden").length == 0) {
+                                $("#loadMore").fadeOut('slow');
+                            }
+                        });
+                    });
+
+                      var modal = document.getElementById('myModal');
+                      var modalImg = document.getElementById("img01");
+                      var captionText = document.getElementById("caption");
+                  
+                      var img1 = document.getElementById('myImg1');
+                      img1.onclick = function(){
+                          modal.style.display = "block";
+                          modalImg.src = this.src;
+                          captionText.innerHTML = this.alt;
+                      }
+
+                      var img2 = document.getElementById('myImg2');
+                      img2.onclick = function(){
+                          modal.style.display = "block";
+                          modalImg.src = this.src;
+                          captionText.innerHTML = this.alt;
+                      }
+
+                      var img3 = document.getElementById('myImg3');
+                      img3.onclick = function(){
+                          modal.style.display = "block";
+                          modalImg.src = this.src;
+                          captionText.innerHTML = this.alt;
+                      }
+
+                      var img4 = document.getElementById('myImg4');
+                      img4.onclick = function(){
+                          modal.style.display = "block";
+                          modalImg.src = this.src;
+                          captionText.innerHTML = this.alt;
+                      }
+
+                      var img5 = document.getElementById('myImg5');
+                      img5.onclick = function(){
+                          modal.style.display = "block";
+                          modalImg.src = this.src;
+                          captionText.innerHTML = this.alt;
+                      }
+
+                      var img6 = document.getElementById('myImg6');
+                      img6.onclick = function(){
+                          modal.style.display = "block";
+                          modalImg.src = this.src;
+                          captionText.innerHTML = this.alt;
+                      }
+
+                      var img7 = document.getElementById('myImg7');
+                      img7.onclick = function(){
+                          modal.style.display = "block";
+                          modalImg.src = this.src;
+                          captionText.innerHTML = this.alt;
+                      }
+                      
+                      var img8 = document.getElementById('myImg8');
+                      img8.onclick = function(){
+                          modal.style.display = "block";
+                          modalImg.src = this.src;
+                          captionText.innerHTML = this.alt;
+                      }
+
+                      var img9 = document.getElementById('myImg9');
+                      img9.onclick = function(){
+                          modal.style.display = "block";
+                          modalImg.src = this.src;
+                          captionText.innerHTML = this.alt;
+                      }
+
+                      var img10 = document.getElementById('myImg10');
+                      img10.onclick = function(){
+                          modal.style.display = "block";
+                          modalImg.src = this.src;
+                          captionText.innerHTML = this.alt;
+                      }
+
+                      var img11 = document.getElementById('myImg11');
+                      img11.onclick = function(){
+                          modal.style.display = "block";
+                          modalImg.src = this.src;
+                          captionText.innerHTML = this.alt;
+                      }
+
+                      var img12 = document.getElementById('myImg12');
+                      img12.onclick = function(){
+                          modal.style.display = "block";
+                          modalImg.src = this.src;
+                          captionText.innerHTML = this.alt;
+                      }
+
+                      var img13 = document.getElementById('myImg13');
+                      img13.onclick = function(){
+                          modal.style.display = "block";
+                          modalImg.src = this.src;
+                          captionText.innerHTML = this.alt;
+                      }
+
+                      var img14 = document.getElementById('myImg14');
+                      img14.onclick = function(){
+                          modal.style.display = "block";
+                          modalImg.src = this.src;
+                          captionText.innerHTML = this.alt;
+                      }
+
+                      var img15 = document.getElementById('myImg15');
+                      img15.onclick = function(){
+                          modal.style.display = "block";
+                          modalImg.src = this.src;
+                          captionText.innerHTML = this.alt;
+                      }
+
+                      var img16 = document.getElementById('myImg16');
+                      img16.onclick = function(){
+                          modal.style.display = "block";
+                          modalImg.src = this.src;
+                          captionText.innerHTML = this.alt;
+                      }
+
+                      var img17 = document.getElementById('myImg17');
+                      img17.onclick = function(){
+                          modal.style.display = "block";
+                          modalImg.src = this.src;
+                          captionText.innerHTML = this.alt;
+                      }
+                      
+                      var img18 = document.getElementById('myImg18');
+                      img18.onclick = function(){
+                          modal.style.display = "block";
+                          modalImg.src = this.src;
+                          captionText.innerHTML = this.alt;
+                      }
+
+                      var img19 = document.getElementById('myImg19');
+                      img19.onclick = function(){
+                          modal.style.display = "block";
+                          modalImg.src = this.src;
+                          captionText.innerHTML = this.alt;
+                      }
+
+                      var img20 = document.getElementById('myImg20');
+                      img20.onclick = function(){
+                          modal.style.display = "block";
+                          modalImg.src = this.src;
+                          captionText.innerHTML = this.alt;
+                      }
+
+                      var img21 = document.getElementById('myImg21');
+                      img21.onclick = function(){
+                          modal.style.display = "block";
+                          modalImg.src = this.src;
+                          captionText.innerHTML = this.alt;
+                      }
+
+                      var img22 = document.getElementById('myImg22');
+                      img22.onclick = function(){
+                          modal.style.display = "block";
+                          modalImg.src = this.src;
+                          captionText.innerHTML = this.alt;
+                      }
+
+                      var img23 = document.getElementById('myImg23');
+                      img23.onclick = function(){
+                          modal.style.display = "block";
+                          modalImg.src = this.src;
+                          captionText.innerHTML = this.alt;
+                      }
+
+                      var img24 = document.getElementById('myImg24');
+                      img24.onclick = function(){
+                          modal.style.display = "block";
+                          modalImg.src = this.src;
+                          captionText.innerHTML = this.alt;
+                      }
+
+                      var img25 = document.getElementById('myImg25');
+                      img25.onclick = function(){
+                          modal.style.display = "block";
+                          modalImg.src = this.src;
+                          captionText.innerHTML = this.alt;
+                      }
+
+                      var span = document.getElementsByClassName("close")[0];
+                      span.onclick = function() { 
+                          modal.style.display = "none";
+                      }
+            </script>
+
+            <script>
+                    function openNav(){
+                      document.getElementById("mynav").style.height="100%";
+                    }
+                    
+                    function closeNav(){
+                      document.getElementById("mynav").style.height="0";
+                    }
+            </script>
+
+    </body>
+</html>
+
+        

@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <link rel="shortcut icon" href="../images/icon.ico" />
+
+        <title>Octothorpe Magazine - Article</title> <!--Title of my webpage-->
+
+        <meta charset="utf-8"/>     <!--for accepting unicode-->
+
+        <meta name="author" content="Avhimanhu Sapkota"/>           <!--Determining the author of the website-->
+
+        <meta name="keywords" content=" "/>     <!--search engine keywords-->
+
+        <meta name="description" content=" "/>   <!--search engine discription-->
+
+        <link rel="stylesheet" type="text/css" href="../style/bootstrap.min.css">
+
+        <link rel="stylesheet" type="text/css" href="../style/style.css">
+
+        <script>
+            
+            function evalid(f1){
+                var e=f1.email.value;
+					   if (e.indexOf('@', 0)==-1 ||e.indexOf('.',0) ==-1){
+					   alert ("P L E A S E    E N T E R    V A L I D    E - M A I L    A D D R E S S    A N D    T R Y    A G A I N ! ! !");
+                           f1.email.value="";
+                           f1.email.focus();
+					   }  
+                       else {
+                        alert("T H A N K    Y O U    F O R    S U B S C R I B I N G    O C T O T H O R P E !");
+                       }
+            }
+        </script>
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+            <a href="../index.html">
+                <img src="../images/octothorpeLogo.PNG" alt="Octothorpe Logo" height="45"> 
+            </a>
+            
+            <div class="collapse navbar-collapse justify-content-center" >
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">HOME <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="explore.html">EXPLORE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">PORTFOLIO</a>
+                    </li>
+                </ul>
+            </div>
+        
+            <div class="nav-right-content">
+                <ul class="navbar-nav">
+                    <li>
+                        <a class="nav-link active collapse navbar-collapse" href="search.html">
+                            <br><br>
+                            <img src="../images/search.png" alt="Search" height="30">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link active collapse navbar-collapse" href="login.html">
+                            <br><br>
+                            <img src="../images/login.png" alt="Login" height="45">
+                        </a>
+                    </li>
+                    <li>
+                        <div style="font-size: 40px; cursor:pointer;" onClick="openNav()">
+                            <img src="../images/drop.png" alt="Dropdown" height="35">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+                
+        <div class="overlay" id="mynav">
+                <a href="#" class="closebtn" onClick="closeNav()">&times;</a>
+                <div class="overlay-content"> 
+                    <a href="../index.html">HOME</a>
+                    <a href="explore.html">EXPLORE</a>
+                    <a href="portfolio.html">PORTFOLIO</a>
+                    <a href="login.html">LOGIN</a>
+                    <a href="search.html">SEARCH</a>
+                    <a href="../../home.html">ASSIGNMENTS</a>
+                </div>
+            </div>
+        
+
+        <div class="box">
+            <img class="image-fluid" src="../images/articlecover1.jpg" alt="NEWSPAPER WITH MAGNIFIER" height="300" style="width:100%">
+            <div class="text">
+                <h2>O C T O T H O R P E&nbsp;&nbsp;&nbsp;&nbsp; M A G A Z I N E</h2>  
+            </div>
+        </div>
+
+        <div class="empty-box"> </div>
+        
+            <div class="container">
+            <div class="row">
+            <div class="box">
+                <h3>H O W&nbsp;&nbsp;&nbsp;P O T T E R Y&nbsp;&nbsp;&nbsp;
+                        I S&nbsp;&nbsp;&nbsp;M A D E&nbsp;&nbsp;&nbsp;
+                </h3>
+                <br>
+                <h4>BACKGROUND</h4>
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                        Pottery is clay that is modeled, dried, and fired, usually with a glaze or finish, into a vessel or decorative object. Clay is a natural
+                     product dug from the earth, which has decomposed from rock within the earth's crust for millions of years. Decomposition occurs when water
+                      erodes the rock, breaks it down, and deposits them. It is important to note that a clay body is not the same thing as clay. Clay bodies
+                       are clay mixed with additives that give the clay different properties when worked and fired; thus pottery is not made from raw clay but 
+                        a mixture of clay and other materials.
+                </p>
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                        The potter can form his product in one of many ways. Clay may be modeled by hand or with the assistance of a potter's wheel,
+                         may be jiggered using a tool that copies the form of a master model onto a production piece, may be poured into a mold and dried,
+                          or cut or stamped into squares or slabs. The methods for forming pottery is as varied as the artisans who create them.
+
+                </p>
+
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                   Pottery must be fired to a temperature high enough to mature the clay, meaning that the high temperature hardens the piece to enable it to 
+                   hold water. An integral part of this firing is the addition of liquid glaze (it may be painted on or dipped in the glaze) to the surface 
+                   of the unfired pot, which changes chemical composition and fuses to the surface of the fired pot. Then, the pottery is called vitreous,
+                    meaning it can hold water.
+                </p>
+
+                <h4>HISTORY</h4>
+
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                        Potters have been forming vessels from clay bodies for millions of years. When nomadic man settled down and discovered fire, the firing 
+                        of clay pots was not far behind. Pinch pots, made from balls of clay into which fingers or thumbs are inserted to make the opening, may 
+                        have been the first pottery. Coil pots, formed from long coils of clay that are blended together, were not far behind. These first pots 
+                        were fired at low temperatures and were thus fragile and porous. Ancient potters partially solved this by burnishing the surfaces with
+                         a rock or hard wood before firing. These low-temperature fired pots were blackened by these fires. Decoration was generally the result
+                          of incisions or insertions of tools into soft clay. Early potters created objects that could be used for practical purposes, as well as 
+                          objects that represented their fertility gods.
+                </p>
+
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                        The civilizations of ancient Egypt and the Middle East utilized clay for building and domestic use as early a 5000 B.C. By 4000 B.C. ,
+                         the ancient Egyptians were involved in pottery on a much larger scale. They utilized finer clays and fired the pieces at much higher
+                          temperatures in early kilns that removed the pots from the direct fire so they were not blackened from the fire. Bricks from clay 
+                          were used as building material as well. The ancient Chinese produced black pottery by 3500 B.C. with round bases and plaited decoration.
+                       Closer to 1000 B.C. the Chinese used the potter's wheel and developed more sophisticated glazes. Their pottery was often included in funeral
+                        ceremonies. In the first millennium B.C. , the Greeks began throwing pots on wheels and creating exquisite forms. Pre-Colombians, ancient Iberians,
+                         the ancient Romans (who molded pottery with raised decoration), and the ancient Japanese all created beautiful pottery for domestic use as well as
+                         for religious purposes.
+                </p>
+
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                        Until the mid-eighteenth century, European potters generally sold small quantities of completed wares at a market or through merchants. If they wanted to 
+                        sell more, they took more wares to market. However, British production potters experimented with new body types, perfected glazes, and took orders for
+                         products made in factories rather than taking finished goods to the consumer. By the later eighteenth century, many fellow potters followed suit,
+                      experimenting with all kinds of new bodies and glazes. Molds were used to make mass quantities of consistent product so that the consumer could be
+                        assured of the look of this piece.
+                </p>
+
+            </div>
+            </div>
+        </div>
+        <div class="empty-box"> </div>
+        
+        <div class="box">
+            <img class="image-fluid " src="../images/explorearticle1i.jpg" alt="POTTERY" style="width:100%">
+            <div class="text-inside-article">
+                    <h5>P O T T E R Y </h5>
+                </div>
+        </div>
+        
+        <div class="empty-box"> </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="box">
+                        <h4>RAW MATERIALS</h4>
+                        <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                                Its primary mineral is kaolinite; clay may be generally described as 40% aluminum oxide, 46% silicon oxide, and 14% water. 
+                                There are two types of clays, primary and secondary. Primary clay is found in the same place as the rock from which it is
+                                 derived—it has not been transported by water or glacier and thus has not mixed with other forms of sediment. Primary clay 
+                                 is heavy, dense, and pure. Secondary or sedimentary clay is formed of lighter sediment that is carried farther in water 
+                                 and deposited. This secondary clay, a mixture of sediment, is finer and lighter than primary clay. Varying additives give 
+                                 the clay different characteristics. Clay comes to a production potter in one of two forms—as a powder to which water must 
+                                 be added, or with water already added. Large factories purchase the clays in huge quantities as dry materials, making up the 
+                                 clay batch as needed each day.
+                        </p>
+
+                        <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                                This lovely, stout stoneware teapot is the work of Josiah Wedgwood and Co., of Staffordshire, England, perhaps the best known 
+                                of British pottery companies of the nineteenth century. Teapots and associated cups became very popular about the mid-1700s because
+                                 of the development importance of the "tea" and its ceremony. Thus, a mainstay of porters in the eighteenth century was the teapot
+                                and cup sets.
+                        </p>
+
+                        <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                                Josiah Wedgwood was not content to simply supply pottery rather haphazardly. He knew there was a large market for high-quality, 
+                                attractive pottery and he certainly would do his best to regularize the product and develop some new products people just had to 
+                                have. He was one of the first potters to sell his wares in advance through orders, thus creating a sample or "stock" product. 
+                                Since his products had to be uniform, he developed glazes that would give consistent results and divided the work process into
+                                 many different steps so that one worker would not have a tremendous impact on the finished product. Particularly important 
+                                 to Wedgwood was the work of the modeller and the artist, who made the prototype shapes and designs for Wedgwood. Wedgwood
+                                  discovered that these artists could provide designs for new pottery that looked antique, and these neo-classicol pieces 
+                                  were the mainstay of his business for many years.
+                        </p>
+
+                        <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                                Glazes are made up of materials that fuse during the firing process making the pot vitreous or impervious to liquids. 
+                                (Ceramics engineers define vitreous as a pot that has a water absorption rate of less than 0.5%.) Glazes must have three elements: 
+                                silica, the vitrifying element (converts the raw pottery into a glasslike form)—is found in ground and calcined flint and quartz; flux, which fuses
+                                 the glaze to the clay; and refractory material, which hardens and stabilizes the glaze. Color is derived by adding a metallic oxide, including 
+                                 antimony (yellows), copper (green, turquoise, or red), cobalt (black), chrome (greens), iron, nickel, vanadium, etc. Glazes are generally purchased in dry
+                                  form by production potters. The glazes are weighed and put into a ball mill with water. The glaze is mixed within the ball mill and grinds the glaze to
+                                   reduce the size of the natural particles within the glaze.
+                        </p>
+                
+                        <h4>DESIGN</h4>
+                        <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                                Pottery factories include art directors whose job it is to conceive marketable goods for the pottery company. Generally the art director, working with marketers,
+                             develops or creates an idea of a new creation. (Interestingly, many pottery companies are reproducing old forms popular decades ago such as brightly-colored
+                              Fiesta Ware so that new design is not necessary or desirable in all cases.) The art director then works with a clay modeler, who produces an original form
+                               of the creation to the art director's specifications. If the form is deemed a viable candidate for production, the mold maker makes a plaster master
+                                 for the jiggering machine (which essentially traces a master shape onto a production piece) or a hollow into which clay is poured in order to form a production piece.
+                        </p>
+
+                        <h4>THE MANUFACTURING PROCESS</h4>
+                        <ul>
+                            <li style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                                    Mixing the clay
+                            </li>
+                            <li style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                                    Jiggering
+                            </li>
+                            <li style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                                    Slip casting
+                            </li>
+                            <li style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                                    Glazing
+                            </li>
+                            <li style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                                    Firing
+                            </li>
+                        </ul>
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                    <em>
+                        
+                        Compiled from <a href="http://www.madehow.com/Volume-4/Pottery.html">
+                        Made How</a>
+                    </em>    
+                </p>  
+
+                </div>
+            </div>
+        </div>
+
+        <div class="empty-box"> </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                   <div class="box">
+                        <img  class="img-fluid " src="../images/explorearticle1ii.jpg" alt="MAKING BROWN POT" style="width:100%">
+                        <div class="text-inside-article">
+                            <h5>M A K I N G &nbsp;&nbsp;&nbsp; B R O W N&nbsp;&nbsp;&nbsp;  P O T </h5>
+                        </div>
+                    </div>   
+                </div>
+    
+                <div class="col-6">
+                    <div class="box">
+                            <img  class="img-fluid " src="../images/explorearticle1iii.jpg" alt="MAKING WHITE POT" style="width:100%">
+                            <div class="text-inside-article">
+                                <h5>M A K I N G &nbsp;&nbsp;&nbsp; W H I T E&nbsp;&nbsp;&nbsp;  P O T </h5>
+                            </div>
+                    </div>   
+                </div>
+            </div>
+        </div>    
+
+        <div class="empty-box"> </div>
+        <div class="empty-box"> </div>
+
+        <div class="box">
+            <img class="image-fluid" src="../images/homecover1.jpg" alt="HILLS AND CLOUDS" height="300" style="width:100%">
+            <div class="text" id="middletext" >
+                <h3>S U B S C R I B E&nbsp;&nbsp;&nbsp;&nbsp;U S </h3>
+                THE BEST OF OCTOTHORPE DELIVERED TO YOUR INBOX
+                <br><br>
+                <form name="f1">
+                <textarea rows="1" cols="32" name="email" onsubmit="evalid(f1)" >Your E-mail</textarea>
+                </form>
+                <button id="Bt" class="btn btn-dark bg-dark" onclick="evalid(f1)">
+                    SUBSCRIBE
+                </button>
+            </div>
+        </div>
+
+        <div class="empty-box"> </div>
+        <div class="empty-box"> </div>
+
+        <footer class="page-footer font-small blue pt-4">
+            <div class="container-fluid text-center text-md-left">
+                <div class="row">
+                    <div class="col-md-4 mt-md-0 mt-3">
+                        <a href="../index.html"><img src="../images/octothorpeLogo.PNG" height="40" alt="octothorpeLogo"></a>
+                    </div>
+                    <hr class="clearfix w-100 d-md-none pb-3">
+                    <div class="col-md-4 mb-md-0 mb-3">
+                        <h5 class="text-uppercase">N A V I G A T I O N</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="../index.html">HOME</a><br>
+                            </li>
+                            <li>
+                                <a href="explore.html">EXPLORE</a><br>
+                             </li>
+                            <li>
+                                <a href="portfolio.html">PORTFOLIO</a><br>
+                            </li>
+                            <li>
+                                <a href="../../home.html">ASSIGNMENTS</a><br>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 mb-md-0 mb-3">
+                        <h5 class="text-uppercase">F O L L O W&nbsp;&nbsp;U S </h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="https://facebook.com"><img src="../images/facebook.png" height="30" alt="facebook"></a><br>
+                            </li>
+                            
+                            <li>
+                                <a href="https://twitter.com"><img src="../images/twitter.png" height="30" alt="twitter"></a><br>
+                            </li>
+                            <li>
+                                <a href="https://instagram.com"><img src="../images/instagram.png" height="30" alt="instagram"></a><br>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                </div>
+                <div class="footer-copyright text-center py-3">O C T O T H O R P E&nbsp;&nbsp;&nbsp;
+                    M A G A Z I N E&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;© 2 0 1 9&nbsp;&nbsp;&nbsp;&nbsp;|
+                    &nbsp;&nbsp;&nbsp;&nbsp;  A V H I M A N H U&nbsp;&nbsp;S A P K O T A
+                    &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp; A L L&nbsp;&nbsp;R I G H T S &nbsp;&nbsp;R E S E R V E D<br>
+                    <p style="font-size:0.9vw">
+                        Some Content have been copied from other websites as it is quite difficult to fulfill
+                         all contents of the Magazine in a short period of time.
+                    </p>
+                </div>
+        </footer>
+       
+        <script>
+                function openNav(){
+                  document.getElementById("mynav").style.height="100%";
+                }
+                
+                function closeNav(){
+                  document.getElementById("mynav").style.height="0";
+                }
+        </script>
+             
+    </body>
+</html>

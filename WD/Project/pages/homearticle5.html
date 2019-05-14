@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <link rel="shortcut icon" href="../images/icon.ico" />
+
+        <title>Octothorpe Magazine - Article</title> <!--Title of my webpage-->
+
+        <meta charset="utf-8"/>     <!--for accepting unicode-->
+
+        <meta name="author" content="Avhimanhu Sapkota"/>           <!--Determining the author of the website-->
+
+        <meta name="keywords" content=" "/>     <!--search engine keywords-->
+
+        <meta name="description" content=" "/>   <!--search engine discription-->
+
+        <link rel="stylesheet" type="text/css" href="../style/bootstrap.min.css">
+
+        <link rel="stylesheet" type="text/css" href="../style/style.css">
+
+        <script>
+            
+            function evalid(f1){
+                var e=f1.email.value;
+					   if (e.indexOf('@', 0)==-1 ||e.indexOf('.',0) ==-1){
+					   alert ("P L E A S E    E N T E R    V A L I D    E - M A I L    A D D R E S S    A N D    T R Y    A G A I N ! ! !");
+                           f1.email.value="";
+                           f1.email.focus();
+					   }  
+                       else {
+                        alert("T H A N K    Y O U    F O R    S U B S C R I B I N G    O C T O T H O R P E !");
+                       }
+            }
+        </script>
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+            <a href="../index.html">
+                <img src="../images/octothorpeLogo.PNG" alt="Octothorpe Logo" height="45"> 
+            </a>
+            
+            <div class="collapse navbar-collapse justify-content-center" >
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">HOME <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="explore.html">EXPLORE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">PORTFOLIO</a>
+                    </li>
+                </ul>
+            </div>
+        
+            <div class="nav-right-content">
+                <ul class="navbar-nav">
+                    <li>
+                        <a class="nav-link active collapse navbar-collapse" href="search.html">
+                            <br><br>
+                            <img src="../images/search.png" alt="Search" height="30">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link active collapse navbar-collapse" href="login.html">
+                            <br><br>
+                            <img src="../images/login.png" alt="Login" height="45">
+                        </a>
+                    </li>
+                    <li>
+                        <div style="font-size: 40px; cursor:pointer;" onClick="openNav()">
+                            <img src="../images/drop.png" alt="Dropdown" height="35">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+                
+        <div class="overlay" id="mynav">
+                <a href="#" class="closebtn" onClick="closeNav()">&times;</a>
+                <div class="overlay-content"> 
+                    <a href="../index.html">HOME</a>
+                    <a href="explore.html">EXPLORE</a>
+                    <a href="portfolio.html">PORTFOLIO</a>
+                    <a href="login.html">LOGIN</a>
+                    <a href="search.html">SEARCH</a>
+                    <a href="../../home.html">ASSIGNMENTS</a>
+                </div>
+            </div>
+        
+
+        <div class="box">
+            <img class="image-fluid" src="../images/articlecover5.jpg" alt="NEWSPAPER ON A TABLE" height="300" style="width:100%">
+            <div class="text">
+                <h2>O C T O T H O R P E&nbsp;&nbsp;&nbsp;&nbsp; M A G A Z I N E</h2>  
+            </div>
+        </div>
+
+        <div class="empty-box"> </div>
+        
+            <div class="container">
+            <div class="row">
+            <div class="box">
+                <h3>H O W&nbsp;&nbsp;&nbsp; D R O N E S &nbsp;&nbsp;&nbsp;A R E&nbsp;&nbsp;&nbsp;<br> R E V O L U T I O N I Z I N G
+                    &nbsp;&nbsp;&nbsp;T H E &nbsp;&nbsp;&nbsp;W A Y&nbsp;&nbsp;&nbsp;<br> F I L M&nbsp;&nbsp;&nbsp;
+                     &&nbsp;&nbsp;&nbsp; T E L E V I S O N&nbsp;&nbsp;&nbsp; I S&nbsp;&nbsp;&nbsp; M A D E
+                </h3>
+                <br>
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                        Around the time Leonardo Da Vinci was painting the Mona Lisa, he was also writing his Codex on the Flight of Birds, a roughly 35,000-word
+                         exploration of the ways in which man might take to the air. His illustrations included diagrams positing pre-Newtonian theories of physics,
+                      a rudimentary plan for a flying machine and many, many sketches of birds in flight. The Mona Lisa, with her secretive smile, is a universe 
+                      of intimacy captured on a relatively small panel of wood. But the landscape behind his captivating subject shows the world as you would see
+                       it from atop a tall hill—or from the vantage point you would get if you had hitched a ride on the back of a giant bird. Even as da Vinci was 
+                       perfecting one way of seeing a face, he was dreaming of other ways of looking. No wonder he wanted to fly, perhaps less for the physical rush
+                       than for the thrill of seeing the world from above.
+                </p>
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                        That’s the pleasure drones give us: they send eyes where our bodies can’t easily go unencumbered. A GoPro camera attached to a bird of prey shows
+                         us where the bird wants to go, which clues us in to what it’s thinking. Drones, as of now operable only by humans, tell us what humans find
+                          visually interesting. Drones are practical, but like any tool wielded by humans—pencil or paintbrush or maestro’s baton—there’s poetry in them
+                         too. Because of this, more and more, drones are finding their way into the art world. 
+                </p>
+                
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                        “If you think about traditional art and Renaissance perspective, the ideal viewer was on the ground with a stable horizon line,” says Matthew Biro,
+                         a professor of modern and contemporary art at the University of Michigan. “And the drone takes us off that. It takes us out of our body in a 
+                         certain way, kind of giving us an overlaid perspective.”
+                </p>
+
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                        Some artists, like photographer Trevor Paglen—also a geographer and writer—have depicted drones directly as a means of questioning their role in 
+                        government surveillance and warfare. In some of Paglen’s works, drones are seen as nothing more than a dark speck against a backdrop of becalming 
+                        gray or sun-gold clouds, a way of denoting their possibly sinister near invisibility in our world. But as humans in general are seeing less malevolent
+                         possibilities in robotic aircraft, people who make art are finding inventive ways to use it.
+                </p>
+
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                        Graffiti and fine artist Katsu was the first person credited with using a drone in the tagging of a billboard, as a way of disrupting the order of our everyday 
+                        landscape. In New York City in 2015, he used a small, customized drone, outfitted with a paint sprayer, to mark a billboard image of the model Kendall Jenner
+                         with shaky yet adamant red stripes. The YouTube footage of the event—it took place under the cover of night—shows the drone flitting around Jenner’s 
+                         larger-than-life visage like a pesky mosquito, taunting the image’s manicured perfection. The footage of the drone in action, more so than the marks that would
+                          be visible to passersby the next day, is the key to understanding how drones can shift human perspective. A drone has no mind of its own, but its movements—as
+                         guided by its operator—make us think about how we process images, where our eyes linger and what they skim over. It’s little wonder that Katsu’s drone never strays
+                          far from Jenner’s gaze. Instead, it meets her eye-to-eye in a mechanical confrontation that’s somewhat ghostly, like an out-of-body experience.
+                </p>
+
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                    Katsu has since moved on to creating paintings with drones. He guides them before the canvas, and while he has a degree of control over their movement, he can’t maintain
+                     strict aim. The paint they fling hits the surface in unpredictable ways, resulting in splattery webs and clouds of varying density. There’s a hushed naiveté to the paintings.
+                      They’re spontaneous rather than accomplished—but accomplishment isn’t the aim. They’re more about discovery. “It’s kind of a dance between the flight computer and wind 
+                      turbulence, and then my decisions,” Katsu explains. “So it creates an unexpected result.”
+                </p>
+
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                        The otherworldly photographs of Reuben Wu represent another kind of exploration. Inspired by 19th century romantic painting, science fiction and notions of interplanetary
+                         exploration, Wu has made a series of landscape photographs lit by custom-modified drones. The results, featuring vivid, Maxfield Parrish–like tones of orange, mauve and teal, 
+                         are hypnotic and transportive, surreal and naturalistic at once. These are places you could visit in real life, though they wouldn’t look anything like these photographs. 
+                         Wu’s drone lighting renders the natural world in the visual language of dreams.
+                </p>
+
+            </div>
+            </div>
+        </div>
+        <div class="empty-box"> </div>
+        
+        <div class="box">
+            <img class="image-fluid " src="../images/homearticle5i.jpg" alt="FLYING BLACK DRONE" style="width:100%">
+            <div class="text-inside-article">
+                    <h5>F L Y I N G &nbsp;&nbsp;&nbsp;B L A C K&nbsp;&nbsp;&nbsp; D R O N E </h5>
+                </div>
+        </div>
+        
+        <div class="empty-box"> </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="box">
+                    <h4>ASSIGN ROLES</h4>
+
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                        The casual observer’s understanding of what drones can do is mostly informed by the way they’re used to make movies, television shows and commercials. Since 2014, when the use
+                         of drones in filmmaking became legal (it is still highly regulated by the FAA), aerial footage captured by drones has become so common that we barely notice it. In the early 
+                         days of drone use, filmmakers quickly realized how useful these nimble devices were for close-up action shots. Drones proved especially handy for filming chase scenes, like 
+                         the opening motorcycle sequence of the 2012 James Bond film Skyfall. In Martin Scorsese’s 2013 The Wolf of Wall Street, drones were used to shoot a raucous party scene from
+                          above, allowing audiences to peer voyeuristically into characters’ lives. Cinematographers are finding increasingly creative ways to use drone technology: in the 2015 
+                          Jurassic World, a drone-mounted camera swoops low over a crowd of people who are being attacked by pterosaurs to mimic the movement of the flying reptiles. But if drones are 
+                          becoming ubiquitous, they’re also still somewhat controversial, and some filmmakers are turning their cameras on the machines themselves. On an episode of the sci-fi show Black
+                          Mirror, for example, characters lose their privacy when a blackmailer films them with a drone. The audience sees the scene through both regular cameras and through the drone’s 
+                          lens, underscoring the ways in which these devices make us vulnerable.
+                </p>
+
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                   Although drones can be extremely cost effective for certain applications—in place of, or in combination with, dollies and jibs, for example—when it comes to aerial views, they haven’t
+                    fully vanquished the use of helicopters and cranes. Their limited battery life still makes some uses impractical, and they can be flown legally only at relatively low altitudes.
+                     But when they can be used, the savings are significant. Tony Carmean, a founding partner of drone cinematography company Aerial MOB, estimates that a helicopter can cost a filmmaker
+                      from $20,000 to $40,000 for a 10-hour day shoot. Aerial MOB can supply a drone for $4,500 to $13,000 a day, including crew, equipment and insurance.
+                </p>                
+                
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                        The more drones are used, the more likely we are to take elaborate drone shots for granted. Yet these machines are still finding ways to wow us. Looking for a moment
+                         of zen at work? Join the more than 2 million people who have watched a particularly soothing YouTube video, the work of aerial photographer Tim Whittaker. In it 
+                         a flock of New Zealand sheep, flanked by tiny moving dots that are actually running dogs, undulate in and out of formation—they’re disorderly, fat white molecules
+                          that eventually succumb to sanity and order as they squeeze through a fence opening and into the next field. Viewed from above, they’re a lyrical representation
+                          of chaos and resolution, a piece of woolly free jazz that ultimately lands on the most calming note.
+                </p>    
+
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                        The aerial perspective—of sheep or anything—is liberating precisely because it’s destabilizing, Biro says. “Drone vision allows us to see that there are multiple ways
+                         of seeing ourselves and seeing the rest of the world. We step out of ourselves to some extent. That’s its positive potential.”
+                </p>  
+                
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                    <em>
+                        Originally written by STEPHANIE ZACHAREK.<br>
+                        Compiled from <a href="http://time.com/5295594/drones-hollywood-artists/">
+                        Time</a>
+                    </em>    
+                </p>  
+
+                </div>
+            </div>
+        </div>
+
+        <div class="empty-box"> </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                   <div class="box">
+                        <img  class="img-fluid " src="../images/homearticle5.jpg" alt="DRONE FLYING HIGH" style="width:100%">
+                        <div class="text-inside-article">
+                            <h5>D R O N E&nbsp;&nbsp;&nbsp; F L Y I N G&nbsp;&nbsp;&nbsp; H I G H </h5>
+                        </div>
+                    </div>   
+                </div>
+    
+                <div class="col-6">
+                    <div class="box">
+                            <img  class="img-fluid " src="../images/homearticle5ii.jpg" alt="DRONE TAKING OFF" style="width:100%">
+                            <div class="text-inside-article">
+                                <h5>D R O N E&nbsp;&nbsp;&nbsp; T A K I N G&nbsp;&nbsp;&nbsp; O F F </h5>
+                            </div>
+                    </div>   
+                </div>
+            </div>
+        </div>    
+
+        <div class="empty-box"> </div>
+        <div class="empty-box"> </div>
+
+        <div class="box">
+            <img class="image-fluid" src="../images/cover1.jpg" alt="SNOW COVERED MOUNTAINS" height="300" style="width:100%">
+            <div class="text" id="middletext" >
+                <h3>S U B S C R I B E&nbsp;&nbsp;&nbsp;&nbsp;U S </h3>
+                THE BEST OF OCTOTHORPE DELIVERED TO YOUR INBOX
+                <br><br>
+                <form name="f1">
+                <textarea rows="1" cols="32" name="email" onsubmit="evalid(f1)" >Your E-mail</textarea>
+                </form>
+                <button id="Bt" class="btn btn-dark bg-dark" onclick="evalid(f1)">
+                    SUBSCRIBE
+                </button>
+            </div>
+        </div>
+
+        <div class="empty-box"> </div>
+        <div class="empty-box"> </div>
+
+        <footer class="page-footer font-small blue pt-4">
+            <div class="container-fluid text-center text-md-left">
+                <div class="row">
+                    <div class="col-md-4 mt-md-0 mt-3">
+                        <a href="../index.html"><img src="../images/octothorpeLogo.PNG" height="40" alt="octothorpeLogo"></a>
+                    </div>
+                    <hr class="clearfix w-100 d-md-none pb-3">
+                    <div class="col-md-4 mb-md-0 mb-3">
+                        <h5 class="text-uppercase">N A V I G A T I O N</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="../index.html">HOME</a><br>
+                            </li>
+                            <li>
+                                <a href="explore.html">EXPLORE</a><br>
+                             </li>
+                            <li>
+                                <a href="portfolio.html">PORTFOLIO</a><br>
+                            </li>
+                            <li>
+                                <a href="../../home.html">ASSIGNMENTS</a><br>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 mb-md-0 mb-3">
+                        <h5 class="text-uppercase">F O L L O W&nbsp;&nbsp;U S </h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="https://facebook.com"><img src="../images/facebook.png" height="30" alt="facebook"></a><br>
+                            </li>
+                            
+                            <li>
+                                <a href="https://twitter.com"><img src="../images/twitter.png" height="30" alt="twitter"></a><br>
+                            </li>
+                            <li>
+                                <a href="https://instagram.com"><img src="../images/instagram.png" height="30" alt="instagram"></a><br>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                </div>
+                <div class="footer-copyright text-center py-3">O C T O T H O R P E&nbsp;&nbsp;&nbsp;
+                    M A G A Z I N E&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;© 2 0 1 9&nbsp;&nbsp;&nbsp;&nbsp;|
+                    &nbsp;&nbsp;&nbsp;&nbsp;  A V H I M A N H U&nbsp;&nbsp;S A P K O T A
+                    &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp; A L L&nbsp;&nbsp;R I G H T S &nbsp;&nbsp;R E S E R V E D<br>
+                    <p style="font-size:0.9vw">
+                        Some Content have been copied from other websites as it is quite difficult to fulfill
+                         all contents of the Magazine in a short period of time.
+                    </p>
+                </div>
+        </footer>
+       
+        <script>
+                function openNav(){
+                  document.getElementById("mynav").style.height="100%";
+                }
+                
+                function closeNav(){
+                  document.getElementById("mynav").style.height="0";
+                }
+        </script>
+        
+    </body>
+</html>

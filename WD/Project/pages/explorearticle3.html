@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <link rel="shortcut icon" href="../images/icon.ico" />
+
+        <title>Octothorpe Magazine - Article</title> <!--Title of my webpage-->
+
+        <meta charset="utf-8"/>     <!--for accepting unicode-->
+
+        <meta name="author" content="Avhimanhu Sapkota"/>           <!--Determining the author of the website-->
+
+        <meta name="keywords" content=" "/>     <!--search engine keywords-->
+
+        <meta name="description" content=" "/>   <!--search engine discription-->
+
+        <link rel="stylesheet" type="text/css" href="../style/bootstrap.min.css">
+
+        <link rel="stylesheet" type="text/css" href="../style/style.css">
+
+        <script>
+            
+            function evalid(f1){
+                var e=f1.email.value;
+					   if (e.indexOf('@', 0)==-1 ||e.indexOf('.',0) ==-1){
+					   alert ("P L E A S E    E N T E R    V A L I D    E - M A I L    A D D R E S S    A N D    T R Y    A G A I N ! ! !");
+                           f1.email.value="";
+                           f1.email.focus();
+					   }  
+                       else {
+                        alert("T H A N K    Y O U    F O R    S U B S C R I B I N G    O C T O T H O R P E !");
+                       }
+            }
+        </script>
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+            <a href="../index.html">
+                <img src="../images/octothorpeLogo.PNG" alt="Octothorpe Logo" height="45"> 
+            </a>
+            
+            <div class="collapse navbar-collapse justify-content-center" >
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">HOME <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="explore.html">EXPLORE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">PORTFOLIO</a>
+                    </li>
+                </ul>
+            </div>
+        
+            <div class="nav-right-content">
+                <ul class="navbar-nav">
+                    <li>
+                        <a class="nav-link active collapse navbar-collapse" href="search.html">
+                            <br><br>
+                            <img src="../images/search.png" alt="Search" height="30">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link active collapse navbar-collapse" href="login.html">
+                            <br><br>
+                            <img src="../images/login.png" alt="Login" height="45">
+                        </a>
+                    </li>
+                    <li>
+                        <div style="font-size: 40px; cursor:pointer;" onClick="openNav()">
+                            <img src="../images/drop.png" alt="Dropdown" height="35">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="overlay" id="mynav">
+                <a href="#" class="closebtn" onClick="closeNav()">&times;</a>
+                <div class="overlay-content"> 
+                    <a href="../index.html">HOME</a>
+                    <a href="explore.html">EXPLORE</a>
+                    <a href="portfolio.html">PORTFOLIO</a>
+                    <a href="login.html">LOGIN</a>
+                    <a href="search.html">SEARCH</a>
+                    <a href="../../home.html">ASSIGNMENTS</a>
+                </div>
+            </div>     
+        
+
+        <div class="box">
+            <img class="image-fluid" src="../images/articlecover3.jpg" alt="NEWSPAPERS BINDED WITH ROPE" height="300" style="width:100%">
+            <div class="text">
+                <h2>O C T O T H O R P E&nbsp;&nbsp;&nbsp;&nbsp; M A G A Z I N E</h2>  
+            </div>
+        </div>
+
+        <div class="empty-box"> </div>
+        
+            <div class="container">
+            <div class="row">
+            <div class="box">
+                <h3>T R A V E L&nbsp;&nbsp;&nbsp;A C C E S S O R I E S:&nbsp;&nbsp;&nbsp;<br>P L A N&nbsp;&nbsp;&nbsp;&nbsp;
+                    Y O U R&nbsp;&nbsp;&nbsp;&nbsp;T R I P&nbsp;&nbsp;&nbsp;T O D A Y
+                </h3>
+                <br>
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                        Whether for business or pleasure, travel can be fun, energizing, and exciting – or exhausting, frustrating, and boring.
+                         You can control – or at least minimize – many of the inevitable inconveniences with some advance preparation and the 
+                         right equipment. <br>
+                        Screaming baby two rows behind you? Hotel room next to the elevator or icemaker? Grab noise-cancelling headphones or a 
+                        white noise generator to solve the problem.<br>
+                        Phone dying or laptop battery fading? Battery pack to the rescue! Aching back, stiff neck? Pillows for your back, and 
+                        even a hoodie with a built-in neck pillow so you can slip into a window seat and hide for a few hours of snoozing.
+                </p>
+                
+                <h4>Vumos Leak-proof Travel Bottles</h4>
+                
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                        Fill these leak-proof squeezable silicone bottles with your favorite shampoo, conditioner, lotion, body wash, or whatever makes
+                         you feel at home when you’re on the road. Labels and four different colors identify the contents, and their TSA-approved size
+                          and clear quart bag make them carry-on convenient.
+                </p>
+
+                <h4>Vetelli Hanging Toiletry Bag</h4>
+                
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                        Luxurious high-grade leather with matching canvas lining gives this Hanging Toiletry Bag a classy look.
+                         Hang it up or use it as a flat-lying Dopp kit. This quality item is backed by a lifetime guarantee.
+                </p>
+
+                <h4>Tracelon Anti-theft Classic Messenger Bag</h4>
+                
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                        This smart cross-body bag protects your belongings with an adjustable cut-proof strap and slash-proof 
+                        construction. An RFID-blocking pocket secures credit cards and passport. Durable and functional, this bag 
+                        conveniently and safely holds everything you need.
+                </p>
+
+                <h4>Bose QuietControl Wireless Headphones</h4>
+                
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                        Set your own noise cancelation level and relax with these comfortable, lightweight headphones.
+                         You hear what you want – so you won’t miss boarding or in-flight announcements. The “Bose-connect
+                          app” makes Bluetooth pairing easy, and the Lithium-ion battery lasts 10 hours per charge.
+                </p>
+
+                <h4>Grand Trunk Hooded Neck Pillow</h4>
+                
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                        A warm fleece hood, memory foam neck support, and attached eye shade will lull you to sleep in comfort
+                        and privacy. The adjustable cordlock secures your hood in place, and its sack keeps it clean and handy.
+                </p>
+
+                <h4>Genius Pack High Altitude Flight Bag</h4>
+                
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                        Hang this handy organizer on the airline seat in front of you for convenient access to your phone, tablet, 
+                        charger, headphones, and reading material. Just stash it back in your carry-on when you leave – no items 
+                        left in the seat pocket. It also hangs on bicycle handlebars if that’s your mode of travel. 
+                </p>
+
+                <h4>BUBM Electronics Organizer</h4>
+                
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                        Keep your chargers, SD cards, cables, and other small electronics safe and organized in this handy
+                         case that fits easily in your laptop case or carry-on. Mesh zippered pockets and elastic straps hold
+                          everything in place, and the waterproof exterior offers additional protection.  
+                </p>
+
+                <h4>Canon Power Shot G9 Compact Camera</h4>
+                
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                        This ultra-slim, lightweight, pocket-size camera will easily top any phone for fabulous vacation photos.
+                         Its bright F2 lens and 3x optical zoom give you sharp, true images even in low light. With touch-panel LCD,
+                          eight preset picture styles, and in-camera adjustments, you’ll get memorable shots every time
+                </p>
+
+                <h4>Ebags Ultralight Packing Cubes</h4>
+                
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                        The newest thing for suitcases since wheels, packing cubes keep your clothes and accessories neat and organized.
+                         They make unpacking simple too. Lightweight fabrics and zippers add mere ounces, and mini-frames hold their shape
+                          for easier packing. This set, with five color choices, has mesh tops for visibility and ventilation.
+                </p>
+
+                <h4>Brave Era Mulberry Silk Travel Sheets</h4>
+                
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                        For a bit of extra comfort and luxury, take along your own travel sheets. The washable silk adds warmth and softness,
+                         whether used as an extra layer in bed or as a sleeping bag liner. There’s a pocket to cover your pillow, and they 
+                         pack down to a pouch that's not much larger than an iPhone.
+                </p>
+
+            </div>
+            </div>
+        </div>
+        <div class="empty-box"> </div>
+        
+        <div class="box">
+            <img class="image-fluid " src="../images/explorearticle3i.jpg" alt="COMPLETE TRAVEL ACCESSORIES" style="width:100%">
+            <div class="text-inside-article">
+                    <h5>C O M P L E T E&nbsp;&nbsp;&nbsp; T R A V E L&nbsp;&nbsp;&nbsp; A C C E S S O R I E S</h5>
+                </div>
+        </div>
+        
+        <div class="empty-box"> </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="box">
+                        <h4>Netpack Lightweight Tote Bag</h4>
+                
+                        <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                                Folded into its tiny pouch, this handy tote bag should be in every traveler’s suitcase, carry-on or purse. Made of
+                                 weatherproof polyester, it has two outside pockets and a detachable shoulder strap. Choose black or a bright color
+                                  – and don’t leave home without it.
+                        </p>
+
+                        <h4>Nomader Collapsible Water Bottle</h4>
+                
+                        <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                                One of T+L's Ultimate Travel Essentials, this clever, leak-proof “water bottle” rolls up into a compact package
+                                 about the size of your fist when you’re done drinking. It comes in 11 fun colors and is virtually indestructible,
+                                  a.k.a. a traveler’s best hydrating friend.
+                        </p>
+
+                        <h4>Repel Windproof Travel Umbrella</h4>
+                
+                        <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                                Into every life, a little rain must fall. That sometimes goes for vacations too,
+                                 so be ready for rain or sunshine with this compact umbrella. At just 12 ounces, 
+                                 it’s convenient to carry, and it comes with a lifetime guarantee.
+                        </p>
+
+                        <h4>Tile Pro With Replaceable Battery</h4>
+    
+                        <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                                One thing all travelers fear: lost luggage. Add to that everything else people commonly
+                                 misplace (keys, phones, wallets) and these Bluetooth-enabled trackers are no-brainers.
+                        </p>
+
+                        <h4>Anker PowerCore 10000 Power Bank</h4>
+    
+                        <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                                This pick has earned an Amazon's Choice label in the portable charger category thanks to its high mAh
+                                 capacity (that equals three full iPhone 8 charges) and light weight.
+                        </p>
+
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                    <em>
+                        Originally written by PATRICIA DOHERTY.<br>
+                        Compiled from <a href="https://www.travelandleisure.com/slideshows/best-travel-accessories?slide=557529#557529">
+                        Travel and Leisure</a>
+                    </em>    
+                </p>  
+
+                </div>
+            </div>
+        </div>
+
+        <div class="empty-box"> </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                   <div class="box">
+                        <img  class="img-fluid " src="../images/explorearticle3ii.jpg" alt="TRAVEL ACCESSORIES" style="width:100%">
+                        <div class="text-inside-article">
+                            <h5>T R A V E L&nbsp;&nbsp;&nbsp; A C C E S S O R I E S</h5>
+                        </div>
+                    </div>   
+                </div>
+    
+                <div class="col-6">
+                    <div class="box">
+                            <img  class="img-fluid " src="../images/explorearticle3.jpg" alt="TRAVEL BACKPACK AND ACCESSORIES" style="width:100%">
+                            <div class="text-inside-article">
+                                <h5>T R A V E L&nbsp;&nbsp;&nbsp; B A C K P A C K&nbsp;&nbsp;&nbsp; 
+                                    A N D&nbsp;&nbsp;&nbsp; A C C E S S O R I E S </h5>
+                            </div>
+                    </div>   
+                </div>
+            </div>
+        </div>    
+
+        <div class="empty-box"> </div>
+        <div class="empty-box"> </div>
+
+        <div class="box">
+            <img class="image-fluid" src="../images/homecover1.jpg" alt="HILLS AND CLOUDS" height="300" style="width:100%">
+            <div class="text" id="middletext" >
+                <h3>S U B S C R I B E&nbsp;&nbsp;&nbsp;&nbsp;U S </h3>
+                THE BEST OF OCTOTHORPE DELIVERED TO YOUR INBOX
+                <br><br>
+                <form name="f1">
+                <textarea rows="1" cols="32" name="email" onsubmit="evalid(f1)" >Your E-mail</textarea>
+                </form>
+                <button id="Bt" class="btn btn-dark bg-dark" onclick="evalid(f1)">
+                    SUBSCRIBE
+                </button>
+            </div>
+        </div>
+
+        <div class="empty-box"> </div>
+        <div class="empty-box"> </div>
+
+        <footer class="page-footer font-small blue pt-4">
+            <div class="container-fluid text-center text-md-left">
+                <div class="row">
+                    <div class="col-md-4 mt-md-0 mt-3">
+                        <a href="../index.html"><img src="../images/octothorpeLogo.PNG" height="40" alt="octothorpeLogo"></a>
+                    </div>
+                    <hr class="clearfix w-100 d-md-none pb-3">
+                    <div class="col-md-4 mb-md-0 mb-3">
+                        <h5 class="text-uppercase">N A V I G A T I O N</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="../index.html">HOME</a><br>
+                            </li>
+                            <li>
+                                <a href="explore.html">EXPLORE</a><br>
+                             </li>
+                            <li>
+                                <a href="portfolio.html">PORTFOLIO</a><br>
+                            </li>
+                            <li>
+                                <a href="../../home.html">ASSIGNMENTS</a><br>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 mb-md-0 mb-3">
+                        <h5 class="text-uppercase">F O L L O W&nbsp;&nbsp;U S </h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="https://facebook.com"><img src="../images/facebook.png" height="30" alt="facebook"></a><br>
+                            </li>
+                            
+                            <li>
+                                <a href="https://twitter.com"><img src="../images/twitter.png" height="30" alt="twitter"></a><br>
+                            </li>
+                            <li>
+                                <a href="https://instagram.com"><img src="../images/instagram.png" height="30" alt="instagram"></a><br>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                </div>
+                <div class="footer-copyright text-center py-3">O C T O T H O R P E&nbsp;&nbsp;&nbsp;
+                    M A G A Z I N E&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;© 2 0 1 9&nbsp;&nbsp;&nbsp;&nbsp;|
+                    &nbsp;&nbsp;&nbsp;&nbsp;  A V H I M A N H U&nbsp;&nbsp;S A P K O T A
+                    &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp; A L L&nbsp;&nbsp;R I G H T S &nbsp;&nbsp;R E S E R V E D<br>
+                    <p style="font-size:0.9vw">
+                        Some Content have been copied from other websites as it is quite difficult to fulfill
+                         all contents of the Magazine in a short period of time.
+                    </p>
+                </div>
+        </footer>
+       
+        <script>
+                function openNav(){
+                  document.getElementById("mynav").style.height="100%";
+                }
+                
+                function closeNav(){
+                  document.getElementById("mynav").style.height="0";
+                }
+        </script> 
+    </body>
+</html>

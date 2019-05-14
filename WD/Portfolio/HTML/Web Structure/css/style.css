@@ -1,0 +1,100 @@
+body{
+    background-color: lightgray;
+    width: 800px;
+    margin: auto auto;
+}
+
+h1{
+    font-family: sonsie one;
+    color:white;
+    text-shadow:2px 2px 2px black;
+    text-align:center;
+    width: 800px;
+    
+}
+
+nav{
+    background-color: #ff80ff;
+    display: flex;
+    height:55px;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    padding-right: 65px;
+    padding-bottom: 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-family: Open Sans Condensed;
+    font-size: 20px;
+    color: black;
+}
+
+nav form{
+    display: flex;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+input[type="submit"] {
+    margin-left: 5px;
+    background: black;
+    border: 0;
+    color: white;
+  }
+
+article{
+    background-color: white;
+    color:black;
+    width:75%;
+    float:left;
+    margin-top: 10px;
+    height: 80%;
+}
+
+h2{
+    font-family: sonsie one;
+    color:black;
+    text-align:center;
+    padding-top:15px;
+}
+
+h3{
+    font-family: sonsie one;
+    color:black;
+    padding:10px;
+}
+
+p{
+    font-family: Open Sans Condensed;
+    padding-left:5px;
+    padding-right:5px;
+}
+
+#side{
+    background-color: #ff80ff;
+    height: 625px;
+    width:23.5%;
+    float:right;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: Open Sans Condensed;
+}
+
+aside ul li{
+    padding: 5px;
+}
+
+footer{
+    width:100%;
+    background-color: white;
+    color:black;
+    margin-top: 10px;
+    margin-right: 3px;
+    float: right;
+    height: 50px;
+}

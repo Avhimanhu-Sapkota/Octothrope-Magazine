@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <link rel="shortcut icon" href="../images/icon.ico" />
+
+        <title>Octothorpe Magazine - Article</title> <!--Title of my webpage-->
+
+        <meta charset="utf-8"/>     <!--for accepting unicode-->
+
+        <meta name="author" content="Avhimanhu Sapkota"/>           <!--Determining the author of the website-->
+
+        <meta name="keywords" content=" "/>     <!--search engine keywords-->
+
+        <meta name="description" content=" "/>   <!--search engine discription-->
+
+        <link rel="stylesheet" type="text/css" href="../style/bootstrap.min.css">
+
+        <link rel="stylesheet" type="text/css" href="../style/style.css">
+
+        <script>
+            
+            function evalid(f1){
+                var e=f1.email.value;
+					   if (e.indexOf('@', 0)==-1 ||e.indexOf('.',0) ==-1){
+					   alert ("P L E A S E    E N T E R    V A L I D    E - M A I L    A D D R E S S    A N D    T R Y    A G A I N ! ! !");
+                           f1.email.value="";
+                           f1.email.focus();
+					   }  
+                       else {
+                        alert("T H A N K    Y O U    F O R    S U B S C R I B I N G    O C T O T H O R P E !");
+                       }
+            }
+        </script>
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+            <a href="../index.html">
+                <img src="../images/octothorpeLogo.PNG" alt="Octothorpe Logo" height="45"> 
+            </a>
+            
+            <div class="collapse navbar-collapse justify-content-center" >
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">HOME <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="explore.html">EXPLORE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">PORTFOLIO</a>
+                    </li>
+                </ul>
+            </div>
+        
+            <div class="nav-right-content">
+                <ul class="navbar-nav">
+                    <li>
+                        <a class="nav-link active collapse navbar-collapse" href="search.html">
+                            <br><br>
+                            <img src="../images/search.png" alt="Search" height="30">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link active collapse navbar-collapse" href="login.html">
+                            <br><br>
+                            <img src="../images/login.png" alt="Login" height="45">
+                        </a>
+                    </li>
+                    <li>
+                        <div style="font-size: 40px; cursor:pointer;" onClick="openNav()">
+                            <img src="../images/drop.png" alt="Dropdown" height="35">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+                
+        <div class="overlay" id="mynav">
+                <a href="#" class="closebtn" onClick="closeNav()">&times;</a>
+                <div class="overlay-content"> 
+                    <a href="../index.html">HOME</a>
+                    <a href="explore.html">EXPLORE</a>
+                    <a href="portfolio.html">PORTFOLIO</a>
+                    <a href="login.html">LOGIN</a>
+                    <a href="search.html">SEARCH</a>
+                    <a href="../../home.html">ASSIGNMENTS</a>
+                </div>
+            </div>
+
+        <div class="box">
+            <img class="image-fluid" src="../images/articlecover1.jpg" alt="NEWSPAPER WITH MAGNIFIER" height="300" style="width:100%">
+            <div class="text">
+                <h2>O C T O T H O R P E&nbsp;&nbsp;&nbsp;&nbsp; M A G A Z I N E</h2>  
+            </div>
+        </div>
+
+        <div class="empty-box"> </div>
+        
+            <div class="container">
+            <div class="row">
+            <div class="box">
+                <h3>A L C O H O L :&nbsp;&nbsp;&nbsp;T H E&nbsp;&nbsp;&nbsp;
+                    H E A L T H I E S T &nbsp;&nbsp;&nbsp;<br> W A Y S&nbsp;&nbsp;&nbsp;T O&nbsp;&nbsp;&nbsp; 
+                    D R I N K &nbsp;&nbsp;&nbsp;
+                </h3>
+                <br>
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                        Let’s face it, it’s hard seeing the benefits of a healthy diet and exercise when we’re always going out for some 
+                        drinks with friends. Beer is filling and full of carbs, mixed drinks are too sugary, and wine… well, these are 
+                        nights of debauchery. How can we drink our alcohol and have flat stomachs too?
+                        <br>
+                        First off, a warning. The healthiest ways to drink alcohol still aren’t really healthy. After all, too much of a 
+                        good thing, even “healthier” alcohol, can land you in the hospital with alcohol poisoning, and that would be the 
+                        least of your worries. The Centers for Disease Control and Prevention defines a single serving of beer or wine cooler 
+                        as 12 oz.; malt liquor as 8 oz.; wine as 5 oz.; and 80 proof alcohol — the standard — as 1.5 oz. A woman who drinks more 
+                        than one a day, or a man who drinks more than two a day is considered to be a heavy drinker. And finally, women who drink
+                         more than four drinks, or men who drink more than five drinks within a couple of hours, are considered to be binge drinkers. 
+                         But hey, we’re all responsible adults, right? Now onto getting drunk.
+                </p>
+
+                <h4>Drink Liquor Neat or On the Rocks, Avoid Mixers</h4>
+
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                    
+                    Straight liquor, though not so tasty, is healthiest if served neat (alone and meant to be sipped) or on the rocks
+                     (with a little ice). That means vodka, gin, whiskey, and scotch are all fair game. It’s the clearer types of alcohol,
+                      however, that go easier on the body. They also go easier on calories. One serving of vodka contains only 97 calories 
+                      and zero carbs, while a serving of gin has about 110 calories and zero carbs. Whiskey and Scotch actually have some
+                       flavor though, and for the most part, they stick within the caloric range of gin and vodka.
+                    <br><br>
+                    Although liquor served neat or on the rocks usually comes as a double shot, the whole point is to drink them moderately.
+                     That way, you don’t finish it right away, and then look for whatever is next. Drinking them like this also avoids caloric
+                      mixers like ginger ale or pineapple juice. Even though they taste really good, one serving of pineapple juice adds on an 
+                      extra 133 calories and 32 grams of carbs, while ginger ale has 124 calories and also 32 grams of carbs — and those are on
+                       the low end of mixers.
+                </p>
+                
+                <h4>WINE</h4>
+
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                        OK fine, the night ended up being a little classier than expected. Wine is a pretty healthy alternative to hard liquor — it’s 
+                        also much tastier if you’re not used to them. Although a 5-ounce serving may be a slightly heftier 100 to 150 calories, and
+                         about 5 grams of carbs. Essentially, drinking healthily is a tradeoff. For a few extra calories and carbs, wine has a few 
+                         proven health benefits, which are believed to come from high concentrations of the antioxidant resveratrol. Studies have shown
+                          that the antioxidant may be able to lower bad cholesterol while boosting good cholesterol, as well as reduce the risk of 
+                          depression, cancer, and diabetes.
+                </p>
+                
+            </div>
+            </div>
+        </div>
+        <div class="empty-box"> </div>
+        
+        <div class="box">
+            <img class="image-fluid " src="../images/explorejournal3i.jpg" alt="SUNSET AND BEER" style="width:100%">
+            <div class="text-inside-article">
+                    <h5>S U N S E T&nbsp;&nbsp;&nbsp; A N D&nbsp;&nbsp;&nbsp; B E E R</h5>
+                </div>
+        </div>
+        
+        <div class="empty-box"> </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="box">
+                        <h4>Beer: My Heart Says No, But My Mind Says Yes</h4>
+
+                        <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                                Beer is delicious. Unfortunately, almost every beer you drink will be high in calories and carbs. It will get you full and 
+                                you will develop a beer belly. Drinking beer healthily is where simply trading off becomes the ultimate sacrifice. According 
+                                to Beer100, the majority of beers come in at over 130 calories, and finding one that has less than, say, five grams of carbs 
+                                is near impossible — some have as many as 24 grams.
+                                <br><br>
+                                If wine, hard liquor, and abstinence are out of the question, then light beer is going to do some justice. Miller Light has 
+                                only 96 calories and 3.2 grams of carbs; Bud Light has 110 calories and 6.6 grams of carbs; and Coors Light has 104 calories 
+                                and 5.3 grams of carbs. These beers are great for being healthy, but will you really only drink one of two? With lower calories 
+                                and carbs, they also come with lower alcohol contents, which may cause you drink more to get drunk — a balance any beer drinker 
+                                might want to think about.
+                                <br><br>
+                                If you’re going to try to avoid light beers and still be healthy, Guinness and other stouts are a good option. More often than not,
+                                 stouts are made with whole grains, which give them their darker, caramel flavor. Compared to a lager, both have vitamins B12 and 
+                                 soluble fiber, but only stouts have antioxidants. Some evidence even suggests these antioxidants can have the same health benefits
+                                 as wine, by reducing the risk of blood clots and other heart problems.
+                        </p>
+
+                        <h4>Eat! And Drink Water</h4>
+
+                        <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                                Although these are all healthier ways to drink, the key to “healthy” drinking is really moderation. One way to do 
+                                this is drinking water in-between alcoholic drinks. It will help you gauge how much you’ve had, how drunk you are, 
+                                and whether or not you should stop. To an extent, drinking water after a night out can also prevent a hangover.
+                                <br><br>
+                                Eating food before you start drinking — especially something with starch or dairy — can coat the stomach in preparation 
+                                for the alcoholic attack it’s about to endure and prevent symptoms like nausea, upset stomach, and headaches, according
+                                 to Forbes. On top of that, the food will soak up some of the alcohol, mediating the body’s process of absorbing alcohol.
+                                <br><br>
+                                If you didn’t get a chance to eat before you started drinking, there’s no better time than the present. Drinking on an
+                                 empty stomach has been shown to get people drunk faster, and getting drunk faster could lead to more drinking as the night 
+                                 goes on. Instead, try eating something — celery, carrots, nuts, or even dinner — while you drink. The trick is to be smart
+                                 about what you’re eating, and to avoid letting alcohol-induced inhibitions sway you toward fattier foods like pizza or fast foods. 
+                        </p>
+                
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                    <em>
+                        Originally written by Anthony Rivas.<br>
+                        Compiled from <a href="https://www.medicaldaily.com/lets-get-drunk-healthiest-ways-drink-alcohol-269583">
+                        Medical Daily</a>
+                    </em>    
+                </p>  
+
+                </div>
+            </div>
+        </div>
+
+        <div class="empty-box"> </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                   <div class="box">
+                        <img  class="img-fluid " src="../images/explorejournal3ii.jpg" alt="JONNIE WALKER - BLACK LABEL" style="width:100%">
+                        <div class="text-inside-article">
+                            <h5>J O N N I E&nbsp;&nbsp;&nbsp; W A L K E R&nbsp;&nbsp;&nbsp; -&nbsp;&nbsp;&nbsp; 
+                                B L A C K &nbsp;&nbsp;&nbsp; L A B E L </h5>
+                        </div>
+                    </div>   
+                </div>
+    
+                <div class="col-6">
+                    <div class="box">
+                            <img  class="img-fluid " src="../images/explorejournal3iii.jpg" alt="CHAMPAGNE" style="width:100%">
+                            <div class="text-inside-article">
+                                <h5>C H A M P A G N E </h5>
+                            </div>
+                    </div>   
+                </div>
+            </div>
+        </div>    
+
+        <div class="empty-box"> </div>
+        <div class="empty-box"> </div>
+
+        <div class="box">
+            <img class="image-fluid" src="../images/homecover1.jpg" alt="HILLS AND CLOUDS" height="300" style="width:100%">
+            <div class="text" id="middletext" >
+                <h3>S U B S C R I B E&nbsp;&nbsp;&nbsp;&nbsp;U S </h3>
+                THE BEST OF OCTOTHORPE DELIVERED TO YOUR INBOX
+                <br><br>
+                <form name="f1">
+                <textarea rows="1" cols="32" name="email" onsubmit="evalid(f1)" >Your E-mail</textarea>
+                </form>
+                <button id="Bt" class="btn btn-dark bg-dark" onclick="evalid(f1)">
+                    SUBSCRIBE
+                </button>
+            </div>
+        </div>
+
+        <div class="empty-box"> </div>
+        <div class="empty-box"> </div>
+
+        <footer class="page-footer font-small blue pt-4">
+            <div class="container-fluid text-center text-md-left">
+                <div class="row">
+                    <div class="col-md-4 mt-md-0 mt-3">
+                        <a href="../index.html"><img src="../images/octothorpeLogo.PNG" height="40" alt="octothorpeLogo"></a>
+                    </div>
+                    <hr class="clearfix w-100 d-md-none pb-3">
+                    <div class="col-md-4 mb-md-0 mb-3">
+                        <h5 class="text-uppercase">N A V I G A T I O N</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="../index.html">HOME</a><br>
+                            </li>
+                            <li>
+                                <a href="explore.html">EXPLORE</a><br>
+                             </li>
+                            <li>
+                                <a href="portfolio.html">PORTFOLIO</a><br>
+                            </li>
+                            <li>
+                                <a href="../../home.html">ASSIGNMENTS</a><br>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 mb-md-0 mb-3">
+                        <h5 class="text-uppercase">F O L L O W&nbsp;&nbsp;U S </h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="https://facebook.com"><img src="../images/facebook.png" height="30" alt="facebook"></a><br>
+                            </li>
+                            
+                            <li>
+                                <a href="https://twitter.com"><img src="../images/twitter.png" height="30" alt="twitter"></a><br>
+                            </li>
+                            <li>
+                                <a href="https://instagram.com"><img src="../images/instagram.png" height="30" alt="instagram"></a><br>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                </div>
+                <div class="footer-copyright text-center py-3">O C T O T H O R P E&nbsp;&nbsp;&nbsp;
+                    M A G A Z I N E&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;© 2 0 1 9&nbsp;&nbsp;&nbsp;&nbsp;|
+                    &nbsp;&nbsp;&nbsp;&nbsp;  A V H I M A N H U&nbsp;&nbsp;S A P K O T A
+                    &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp; A L L&nbsp;&nbsp;R I G H T S &nbsp;&nbsp;R E S E R V E D<br>
+                    <p style="font-size:0.9vw">
+                        Some Content have been copied from other websites as it is quite difficult to fulfill
+                         all contents of the Magazine in a short period of time.
+                    </p>
+                </div>
+        </footer>
+       
+        <script>
+                function openNav(){
+                  document.getElementById("mynav").style.height="100%";
+                }
+                
+                function closeNav(){
+                  document.getElementById("mynav").style.height="0";
+                }
+        </script>
+           
+    </body>
+</html>

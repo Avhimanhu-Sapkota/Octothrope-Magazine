@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <link rel="shortcut icon" href="../images/icon.ico" />
+
+        <title>Octothorpe Magazine - Article</title> <!--Title of my webpage-->
+
+        <meta charset="utf-8"/>     <!--for accepting unicode-->
+
+        <meta name="author" content="Avhimanhu Sapkota"/>           <!--Determining the author of the website-->
+
+        <meta name="keywords" content=" "/>     <!--search engine keywords-->
+
+        <meta name="description" content=" "/>   <!--search engine discription-->
+
+        <link rel="stylesheet" type="text/css" href="../style/bootstrap.min.css">
+
+        <link rel="stylesheet" type="text/css" href="../style/style.css">
+
+        <script>
+            
+            function evalid(f1){
+                var e=f1.email.value;
+					   if (e.indexOf('@', 0)==-1 ||e.indexOf('.',0) ==-1){
+					   alert ("P L E A S E    E N T E R    V A L I D    E - M A I L    A D D R E S S    A N D    T R Y    A G A I N ! ! !");
+                           f1.email.value="";
+                           f1.email.focus();
+					   }  
+                       else {
+                        alert("T H A N K    Y O U    F O R    S U B S C R I B I N G    O C T O T H O R P E !");
+                       }
+            }
+        </script>
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+            <a href="../index.html">
+                <img src="../images/octothorpeLogo.PNG" alt="Octothorpe Logo" height="45"> 
+            </a>
+            
+            <div class="collapse navbar-collapse justify-content-center" >
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">HOME <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="explore.html">EXPLORE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">PORTFOLIO</a>
+                    </li>
+                </ul>
+            </div>
+        
+            <div class="nav-right-content">
+                <ul class="navbar-nav">
+                    <li>
+                        <a class="nav-link active collapse navbar-collapse" href="search.html">
+                            <br><br>
+                            <img src="../images/search.png" alt="Search" height="30">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link active collapse navbar-collapse" href="login.html">
+                            <br><br>
+                            <img src="../images/login.png" alt="Login" height="45">
+                        </a>
+                    </li>
+                    <li>
+                        <div style="font-size: 40px; cursor:pointer;" onClick="openNav()">
+                            <img src="../images/drop.png" alt="Dropdown" height="35">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+                
+        <div class="overlay" id="mynav">
+                <a href="#" class="closebtn" onClick="closeNav()">&times;</a>
+                <div class="overlay-content"> 
+                    <a href="../index.html">HOME</a>
+                    <a href="explore.html">EXPLORE</a>
+                    <a href="portfolio.html">PORTFOLIO</a>
+                    <a href="login.html">LOGIN</a>
+                    <a href="search.html">SEARCH</a>
+                    <a href="../../home.html">ASSIGNMENTS</a>
+                </div>
+            </div>
+
+        <div class="box">
+            <img class="image-fluid" src="../images/articlecover1.jpg" alt="NEWSPAPER WITH MAGNIFIER" height="300" style="width:100%">
+            <div class="text">
+                <h2>O C T O T H O R P E&nbsp;&nbsp;&nbsp;&nbsp; M A G A Z I N E</h2>  
+            </div>
+        </div>
+
+        <div class="empty-box"> </div>
+        
+            <div class="container">
+            <div class="row">
+            <div class="box">
+                <h3>B E S T&nbsp;&nbsp;&nbsp;O R C H E S T R A S&nbsp;&nbsp;&nbsp;I N&nbsp;&nbsp;&nbsp;
+                        T H E&nbsp;&nbsp;&nbsp;<br>W O R L D :&nbsp;&nbsp;&nbsp;T H E&nbsp;&nbsp;&nbsp;
+                        T O P&nbsp;&nbsp;&nbsp;1 0 &nbsp;&nbsp;&nbsp;G R E A T E S T
+                </h3>
+                <br>
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                        To pick just ten of the world’s best orchestras is much easier said than done. In terms of sound quality, technical ability
+                         and sheer musicality, the following orchestras are unparalleled in their brilliance. That said, what does distinguish these
+                          orchestras from one another is their ethos and approach to the repertoire, their musical direction and their core performance
+                         values. At the risk of using every superlative in the dictionary here’s our guide to the ten greatest orchestras in the world.
+                </p>
+                
+                <h4>The Vienna Philharmonic</h4>
+                
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                    The prestigious Vienna Philharmonic is a name synonymous to the pomp, pageantry and grandeur of the orchestral tradition. 
+                    Unfailingly faithful to the rich history of Western classical music, the Vienna Phil have, throughout their 177-year history,
+                   been applauded by the likes of Richard Wagner, Anton Bruckner, Johannes Brahms and Gustav Mahler. They are perhaps best known 
+                   for their New Year’s Concert, broadcast globally on 1 January each year, featuring note-perfect, rousing renditions of the
+                   Johann Strauss classics. <br>
+                   Listen to <a href="https://youtu.be/LF2bKwNzvHg">The Vienna Philharmonic</a>
+                </p>
+
+                <h4>The Berlin Philharmonic</h4>
+                
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                        Another of the old-school greats, the formidable Berlin Phil gave its first performance in 1882. The orchestra’s history
+                         has always been tied up with its chief conductors who have included Wilhelm Furtwängler, Herbert Von Karajan, Claudio 
+                         Abbado and Sir Simon Rattle. This mighty orchestra is the epitome of refinement and grandiosity. Their performance style
+                          is defined by enormous energy, zest and flair, backed up by outstanding technical agility. A veritable thrill to listen
+                         to, the Berlin Phil is a force to be reckoned with and one of the greatest orchestras in the world.<br>
+                         Listen to <a href="https://youtu.be/JkSaP52hD68">The Berlin Philharmonic</a>
+                </p>
+
+                <h4>The London Symphony Orchestra</h4>
+                
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                        The LSO is widely recognised as the world’s leading soundtrack orchestra. The orchestra is known for its breathtaking film
+                         score recordings, particularly for the Star Wars franchise, scored by the legendary composer John Williams, and, most
+                          recently, for The Shape Of Water in 2017. The LSO also featured in the London 2012 Olympic opening ceremony alongside 
+                          Rowan Atkinson, with an estimated global audience of a massive 900 million.<br>
+                         Listen to <a href="https://youtu.be/FvMtMfIr-sU">The London Symphony Orchestra</a>
+                </p>
+
+                <h4>The LA Philharmonic</h4>
+                
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                        One hundred years ago the Los Angeles Philharmonic was founded as LA’s first permanent symphony orchestra. A century later,
+                         the LA Phil is recognised as one of the world’s outstanding orchestras, leading the way in groundbreaking programming.
+                          With creative direction currently from Gustav Dudamel the LA Phil are chiefly renowned their extensive repertoire,
+                           from their captivating interpretations of Schumann, Bernstein, and Prokofiev, to their delves into pop music. Perhaps
+                            one of the more forward-thinking orchestras, the LA Phil frequently dabble in other musical genres. Their 2018 concert
+                             LA Phil 100 At The Hollywood Bowl featured Dudamel, Katy Perry and Herbie Hancock – only the LA Phil could bring together
+                              such diverse megastars in a single event and still produce spectacular, world-class music.<br>
+                         Listen to <a href="https://youtu.be/aBJcFaFf9V0">The LA Philharmonic</a>
+                </p>
+
+                <h4>The Orchestra Of The Age Of Enlightenment</h4>
+                
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                        The OAE, based in London, are pioneers and a breath of fresh air in the global orchestral scene. With no principal conductor, 
+                        the orchestra act democratically by electing principal players and collaborating with guest conductors. Authenticity is at the
+                         heart of everything the OAE do, with an emphasis on period-specific instruments and specialising in baroque and classical repertoire.
+                          Despite this adherence to historically informed performance, the OAE concert series The Night Shift continues to refute the rules and 
+                          regulations of the tradition, but, as they argue, “Why shouldn’t you enjoy Beethoven in a venue with a decent bar?”<br>
+                         Listen to <a href="https://youtu.be/bwnfAe3PAso">The Orchestra Of The Age Of Enlightenment</a>
+                </p>
+
+                <h4>The Royal Concertgebouw</h4>
+                
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                        Amsterdam’s Royal Concertgebouw was established in 1888 and is frequently a favourite with critics. Their unfussy and refined 
+                        sound is instantly recognisable, particularly in their well-known recordings of Strauss, Mahler and Bruckner. Previous 
+                        conductors of this well-oiled musical machine include Bernard Haitink and Mariss Jansons. Don’t let their adherence to 
+                        formality fool you: their “tradition and renewal” ethos keeps the RCO at the cutting edge of orchestral ingenuity. Indeed,
+                         as part of their Horizon initiative, the orchestra regularly premiers newly commissioned works from the 21st Century.<br>
+                        Listen to <a href="https://youtu.be/HqMRWzUX1fw">The Royal Concertgebouw</a>
+                </p>
+            </div>
+            </div>
+        </div>
+        <div class="empty-box"> </div>
+        
+        <div class="box">
+            <img class="image-fluid " src="../images/musicarticle1iii.jpg" alt="VILON ORCHESTRA" style="width:100%">
+            <div class="text-inside-article">
+                    <h5>V I L O N &nbsp;&nbsp;&nbsp; O R C H E S T R A </h5>
+                </div>
+        </div>
+        
+        <div class="empty-box"> </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="box">
+                        <h4>The Chicago Symphony Orchestra</h4>
+                
+                        <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                                The Chicago Symphony Orchestra is one of the greatest orchestras in the world and has a prolific output, performing over 
+                                100 epic concerts each year. They boast a whopping 62 Grammy Awards for their recordings, including several accolades 
+                                for Best Orchestral Performance and Best Classical Album. Pianist and conductor Daniel Barenboim held the position of 
+                                musical director from 1991 to 2006, only to return somewhat controversially just last year.<br>
+                                Listen to <a href="https://youtu.be/DfbIjVJSzTM">The Chicago Symphony Orchestra</a>
+                        </p>
+
+                        <h4>The Aurora Orchestra</h4>
+                
+                        <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                                Perhaps a relatively-unknown name on the global orchestral scene. Still in its infancy, the Aurora Orchestra was established 
+                                by a group of students in London in 2005. Their USP is their apparent disapproval of sheet music: they regularly perform whole 
+                                symphonies from memory. The sheer quality of their exquisite performance makes this orchestra all the more remarkable and worthy
+                                of recognition.<br>
+                                Listen to <a href="https://youtu.be/5i3jmEcsP6Y">The Aurora Orchestra</a>
+                        </p>
+                        
+                        <h4>The New York Philharmonic</h4>
+                
+                        <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                                The New York Phil claims to be the longest-running orchestra in the states, having been founded in 1842. Its most famous 
+                                association is with Leonard Bernstein, a partnership which lasted 47 years and 1,244 performances. Since his death, in 1990,
+                                 the orchestra traditionally perform Bernstein’s Candide overture conductor-less in a touching tribute.<br>
+                                Listen to <a href="https://youtu.be/WihxLEc-ULY">The New York Philharmonic</a>
+                        </p>
+                
+                        <h4>The Bavarian Radio Symphony Orchestra</h4>
+                
+                        <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                                Established in 1949, the BRSO frequently stun with technically-perfect performances that easily place them among the world’s
+                                 greatest orchestras. Now producing recordings under its own label, the orchestra are renowned for their glorious and 
+                                 technicoloured performances of staple repertoire pieces. To borrow a phrase once used by their chief conductor Mariss Jansons,
+                                  the BRSO is ostensibly the “Rolls Royce” of orchestras.<br>
+                                Listen to <a href="https://youtu.be/sUJsNxe4Y0E">The Bavarian Radio Symphony Orchestra</a>
+                        </p>
+                
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                    <em>
+                        Originally written by Alice Benton<br>
+                        Compiled from <a href="https://www.udiscovermusic.com/classical-features/best-orchestras-worlds-greatest-top-10/">
+                        Discover Music</a>
+                    </em>    
+                </p>  
+
+                </div>
+            </div>
+        </div>
+
+        <div class="empty-box"> </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                   <div class="box">
+                        <img  class="img-fluid " src="../images/musicarticle1i.jpg" alt="ORCHESTRA ARTISTS HUGGING" style="width:100%">
+                        <div class="text-inside-article">
+                            <h5>O R C H E S T R A&nbsp;&nbsp;&nbsp; A R T I S T S&nbsp;&nbsp;&nbsp; H U G G I N G </h5>
+                        </div>
+                    </div>   
+                </div>
+    
+                <div class="col-6">
+                    <div class="box">
+                            <img  class="img-fluid " src="../images/musicarticle1ii.jpg" alt="ORCHESTRA PERFORMANCE" style="width:100%">
+                            <div class="text-inside-article">
+                                <h5>O R C H E S T R A&nbsp;&nbsp;&nbsp; P E R F O R M A N C E   </h5>
+                            </div>
+                    </div>   
+                </div>
+            </div>
+        </div>    
+
+        <div class="empty-box"> </div>
+        <div class="empty-box"> </div>
+
+        <div class="box">
+            <img class="image-fluid" src="../images/homecover1.jpg" alt="HILLS AND CLOUDS" height="300" style="width:100%">
+            <div class="text" id="middletext" >
+                <h3>S U B S C R I B E&nbsp;&nbsp;&nbsp;&nbsp;U S </h3>
+                THE BEST OF OCTOTHORPE DELIVERED TO YOUR INBOX
+                <br><br>
+                <form name="f1">
+                <textarea rows="1" cols="32" name="email" onsubmit="evalid(f1)" >Your E-mail</textarea>
+                </form>
+                <button id="Bt" class="btn btn-dark bg-dark" onclick="evalid(f1)">
+                    SUBSCRIBE
+                </button>
+            </div>
+        </div>
+
+        <div class="empty-box"> </div>
+        <div class="empty-box"> </div>
+
+        <footer class="page-footer font-small blue pt-4">
+            <div class="container-fluid text-center text-md-left">
+                <div class="row">
+                    <div class="col-md-4 mt-md-0 mt-3">
+                        <a href="../index.html"><img src="../images/octothorpeLogo.PNG" height="40" alt="octothorpeLogo"></a>
+                    </div>
+                    <hr class="clearfix w-100 d-md-none pb-3">
+                    <div class="col-md-4 mb-md-0 mb-3">
+                        <h5 class="text-uppercase">N A V I G A T I O N</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="../index.html">HOME</a><br>
+                            </li>
+                            <li>
+                                <a href="explore.html">EXPLORE</a><br>
+                             </li>
+                            <li>
+                                <a href="portfolio.html">PORTFOLIO</a><br>
+                            </li>
+                            <li>
+                                <a href="../../home.html">ASSIGNMENTS</a><br>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 mb-md-0 mb-3">
+                        <h5 class="text-uppercase">F O L L O W&nbsp;&nbsp;U S </h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="https://facebook.com"><img src="../images/facebook.png" height="30" alt="facebook"></a><br>
+                            </li>
+                            
+                            <li>
+                                <a href="https://twitter.com"><img src="../images/twitter.png" height="30" alt="twitter"></a><br>
+                            </li>
+                            <li>
+                                <a href="https://instagram.com"><img src="../images/instagram.png" height="30" alt="instagram"></a><br>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                </div>
+                <div class="footer-copyright text-center py-3">O C T O T H O R P E&nbsp;&nbsp;&nbsp;
+                    M A G A Z I N E&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;© 2 0 1 9&nbsp;&nbsp;&nbsp;&nbsp;|
+                    &nbsp;&nbsp;&nbsp;&nbsp;  A V H I M A N H U&nbsp;&nbsp;S A P K O T A
+                    &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp; A L L&nbsp;&nbsp;R I G H T S &nbsp;&nbsp;R E S E R V E D<br>
+                    <p style="font-size:0.9vw">
+                        Some Content have been copied from other websites as it is quite difficult to fulfill
+                         all contents of the Magazine in a short period of time.
+                    </p>
+                </div>
+        </footer>
+       
+        <script>
+                function openNav(){
+                  document.getElementById("mynav").style.height="100%";
+                }
+                
+                function closeNav(){
+                  document.getElementById("mynav").style.height="0";
+                }
+        </script>
+           
+    </body>
+</html>

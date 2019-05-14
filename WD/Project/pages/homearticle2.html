@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <link rel="shortcut icon" href="../images/icon.ico" />
+
+        <title>Octothorpe Magazine - Article</title> <!--Title of my webpage-->
+
+        <meta charset="utf-8"/>     <!--for accepting unicode-->
+
+        <meta name="author" content="Avhimanhu Sapkota"/>           <!--Determining the author of the website-->
+
+        <meta name="keywords" content=" "/>     <!--search engine keywords-->
+
+        <meta name="description" content=" "/>   <!--search engine discription-->
+
+        <link rel="stylesheet" type="text/css" href="../style/bootstrap.min.css">
+
+        <link rel="stylesheet" type="text/css" href="../style/style.css">
+
+        <script>
+            
+            function evalid(f1){
+                var e=f1.email.value;
+					   if (e.indexOf('@', 0)==-1 ||e.indexOf('.',0) ==-1){
+					   alert ("P L E A S E    E N T E R    V A L I D    E - M A I L    A D D R E S S    A N D    T R Y    A G A I N ! ! !");
+                           f1.email.value="";
+                           f1.email.focus();
+					   }  
+                       else {
+                        alert("T H A N K    Y O U    F O R    S U B S C R I B I N G    O C T O T H O R P E !");
+                       }
+            }
+        </script>
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+            <a href="../index.html">
+                <img src="../images/octothorpeLogo.PNG" alt="Octothorpe Logo" height="45"> 
+            </a>
+            
+            <div class="collapse navbar-collapse justify-content-center" >
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">HOME <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="explore.html">EXPLORE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">PORTFOLIO</a>
+                    </li>
+                </ul>
+            </div>
+        
+            <div class="nav-right-content">
+                <ul class="navbar-nav">
+                    <li>
+                        <a class="nav-link active collapse navbar-collapse" href="search.html">
+                            <br><br>
+                            <img src="../images/search.png" alt="Search" height="30">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link active collapse navbar-collapse" href="login.html">
+                            <br><br>
+                            <img src="../images/login.png" alt="Login" height="45">
+                        </a>
+                    </li>
+                    <li>
+                        <div style="font-size: 40px; cursor:pointer;" onClick="openNav()">
+                            <img src="../images/drop.png" alt="Dropdown" height="35">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+                
+        <div class="overlay" id="mynav">
+                <a href="#" class="closebtn" onClick="closeNav()">&times;</a>
+                <div class="overlay-content"> 
+                    <a href="../index.html">HOME</a>
+                    <a href="explore.html">EXPLORE</a>
+                    <a href="portfolio.html">PORTFOLIO</a>
+                    <a href="login.html">LOGIN</a>
+                    <a href="search.html">SEARCH</a>
+                    <a href="../../home.html">ASSIGNMENTS</a>
+                </div>
+            </div>
+
+        <div class="box">
+            <img class="image-fluid" src="../images/articlecover2.jpg" alt="NEWSPAPERS ON SHELF" height="300" style="width:100%">
+            <div class="text">
+                <h2>O C T O T H O R P E&nbsp;&nbsp;&nbsp;&nbsp; M A G A Z I N E</h2>  
+            </div>
+        </div>
+
+        <div class="empty-box"> </div>
+        
+            <div class="container">
+            <div class="row">
+            <div class="box">
+                <h3>S T R E E T&nbsp;&nbsp;D O G S:&nbsp;&nbsp;T H E&nbsp;&nbsp;&nbsp;
+                        D O G S &nbsp;&nbsp;&nbsp;<br>T H A T &nbsp;&nbsp;&nbsp;D O N ' T&nbsp;&nbsp;&nbsp;
+                        B E L O N G &nbsp;&nbsp;&nbsp;T O &nbsp;&nbsp;&nbsp;A N Y O N E
+                </h3>
+                <br>
+                <h4>Saving India's Street Dogs</h4>
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                        Although they are widely feared because some carry rabies, for the most part India's street dogs are not aggressive and will only bite if provoked.
+                         Indeed, many are fearful of humans and sadly, the dogs' fears are well founded.
+                </p>
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                        India's street dog population is closely associated with municipal sanitation practices – or neglect thereof. Because these homeless dogs often 
+                        survive by scavenging rubbish, exposed garbage means more healthy dogs – and more puppies. Ironically, this actually makes the dogs a boon to
+                        public sanitation. By scavenging garbage, they reduce perishable waste that could otherwise be a source of contamination for people.
+                        And their presence around garbage keeps away other potentially dangerous scavengers, such as rats and mice.
+                </p>
+                
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                        Unfortunately, fear and ignorance have led many Indian citizens and officials to see street dogs as nothing but a nuisance and to seek
+                         eradication using inhumane methods such as poisoning and beating. But for every dog killed, another typically comes in to take over
+                         that dog's territory. The only scientific method to humanely reduce street dog populations is mass spay and neuters, commonly known as animal birth control (ABC).
+                </p>
+
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                        Through ABC programs, all the dogs within a community or region are sterilized and then released back to their territories.
+                        The result: dog breeding stops and their population declines.
+                </p>
+
+            </div>
+            </div>
+        </div>
+        <div class="empty-box"> </div>
+        
+        <div class="box">
+            <img class="image-fluid " src="../images/homearticle2i.jpg" alt="TWO STREET DOGS WAITING FOR FOOD" style="width:100%">
+            <div class="text-inside-article">
+                    <h5>T W O&nbsp;&nbsp;&nbsp; S T R E E T&nbsp;&nbsp;&nbsp; D O G S&nbsp;&nbsp;&nbsp; W A I T I N G&nbsp;&nbsp;&nbsp;
+                        F O R &nbsp;&nbsp;&nbsp;F O O D
+                    </h5>
+                </div>
+        </div>
+        
+        <div class="empty-box"> </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="box">
+                   
+
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                        Help Animals India funds ABC programs across India and have funded the sterilization of hundreds of thousands of street dogs from
+                         partner organizations including, Varanasi for Animals, Karuna Society for Animals and Nature, HOPE and Animal Trust, Just Be 
+                         Friendly, Sarnath Animal Welfare, Raahat, CUPA, and more.
+                </p>
+
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                        Developing new ABC operations isn't an easy task. But we're determined to keep expanding these vital programs across the country.
+                         Just recently, funding by Help Animals India enabled the Sarvodaya vets to conduct the first ever ABC project in Sarnath, the
+                         birthplace of the Buddha. Six months into the program, we witnessed firsthand the transformation in community attitudes as people
+                         began caring for the very street dogs they had previously dreaded
+                </p>                
+                
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                        Winning community support for ABC projects where none have existed before can be an uphill battle. To increase the odds of success,
+                         we always make sure our ABC projects are managed by qualified people who are up to the challenge. To give an example of the resistance
+                         they sometimes encounter, Buddhists typically regard sterilization as tantamount to taking life. As a result, many Buddhist communities
+                         in India are very resistant to ABC programs. But thanks to skillful community education by our ABC project coordinators, attitudes are 
+                         changing and ABC is gaining ground within India's Buddhist enclaves, making their communities safer for dogs – and people, because anti-rabies
+                         vaccination is also part of every ABC program.
+                </p>    
+
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                        Rabies is a genuine problem when it comes to India's street dogs. Although the numbers are widely debated, the World Health Organization estimates
+                         that rabies kills about 20,000 people a year in India. That's 36 percent of rabies deaths worldwide.
+                </p>  
+
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                        Clearly, controlling rabies is key to winning hearts and minds, not to mention saving lives. The publicly very visible anti-rabies vaccination (ARV)
+                        component of our ABC programs helps build community support. When people have less reason to be fearful of dogs, they're less likely to want to destroy them.
+                </p>  
+
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                    People and street dogs can get along. With the generous help of our donors, ABC and ARV programs are slowly making that dream come true where our partners work in India.
+                </p>  
+                
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                    <em>
+                        Compiled from <a href="https://helpanimalsindia.org/news/library/saving-indias-street-dogs-from-abc-to-arv">
+                        Help Animals India</a>
+                    </em>    
+                </p>  
+
+                </div>
+            </div>
+        </div>
+
+        <div class="empty-box"> </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                   <div class="box">
+                        <img  class="img-fluid " src="../images/homearticle2.jpg" alt="THREE STREET DOGS PLAYING" style="width:100%">
+                        <div class="text-inside-article">
+                            <h5>THREE&nbsp;&nbsp;&nbsp;S T R E E T&nbsp;&nbsp;&nbsp; D O G S&nbsp;&nbsp;&nbsp;
+                                 P L A Y I N G
+                            </h5>
+                        </div>
+                    </div>   
+                </div>
+    
+                <div class="col-6">
+                    <div class="box">
+                            <img  class="img-fluid " src="../images/homearticle2ii.jpg" alt="DOG SLEEPING ON STREET" style="width:100%">
+                            <div class="text-inside-article">
+                                <h5>D O G &nbsp;&nbsp;&nbsp;S L E E P I N G&nbsp;&nbsp;&nbsp; O N&nbsp;&nbsp;&nbsp; S T R E E T</h5>
+                            </div>
+                    </div>   
+                </div>
+            </div>
+        </div>
+
+        <div class="empty-box"> </div>
+        <div class="empty-box"> </div>
+
+        <div class="box">
+            <img class="image-fluid" src="../images/cover1.jpg" alt="SNOW COVERED MOUNTAINS" height="300" style="width:100%">
+            <div class="text" id="middletext" >
+                <h3>S U B S C R I B E&nbsp;&nbsp;&nbsp;&nbsp;U S </h3>
+                THE BEST OF OCTOTHORPE DELIVERED TO YOUR INBOX
+                <br><br>
+                <form name="f1">
+                <textarea rows="1" cols="32" name="email" onsubmit="evalid(f1)" >Your E-mail</textarea>
+                </form>
+                <button id="Bt" class="btn btn-dark bg-dark" onclick="evalid(f1)">
+                    SUBSCRIBE
+                </button>
+            </div>
+        </div>
+
+        <div class="empty-box"> </div>
+        <div class="empty-box"> </div>
+
+        <footer class="page-footer font-small blue pt-4">
+            <div class="container-fluid text-center text-md-left">
+                <div class="row">
+                    <div class="col-md-4 mt-md-0 mt-3">
+                        <a href="../index.html"><img src="../images/octothorpeLogo.PNG" height="40" alt="octothorpeLogo"></a>
+                    </div>
+                    <hr class="clearfix w-100 d-md-none pb-3">
+                    <div class="col-md-4 mb-md-0 mb-3">
+                        <h5 class="text-uppercase">N A V I G A T I O N</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="../index.html">HOME</a><br>
+                            </li>
+                            <li>
+                                <a href="explore.html">EXPLORE</a><br>
+                             </li>
+                            <li>
+                                <a href="portfolio.html">PORTFOLIO</a><br>
+                            </li>
+                            <li>
+                                <a href="../../home.html">ASSIGNMENTS</a><br>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 mb-md-0 mb-3">
+                        <h5 class="text-uppercase">F O L L O W&nbsp;&nbsp;U S </h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="https://facebook.com"><img src="../images/facebook.png" height="30" alt="facebook"></a><br>
+                            </li>
+                            
+                            <li>
+                                <a href="https://twitter.com"><img src="../images/twitter.png" height="30" alt="twitter"></a><br>
+                            </li>
+                            <li>
+                                <a href="https://instagram.com"><img src="../images/instagram.png" height="30" alt="instagram"></a><br>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                </div>
+                <div class="footer-copyright text-center py-3">O C T O T H O R P E&nbsp;&nbsp;&nbsp;
+                    M A G A Z I N E&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;© 2 0 1 9&nbsp;&nbsp;&nbsp;&nbsp;|
+                    &nbsp;&nbsp;&nbsp;&nbsp;  A V H I M A N H U&nbsp;&nbsp;S A P K O T A
+                    &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp; A L L&nbsp;&nbsp;R I G H T S &nbsp;&nbsp;R E S E R V E D<br>
+                    <p style="font-size:0.9vw">
+                        Some Content have been copied from other websites as it is quite difficult to fulfill
+                         all contents of the Magazine in a short period of time.
+                    </p>
+                </div>
+        </footer>
+       
+        <script>
+                function openNav(){
+                  document.getElementById("mynav").style.height="100%";
+                }
+                
+                function closeNav(){
+                  document.getElementById("mynav").style.height="0";
+                }
+        </script>
+              
+    </body>
+</html>

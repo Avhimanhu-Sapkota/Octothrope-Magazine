@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <link rel="shortcut icon" href="../images/icon.ico" />
+
+        <title>Octothorpe Magazine - Article</title> <!--Title of my webpage-->
+
+        <meta charset="utf-8"/>     <!--for accepting unicode-->
+
+        <meta name="author" content="Avhimanhu Sapkota"/>           <!--Determining the author of the website-->
+
+        <meta name="keywords" content=" "/>     <!--search engine keywords-->
+
+        <meta name="description" content=" "/>   <!--search engine discription-->
+
+        <link rel="stylesheet" type="text/css" href="../style/bootstrap.min.css">
+
+        <link rel="stylesheet" type="text/css" href="../style/style.css">
+
+        <script>
+            
+            function evalid(f1){
+                var e=f1.email.value;
+					   if (e.indexOf('@', 0)==-1 ||e.indexOf('.',0) ==-1){
+					   alert ("P L E A S E    E N T E R    V A L I D    E - M A I L    A D D R E S S    A N D    T R Y    A G A I N ! ! !");
+                           f1.email.value="";
+                           f1.email.focus();
+					   }  
+                       else {
+                        alert("T H A N K    Y O U    F O R    S U B S C R I B I N G    O C T O T H O R P E !");
+                       }
+            }
+        </script>
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+            <a href="../index.html">
+                <img src="../images/octothorpeLogo.PNG" alt="Octothorpe Logo" height="45"> 
+            </a>
+            
+            <div class="collapse navbar-collapse justify-content-center" >
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">HOME <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="explore.html">EXPLORE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">PORTFOLIO</a>
+                    </li>
+                </ul>
+            </div>
+        
+            <div class="nav-right-content">
+                <ul class="navbar-nav">
+                    <li>
+                        <a class="nav-link active collapse navbar-collapse" href="search.html">
+                            <br><br>
+                            <img src="../images/search.png" alt="Search" height="30">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link active collapse navbar-collapse" href="login.html">
+                            <br><br>
+                            <img src="../images/login.png" alt="Login" height="45">
+                        </a>
+                    </li>
+                    <li>
+                        <div style="font-size: 40px; cursor:pointer;" onClick="openNav()">
+                            <img src="../images/drop.png" alt="Dropdown" height="35">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+                
+        <div class="overlay" id="mynav">
+                <a href="#" class="closebtn" onClick="closeNav()">&times;</a>
+                <div class="overlay-content"> 
+                    <a href="../index.html">HOME</a>
+                    <a href="explore.html">EXPLORE</a>
+                    <a href="portfolio.html">PORTFOLIO</a>
+                    <a href="login.html">LOGIN</a>
+                    <a href="search.html">SEARCH</a>
+                    <a href="../../home.html">ASSIGNMENTS</a>
+                </div>
+            </div>
+        <div class="box">
+            <img class="image-fluid" src="../images/articlecover3.jpg" alt="NEWSPAPERS" height="300" style="width:100%">
+            <div class="text">
+                <h2>O C T O T H O R P E&nbsp;&nbsp;&nbsp;&nbsp; M A G A Z I N E</h2>  
+            </div>
+        </div>
+
+        <div class="empty-box"> </div>
+        
+            <div class="container">
+            <div class="row">
+            <div class="box">
+                <h3>F O O D :<br>1 0&nbsp;&nbsp;&nbsp;M U S T&nbsp;&nbsp;&nbsp;
+                    T A S T E&nbsp;&nbsp;&nbsp;S T R E E T&nbsp;&nbsp;&nbsp;F O O D S
+                </h3>
+                <br>
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                    Street food is the heart and soul of international cuisine. These are the comfort foods we crave at 1 a.m. when
+                     the bars are closing and stomachs are rumbling. Though often imitated by restaurants, they taste best when scooped
+                     onto a paper plate or wrapped in wax paper and eaten standing up, stains and all
+                </p>
+                
+                <h4>Vada Pav, India</h4>
+                
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                        If you have to pick one city that epitomizes Indian street food culture, go with Mumbai (formerly Bombay). This Western coastal 
+                        city is perched on the Arabian Sea, and Chowpatty Beach is the sunset destination for locals and tourists craving spicy, 
+                        soul-satisfying street food.
+                        <br><br>
+                        Just about everything here is going to be mind-blowing. Panipuri, bite-size balls of stuffed fried dough, are legendary in Mumbai,
+                         as is pav bhaji, a rich vegetable curry served with a crispy buttered roll. But our winner is vada pav, an iconic Mumbai sandwich.
+                         <br><br>
+                         An authentic vada pav starts with balls of spiced mashed potato dipped in a chickpea flour batter and deep-fried until golden. Next,
+                          thinly sliced green chili peppers are battered and tossed into the roiling oil. Meanwhile, soft chewy rolls are smeared with various 
+                          chutneys like tamarind, mint-coriander or peanut-garlic. The roll is stuffed with one or two potato fritters, a clutch of golden chili
+                           strips and the whole beautiful mess is squished together. The result is spicy, savory and sweet and an excellent precursor to a nap.
+                </p>
+
+                <h4>Chicken Rice, Singapore</h4>
+                
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                        The quickest way to start a fight in Singapore is to ask two or more locals who serves the best chicken rice in town.
+                         Also known as Hainanese rice — the original recipe may have come from the tiny Chinese island of Hainan — chicken 
+                         rice is the unofficial national dish of Singapore, a country whose multicultural cuisine reflects the melting pot of
+                          Asian cultures that call it home.
+                        <br><br>
+                        Chicken rice is beautiful in its simplicity. The dish is nothing more than poached chicken served over rice.
+                         But the flavors combine to create one of the world's most satisfying breakfasts, lunches or dinners.
+                      The chicken is poached on a low simmer in a gingery broth until perfectly cooked, still moist and juicy. The same 
+                      broth is also used to simmer the jasmine rice, after it's been sautéed in ginger and garlic. Slices of chicken are
+                      served over rice with a side of broth, sliced cucumber and hot sauce.<br><br>
+                      The best place to enjoy chicken rice is in one of Singapore's ubiquitous open-air "hawker centers," which are like mall
+                       food courts, but packed with amazing curried noodle and roti stands instead of Auntie Anne's Pretzels and Orange Julius.
+                </p>              
+                
+                <h4>Jerk Chicken, Jamaica</h4>
+                
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                        Jamaica's Boston Bay is the home of jerk chicken, and you'll find it being cooked there in large BBQ pits. 
+                        Real jerk chicken is smoked, not grilled, over the native pimento wood, the same tree that gives us allspice. 
+                        The chicken pieces are laid directly on top of green pimento logs, covered with metal sheets and smoked to a
+                         fall-off-the-bone-tender state using indirect heat from the smoldering coals beneath
+                        <br><br>
+                        The sweet notes of the pimento smoke add complexity to the fruity heat of the jerk marinade: a blend of 
+                        Scotch bonnet peppers, allspice berries, green onions and fresh ginger . Enjoy that amazing chicken with
+                         a side of Jamaican rice and peas (kidney beans, technically) and a Red Stripe beer or a fizzy grapefruit 
+                         soda called Ting.
+                </p>          
+                
+                <h4>Pork Satay, Thailand</h4>
+                
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                        Like India, Thailand is a street food paradise. The noodle curries in coconut milk are somehow rich and light at the same time.
+                         The hand-pounded green papaya salad is shockingly vibrant. And tamarind-sweetened pad thai straight from a coal-fired wok and 
+                         blanketed with a fried egg is almost a religious experience.
+                        <br><br>
+                        But if we had to choose the most iconic street food of Thailand, it has to be skewers of pork satay cooked on long charcoal
+                         grills and served with a vinegary cucumber salad and peanut dipping sauce. Authentic pork satay is marinated in a sweet and 
+                         spicy paste of lemongrass, shallots, garlic, red chilies, galangal (a ginger-like spice) and fish sauce. While grilling,
+                          the pork skewers are brushed with coconut milk for a silky finish.
+                </p>  
+                
+                <h4>Currywurst, Germany</h4>
+                
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                        Currywurst is German comfort food that goes perfectly with the country's other culinary obsession: beer. When the bars close
+                         in Berlin, throngs of well-lubricated revelers descend on currywurst stands for a Styrofoam plate of chopped pork sausage 
+                         drowning in a thick, spiced tomato sauce dusted with curry powder.
+                        <br><br>
+                        The unlikely origin of currywurst, as explained by the Deutsches Currywurst Museum — yes, currywurst has its own museum 
+                        — dates back to the rubble-strewn streets of post-war Berlin. A housewife named Herta Heuwer traded liquor for curry powder,
+                         an exotic spice at the time, with British soldiers. Heuwer added the powder to stewed tomatoes to make a kind of curried ketchup,
+                          which she poured over sausages, a cheap national staple. The combination drew crowds of construction workers to her street stand
+                           in what would become Berlin's red light district, and the currywurst craze was born 
+                        <br><br>
+                        Today across Germany you'll find the classic currywurst, as well as spicier Indian and Thai versions, accompanied by a
+                         slice of white bread to mop up the juices and a mound of French fries.
+                </p>  
+
+            </div>
+            </div>
+        </div>
+        <div class="empty-box"> </div>
+        
+        <div class="box">
+            <img class="image-fluid " src="../images/explorejournal1i.jpg" alt="BUREK" style="width:100%">
+            <div class="text-inside-article">
+                    <h5>B U R E K</h5>
+                </div>
+        </div>
+        
+        <div class="empty-box"> </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="box">
+                        <h4>Quesadilla, Mexico</h4>
+                
+                        <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                                First of all, forget everything you think you know about quesadillas. A microwaved flour tortilla stuffed with 
+                                cheddar cheese is about as authentically Mexican as a Dorito Loco taco from Taco Bell. When my wife and I lived 
+                                in Mexico, we discovered that the soul of real Mexican food is masa, the ground-corn dough — not wheat flour — that's
+                                 used to make soft corn tortillas for tacos, steamed tamales, gorditas, and innumerable regional antojitos, Mexican
+                                  street snacks with deep indigenous roots.
+                                <br><br>
+                                A real Mexican quesadilla starts with that freshly ground corn masa. A large hunk of soft dough is pressed or rolled into
+                                 a rough circle and laid on a hot griddle. The basic version is filled with shredded Chihuahua or Oaxacan string cheese and 
+                                 folded over into a half moon. But why stop with cheese? At Mexican street stalls, you'll find mouth-watering fillings like 
+                                 potato and crumbled chorizo sausage, nopal (cactus), squash blossoms, sautéed mushrooms, huitlacoche(an earthy corn fungus),
+                                  refried beans, and all varieties of grilled or slow-cooked meats.
+                                <br><br>
+                                I've found that real-deal quesadillas are best enjoyed on a wobbly wooden bench inside a bustling open-air market with a healthy 
+                                dollop of salsa verde (the tomatillo-based green salsa) and an icy agua fresca, a sugary fruit juice in every imaginable flavor 
+                                ladled from giant plastic jugs.
+                        </p>  
+
+                        <h4>Crêpes and Galettes, France</h4>
+                
+                        <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                                For a country that invented fine dining, the crêpe is astonishingly simple. There are two basic varieties,
+                                 the savory galette made from dark buckwheat flour and the white-flour crêpe reserved for sweet treats.
+                                  Both were traditionally eaten in Brittany in the northwest of France, but immigrants from the region 
+                                  brought the quick-cooked griddle cakes to Paris, where everyone from street vendors to Michelin-starred restaurants,
+                                   serve the classic dish.
+                                <br><br>
+                            The traditional filling for a savory galette is country ham and melted Gruyere cheese washed down by a dry cider. 
+                            The complète version of the galette includes a fried egg with a sumptuously runny yolk. For a sweet crêpe, 
+                            there's always the hazelnut-chocolate spread Nutella (my personal favorite) or strawberries and cream, 
+                            but don't miss out on salted caramel or the simple pleasure of powdered sugar.
+                        </p>  
+
+                        <h4>Banh Mi, Vietnam</h4>
+                
+                        <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                                The banh mi is the world's best sandwich. Hands down. The Cubans make a mean cubano and it's hard to argue with an 
+                                Italian panini, but if you want to know what heaven on bread tastes like, hop the next flight to Hanoi and sink your
+                                 teeth into one of these French-Vietnamese beauties.
+                                <br><br>
+                            Vietnam was once a French colonial outpost and arguably the only good thing that came out of that chapter of Vietnamese
+                             history was the banh mi. A world-class banh mi starts with the bread, a fresh-baked mini baguette. The baguette is sliced 
+                             lengthwise and slathered in mayonnaise and a thin spread of pâté. So far, so French.
+                            <br><br>
+                            But here's where things get interesting. The meat of choice is usually barbecued pork, although Vietnamese-style pork 
+                            meatballs, pork "roll" or Vietnamese salami are other solid choices [source: Lonely Planet]. Then the veggies: thin-sliced
+                             cucumber, pickled daikon radish and carrots, a handful of cilantro and enough chili sauce (or straight chili peppers)
+                              to make you sweat.
+                        </p>  
+
+                        <h4>Burek, Bosnia-Herzegovina</h4>
+                
+                        <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                                The Bosnian people didn't invent burek, but by all accounts they've perfected it. This tubular flaky pastry stuffed
+                                 with ground meat arrived in the Balkans by way of Turkey, where it's called börek.
+                                <br><br>
+                                In Bosnia, meat-filled burek is only one type of pita, the term for all rolled and stuffed pastries. 
+                                Other varieties include a spinach-and-feta pita called zeljanica, an egg-and-cheese version called sirnica 
+                                and a potato-and-onion-filled krompirusa. A sweet version with apples and cinnamon is called jabukara.
+                                <br><br>
+                                The best pita are still made by hand in Sarajevo, the impossibly thin dough rolled and flipped into wide ovals,
+                                 then painted with oil and rolled gently around the chosen filling. (One local opined that the dough should be 
+                                 as soft as an earlobe.) The tubes of stuffed dough are then coiled into circles or lined up in tight rows
+                                  before entering the oven until the top layers brown and blister and the savory center remains chewy and warm.
+                        </p>  
+
+                        <h4>Falafel, Israel</h4>
+                
+                        <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                                Falafel has become an international street food staple, the golden fried chickpea balls as ubiquitous on the 
+                                streets of Paris as in New York City. But the undisputed king of falafel is Israel, particularly the modern 
+                                coastal metropolis of Tel Aviv. Here you can get a warm, thick, oversized pita stuffed with fresh-fried falafel 
+                                and all the fixin's any time day or night.
+                                <br><br>
+                                Falafel originated in Egypt and spread throughout the Middle East before Israelis adopted it as their national 
+                                food in the late 20th century [source: Kantor]. The classic Israeli falafel is a fritter of ground chickpea spiced
+                                 with cumin, coriander, paprika, raw garlic, onion, and lots of fresh parsley [source: Haaretz]. The basic toppings
+                                  are tahini sauce and an Israeli salad of chopped tomato and cucumber.
+                                <br><br>
+                                At Tel Aviv falafel stands, you can also add hummus, pickled veggies, roasted eggplant salad, feta cheese, 
+                                French fries (just stuff 'em in) and a wide assortment of adventurous hot sauces. I remember my first Tel Aviv falafel,
+                                 steps from the beach and only hours off the plane. Confronted by the overwhelming topping choices, I did the only 
+                                 reasonable thing: add a little of everything. It was one of the best decisions I ever made
+                        </p>  
+                
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                    <em>
+                        Originally written by DAVE ROOS.<br>
+                        Compiled from <a href="https://adventure.howstuffworks.com/10-best-street-foods-world10.htm">
+                        How Stuff Works</a>
+                    </em>    
+                </p>  
+
+                </div>
+            </div>
+        </div>
+
+        <div class="empty-box"> </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                   <div class="box">
+                        <img  class="img-fluid " src="../images/explorejournal1ii.jpg" alt="JERK CHICKEN" style="width:100%">
+                        <div class="text-inside-article">
+                            <h5>J E R K&nbsp;&nbsp;&nbsp; C H I C K E N</h5>
+                        </div>
+                    </div>   
+                </div>
+    
+                <div class="col-6">
+                    <div class="box">
+                            <img  class="img-fluid " src="../images/explorejournal1iii.jpg" alt="VADA PAV" style="width:100%">
+                            <div class="text-inside-article">
+                                <h5>V A D A&nbsp;&nbsp;&nbsp; P A V</h5>
+                            </div>
+                    </div>   
+                </div>
+            </div>
+        </div>    
+
+        <div class="empty-box"> </div>
+        <div class="empty-box"> </div>
+
+        <div class="box">
+            <img class="image-fluid" src="../images/homecover1.jpg" alt="HILLS AND CLOUDS" height="300" style="width:100%">
+            <div class="text" id="middletext" >
+                <h3>S U B S C R I B E&nbsp;&nbsp;&nbsp;&nbsp;U S </h3>
+                THE BEST OF OCTOTHORPE DELIVERED TO YOUR INBOX
+                <br><br>
+                <form name="f1">
+                <textarea rows="1" cols="32" name="email" onsubmit="evalid(f1)" >Your E-mail</textarea>
+                </form>
+                <button id="Bt" class="btn btn-dark bg-dark" onclick="evalid(f1)">
+                    SUBSCRIBE
+                </button>
+            </div>
+        </div>
+
+        <div class="empty-box"> </div>
+        <div class="empty-box"> </div>
+
+        <footer class="page-footer font-small blue pt-4">
+            <div class="container-fluid text-center text-md-left">
+                <div class="row">
+                    <div class="col-md-4 mt-md-0 mt-3">
+                        <a href="../index.html"><img src="../images/octothorpeLogo.PNG" height="40" alt="octothorpeLogo"></a>
+                    </div>
+                    <hr class="clearfix w-100 d-md-none pb-3">
+                    <div class="col-md-4 mb-md-0 mb-3">
+                        <h5 class="text-uppercase">N A V I G A T I O N</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="../index.html">HOME</a><br>
+                            </li>
+                            <li>
+                                <a href="explore.html">EXPLORE</a><br>
+                             </li>
+                            <li>
+                                <a href="portfolio.html">PORTFOLIO</a><br>
+                            </li>
+                            <li>
+                                <a href="../../home.html">ASSIGNMENTS</a><br>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 mb-md-0 mb-3">
+                        <h5 class="text-uppercase">F O L L O W&nbsp;&nbsp;U S </h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="https://facebook.com"><img src="../images/facebook.png" height="30" alt="facebook"></a><br>
+                            </li>
+                            
+                            <li>
+                                <a href="https://twitter.com"><img src="../images/twitter.png" height="30" alt="twitter"></a><br>
+                            </li>
+                            <li>
+                                <a href="https://instagram.com"><img src="../images/instagram.png" height="30" alt="instagram"></a><br>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                </div>
+                <div class="footer-copyright text-center py-3">O C T O T H O R P E&nbsp;&nbsp;&nbsp;
+                    M A G A Z I N E&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;© 2 0 1 9&nbsp;&nbsp;&nbsp;&nbsp;|
+                    &nbsp;&nbsp;&nbsp;&nbsp;  A V H I M A N H U&nbsp;&nbsp;S A P K O T A
+                    &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp; A L L&nbsp;&nbsp;R I G H T S &nbsp;&nbsp;R E S E R V E D<br>
+                    <p style="font-size:0.9vw">
+                        Some Content have been copied from other websites as it is quite difficult to fulfill
+                         all contents of the Magazine in a short period of time.
+                    </p>
+                </div>
+        </footer>
+       
+        <script>
+                function openNav(){
+                  document.getElementById("mynav").style.height="100%";
+                }
+                
+                function closeNav(){
+                  document.getElementById("mynav").style.height="0";
+                }
+        </script>     
+    </body>
+</html>

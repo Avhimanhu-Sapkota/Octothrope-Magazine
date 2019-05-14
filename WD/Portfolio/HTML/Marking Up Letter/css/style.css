@@ -1,0 +1,46 @@
+body{
+    max-width: 800px;
+    margin: auto auto;
+    border: 1px solid black;
+    padding: 25px;
+}
+
+p{
+    font-size: 1.1em;
+    line-height: 1.5;
+}
+.sender-column{
+    text-align: right;
+}
+
+h1{
+    font-size: 1.5em;
+}
+
+h2{
+    font-size: 1.3em;
+}
+
+ul{
+    font-size: 1.1em;
+}
+
+li{
+    line-height: 1.5;
+}
+
+ol{
+    font-size: 1.1em;
+}
+
+dl{
+    font-size: 1.1em;
+}
+
+dt{
+    line-height: 1.5;
+}
+
+dd{
+    line-height: 1.5;
+}

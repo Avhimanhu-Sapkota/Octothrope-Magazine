@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <link rel="shortcut icon" href="../images/icon.ico" />
+
+        <title>Octothorpe Magazine - Article</title> <!--Title of my webpage-->
+
+        <meta charset="utf-8"/>     <!--for accepting unicode-->
+
+        <meta name="author" content="Avhimanhu Sapkota"/>           <!--Determining the author of the website-->
+
+        <meta name="keywords" content=" "/>     <!--search engine keywords-->
+
+        <meta name="description" content=" "/>   <!--search engine discription-->
+
+        <link rel="stylesheet" type="text/css" href="../style/bootstrap.min.css">
+
+        <link rel="stylesheet" type="text/css" href="../style/style.css">
+
+        <script>
+            
+            function evalid(f1){
+                var e=f1.email.value;
+					   if (e.indexOf('@', 0)==-1 ||e.indexOf('.',0) ==-1){
+					   alert ("P L E A S E    E N T E R    V A L I D    E - M A I L    A D D R E S S    A N D    T R Y    A G A I N ! ! !");
+                           f1.email.value="";
+                           f1.email.focus();
+					   }  
+                       else {
+                        alert("T H A N K    Y O U    F O R    S U B S C R I B I N G    O C T O T H O R P E !");
+                       }
+            }
+        </script>
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+            <a href="../index.html">
+                <img src="../images/octothorpeLogo.PNG" alt="Octothorpe Logo" height="45"> 
+            </a>
+            
+            <div class="collapse navbar-collapse justify-content-center" >
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">HOME <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="explore.html">EXPLORE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">PORTFOLIO</a>
+                    </li>
+                </ul>
+            </div>
+        
+            <div class="nav-right-content">
+                <ul class="navbar-nav">
+                    <li>
+                        <a class="nav-link active collapse navbar-collapse" href="search.html">
+                            <br><br>
+                            <img src="../images/search.png" alt="Search" height="30">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link active collapse navbar-collapse" href="login.html">
+                            <br><br>
+                            <img src="../images/login.png" alt="Login" height="45">
+                        </a>
+                    </li>
+                    <li>
+                        <div style="font-size: 40px; cursor:pointer;" onClick="openNav()">
+                            <img src="../images/drop.png" alt="Dropdown" height="35">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+                
+        <div class="overlay" id="mynav">
+                <a href="#" class="closebtn" onClick="closeNav()">&times;</a>
+                <div class="overlay-content"> 
+                    <a href="../index.html">HOME</a>
+                    <a href="explore.html">EXPLORE</a>
+                    <a href="portfolio.html">PORTFOLIO</a>
+                    <a href="login.html">LOGIN</a>
+                    <a href="search.html">SEARCH</a>
+                    <a href="../../home.html">ASSIGNMENTS</a>
+                </div>
+            </div>
+
+        <div class="box">
+            <img class="image-fluid" src="../images/articlecover3.jpg" alt="NEWSPAPERS" height="300" style="width:100%">
+            <div class="text">
+                <h2>O C T O T H O R P E&nbsp;&nbsp;&nbsp;&nbsp; M A G A Z I N E</h2>  
+            </div>
+        </div>
+
+        <div class="empty-box"> </div>
+        
+            <div class="container">
+            <div class="row">
+            <div class="box">
+                <h3>Y O G E S H W O R&nbsp;&nbsp;&nbsp;A M A T Y A
+                </h3>
+                <br>
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                        The flamboyant Yogeshwor Amatya has been a well-known figure in the Nepali soft-rock scene for the past two decades. In 1995,
+                         he shot to fame as a singer with his song 'Jaba Sandhya Huncha', which he wrote as a teenager. Since then, he has produced 
+                         albums like Karai Kara Le (in 1998) and Bastoo (in 2002), winning the hearts of Nepalis all over the world.
+                </p>
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                        <strong> What is your daily routine like?</strong><br>
+                        I am a very late riser. On most days, I wake up way past noon. Because I don't have a nine-to-five job as such,
+                         I don't have a productive day planned out for me. After I get up, I head out of my house, without even brushing my teeth,
+                          and have lunch with my friends. Then, my day picks up pace and I just go with the flow and see how everything unfolds.   
+                </p>
+                
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                       <strong> What else keeps you busy?</strong><br>
+                        I keep myself busy with some Newari literature. My grandmother was extremely devoted to Nepali and Newari literature,
+                         and that passion was passed on to me. And to do my bit to keep local literature alive, I have helped publish two Newari
+                          dictionaries, the proceeds of which are donated to Nepal Bhasa Academy.
+                </p>
+
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                        <strong>How do you think your childhood helped shape you as a person?</strong><br>
+                        Ever since I was a child, I have always been surrounded by creative, learned people. When I was young, my guru was Prem Raj Poudel,
+                         who was the first editor of Gorkhapatra. People like Renchin Yonzon, who is the wife of the late Gopal Yonzon; the poet Bhim Darshan
+                          Roka; the historian Satya Mohan Joshi; and the essayist Shankar Lamichhane have taught me a lot of things. My father, Bhuwaneshor Amatya,
+                           was the first President of Nepal Chalchitra Sangha, and my mother, Lamu Amatya, was the first trained nurse in Nepal. And they both also 
+                           had a huge influence on me. I think the influence of all these innovative people shaped me to be the person I am today. You can learn so much
+                            from everyone around you, and I have always been blessed to be around the best minds.
+                </p>
+
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                        <strong>Why did you not pursue gemology as a profession?</strong><br>
+                        I think I had to give up one precious dream in order to pursue another. In order to pursue singing, 
+                        I had to stop pursuing my interest in gems. But if given the chance, I would definitely pursue a serious
+                         career in gemology. I love jewellery. I love getting down to the intricate detailing of jewellery designing;
+                          it gives my soul satisfaction. Singing, however, was something that was just in me--all I need is a few pegs 
+                          of whiskey and a guitar.
+                </p>
+
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                       <strong> How did you stumble into the world of music?</strong><br>
+                        I have no idea. When I was in school, I had wonderful teachers, like Mrs Melford, Rinchen Yonzon, and the legendary
+                         Gopal Yonzon--all of whom I respect immensely, and who have taught me a great deal. I have always liked singing, but
+                          I never thought it'd be something that people would associate me with.
+                        
+                </p>
+
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                        <strong>Do you write your own songs?</strong><br>
+                        Yes, I do write my own songs. I wrote 'Jaba Sandya Huncha' when I was probably just 13 or 14 years old. You know how it 
+                        is when you're young and in love--you have this passion, and you just put it to paper. It's been awhile that I have not 
+                        written a song, though.
+                </p>
+
+            </div>
+            </div>
+        </div>
+        <div class="empty-box"> </div>
+        
+        <div class="box">
+            <img class="image-fluid " src="../images/exploreinterview2ii.jpg" alt="Yogesh Amatya" style="width:100%">
+            
+        </div>
+        
+        <div class="empty-box"> </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="box">
+                    
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                       <strong> Do you have musical preferences?</strong><br>
+                        I personally prefer soft rock. One of my favourite bands is Simon & Garfunkel. As for singers close to home,
+                         I love the work of Bachchu Kailash, Deepak Kharel and Arun Thapa.
+                </p>
+
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                        <strong>In reference to one of your famous songs, do you think it is okay for men to shed tears sometimes?</strong><br>
+                        I am a big crier. I don't know if even my wife knows this, but I cry while listening to songs, and even while watching movies. 
+                        It's made to seem that men are much tougher than women, but when the going gets tough, it's the women who are stronger and keep
+                         a strong head. We men tend to break down and get lost. And I think it's absolutely okay to shed tears. I don't know how else to
+                          cope with emotions.
+                </p>                
+                
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                       <strong> What are your other indulgences besides music?</strong><br>
+                        I like cooking. I try to cook whenever I have the time. My another indulgence is fine single-malt whiskey. I love 
+                        indulging in the best whiskeys from around the world. After all, what's life without drinking some good whiskey?
+                </p>    
+
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                        <strong>We hear you are also a whisky connoisseur.</strong><br>
+                        My children studied in Scotland, and while I was there during one of my trips, I had the opportunity to visit the
+                         distilleries of Glenfiddich and Chivas Regal. When I visited the distillery, I had tears in my eyes--not because 
+                         I was in the Mecca of whiskeys, if you were thinking that, but because they showed us this emotional documentary
+                          they screened prior to the tour of the distillery. From all these visits, I picked up a few tricks to do with gauging
+                           whiskey quality. But I wouldn't call myself an expert.
+                </p>  
+
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                        <strong>What's your philosophy in life?</strong><br>
+                        I don't follow any philosophy in life, as such. I just want to live life freely. I am very content 
+                        with what life has given me, and I have never wanted more. I am not an ambitious person, unlike with most 
+                        people in the world we live in. The world we live in today is such a strange place--so full of judgement, 
+                        prejudice and hate. And everyone lives behind different facades--never saying things they actually think. 
+                        I wish everyone would be free of everything that constrains their minds, and not live behind facades--but
+                         be open and transparent.  
+                </p> 
+                
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                    <em>
+                        Compiled from <a href="http://mnsvmag.com/news/2017-11-10/inspire-singer-yogeshwor-amatya">
+                        M&S VMAG</a>
+                    </em>    
+                </p>  
+
+                </div>
+            </div>
+        </div>
+
+        <div class="empty-box"> </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                   <div class="box">
+                        <img  class="img-fluid " src="../images/exploreinterview2iii.jpg" alt="Yogeshwor Amatya" style="width:100%">
+                        
+                    </div>   
+                </div>
+    
+                <div class="col-6">
+                    <div class="box">
+                            <img  class="img-fluid " src="../images/exploreinterview2i.jpg" alt="Yogeshwor Amatya" style="width:100%">
+                            
+                    </div>   
+                </div>
+            </div>
+        </div>    
+
+        <div class="empty-box"> </div>
+        <div class="empty-box"> </div>
+
+        <div class="box">
+            <img class="image-fluid" src="../images/homecover1.jpg" alt="HILLS AND CLOUDS" height="300" style="width:100%">
+            <div class="text" id="middletext" >
+                <h3>S U B S C R I B E&nbsp;&nbsp;&nbsp;&nbsp;U S </h3>
+                THE BEST OF OCTOTHORPE DELIVERED TO YOUR INBOX
+                <br><br>
+                <form name="f1">
+                <textarea rows="1" cols="32" name="email" onsubmit="evalid(f1)" >Your E-mail</textarea>
+                </form>
+                <button id="Bt" class="btn btn-dark bg-dark" onclick="evalid(f1)">
+                    SUBSCRIBE
+                </button>
+            </div>
+        </div>
+
+        <div class="empty-box"> </div>
+        <div class="empty-box"> </div>
+
+        <footer class="page-footer font-small blue pt-4">
+            <div class="container-fluid text-center text-md-left">
+                <div class="row">
+                    <div class="col-md-4 mt-md-0 mt-3">
+                        <a href="../index.html"><img src="../images/octothorpeLogo.PNG" height="40" alt="octothorpeLogo"></a>
+                    </div>
+                    <hr class="clearfix w-100 d-md-none pb-3">
+                    <div class="col-md-4 mb-md-0 mb-3">
+                        <h5 class="text-uppercase">N A V I G A T I O N</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="../index.html">HOME</a><br>
+                            </li>
+                            <li>
+                                <a href="explore.html">EXPLORE</a><br>
+                             </li>
+                            <li>
+                                <a href="portfolio.html">PORTFOLIO</a><br>
+                            </li>
+                            <li>
+                                <a href="../../home.html">ASSIGNMENTS</a><br>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 mb-md-0 mb-3">
+                        <h5 class="text-uppercase">F O L L O W&nbsp;&nbsp;U S </h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="https://facebook.com"><img src="../images/facebook.png" height="30" alt="facebook"></a><br>
+                            </li>
+                            
+                            <li>
+                                <a href="https://twitter.com"><img src="../images/twitter.png" height="30" alt="twitter"></a><br>
+                            </li>
+                            <li>
+                                <a href="https://instagram.com"><img src="../images/instagram.png" height="30" alt="instagram"></a><br>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                </div>
+                <div class="footer-copyright text-center py-3">O C T O T H O R P E&nbsp;&nbsp;&nbsp;
+                    M A G A Z I N E&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;© 2 0 1 9&nbsp;&nbsp;&nbsp;&nbsp;|
+                    &nbsp;&nbsp;&nbsp;&nbsp;  A V H I M A N H U&nbsp;&nbsp;S A P K O T A
+                    &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp; A L L&nbsp;&nbsp;R I G H T S &nbsp;&nbsp;R E S E R V E D<br>
+                    <p style="font-size:0.9vw">
+                        Some Content have been copied from other websites as it is quite difficult to fulfill
+                         all contents of the Magazine in a short period of time.
+                    </p>
+                </div>
+        </footer>
+       
+        <script>
+                function openNav(){
+                  document.getElementById("mynav").style.height="100%";
+                }
+                
+                function closeNav(){
+                  document.getElementById("mynav").style.height="0";
+                }
+        </script>    
+    </body>
+</html>

@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <link rel="shortcut icon" href="../images/icon.ico" />
+
+        <title>Octothorpe Magazine - Article</title> <!--Title of my webpage-->
+
+        <meta charset="utf-8"/>     <!--for accepting unicode-->
+
+        <meta name="author" content="Avhimanhu Sapkota"/>           <!--Determining the author of the website-->
+
+        <meta name="keywords" content=" "/>     <!--search engine keywords-->
+
+        <meta name="description" content=" "/>   <!--search engine discription-->
+
+        <link rel="stylesheet" type="text/css" href="../style/bootstrap.min.css">
+
+        <link rel="stylesheet" type="text/css" href="../style/style.css">
+
+        <script >
+            
+            function evalid(f1){
+                var e=f1.email.value;
+					   if (e.indexOf('@', 0)==-1 ||e.indexOf('.',0) ==-1){
+					   alert ("P L E A S E    E N T E R    V A L I D    E - M A I L    A D D R E S S    A N D    T R Y    A G A I N ! ! !");
+                           f1.email.value="";
+                           f1.email.focus();
+					   }  
+                       else {
+                        alert("T H A N K    Y O U    F O R    S U B S C R I B I N G    O C T O T H O R P E !");
+                       }
+            }
+        </script>
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+            <a href="../index.html">
+                <img src="../images/octothorpeLogo.PNG" alt="Octothorpe Logo" height="45"> 
+            </a>
+            
+            <div class="collapse navbar-collapse justify-content-center" >
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">HOME <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="explore.html">EXPLORE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">PORTFOLIO</a>
+                    </li>
+                </ul>
+            </div>
+        
+            <div class="nav-right-content">
+                <ul class="navbar-nav">
+                    <li>
+                        <a class="nav-link active collapse navbar-collapse" href="search.html">
+                            <br><br>
+                            <img src="../images/search.png" alt="Search" height="30">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link active collapse navbar-collapse" href="login.html">
+                            <br><br>
+                            <img src="../images/login.png" alt="Login" height="45">
+                        </a>
+                    </li>
+                    <li>
+                        <div style="font-size: 40px; cursor:pointer;" onClick="openNav()">
+                            <img src="../images/drop.png" alt="Dropdown" height="35">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+                
+        <div class="overlay" id="mynav">
+                <a href="#" class="closebtn" onClick="closeNav()">&times;</a>
+                <div class="overlay-content"> 
+                    <a href="../index.html">HOME</a>
+                    <a href="explore.html">EXPLORE</a>
+                    <a href="portfolio.html">PORTFOLIO</a>
+                    <a href="login.html">LOGIN</a>
+                    <a href="search.html">SEARCH</a>
+                    <a href="../../home.html">ASSIGNMENTS</a>
+                </div>
+            </div>
+
+        <div class="box">
+            <img class="image-fluid" src="../images/articlecover1.jpg" alt="NEWSPAPER WITH MAGNIFIER" height="300" style="width:100%">
+            <div class="text">
+                <h2>O C T O T H O R P E&nbsp;&nbsp;&nbsp;&nbsp; M A G A Z I N E</h2>  
+            </div>
+        </div>
+
+        <div class="empty-box"> </div>
+        
+            <div class="container">
+            <div class="row">
+            <div class="box">
+                <h3>D I A R Y &nbsp;&nbsp;&nbsp;W R I T I N G :<br>L I V E&nbsp;&nbsp;&nbsp;A
+                    &nbsp;&nbsp;&nbsp;P R O D U C T I V E&nbsp;&nbsp;&nbsp;L I F E
+                </h3>
+                <br>
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                        Writing can be hard and getting started is usually the hardest part. If you feel like you don’t know how to write a diary entry, 
+                        don’t stress over it. You can start writing about anything. You can even write about how you can’t think of anything to write. 
+                        Once you start getting words out, they will start to flow naturally.
+                </p>
+                
+                <h4>Decide to write</h4>
+                
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                        First, you need to decide you want to start a diary. Once you have decided you want to dedicate time to creating a diary, starting one will be easy.
+                </p>
+
+                <h4>Decide what to write</h4>
+                
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                    This is definitely the hardest part when writing a diary, but it is probably the most important. If you want
+                     your diary to be specific, decide what topic you would like to discuss during your entries. You can create 
+                     multiple diaries for different topics, or just have one diary that has everything. Generally, diaries are 
+                     personal and private thoughts, but they can also be a great way to keep track of personal musings on anything 
+                     you would like
+                </p>
+
+                <h4>Create a schedule</h4>
+                
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                    Starting a diary requires that you write in it frequently, but it is up to you to decide how frequently you want to 
+                    write in it. Whether it be once a day or once a week, create a schedule that you can adhere to. The more you can 
+                    make writing in your diary a part of your routine, the more comprehensive and helpful a practice it will become.
+                </p>
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                        When you have decided what you want write in your diary, decide on a writing schedule that is appropriate 
+                        for the topic. For example, if you want your diary to be general, maybe you want to decide to write in it 
+                        at a certain time everyday, like right before you go to bed. If you want your writings to be more specific,
+                         like about food, maybe you will write in it every time you cook or find a new recipe. Make your schedule work
+                        for you and your topic.
+                </p>
+
+                <h4>Set a time limit</h4>
+                
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                    It is easy to get carried away and write too much when diary writing. A way to stay concise and on track is to
+                     set a time limit for your writing. Depending on how much you want to write, set a time limit that reflects that.
+                      Somewhere between 30 minutes and an hour is ideal. If you feel like you want to spend more time than that, feel free.
+                </p>
+            </div>
+            </div>
+        </div>
+        <div class="empty-box"> </div>
+        
+        <div class="box">
+            <img class="image-fluid " src="../images/explorearticle6i.jpg" alt="ADULT WRITING ON A DIARY" style="width:100%">
+            <div class="text-inside-article">
+                    <h5>A D U L T &nbsp;&nbsp;&nbsp;W R I T I N G  &nbsp;&nbsp;&nbsp;O N&nbsp;&nbsp;&nbsp; A&nbsp;&nbsp;&nbsp; D I A R Y</h5>
+                </div>
+        </div>
+        
+        <div class="empty-box"> </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="box">
+                        <h4>Date your entries</h4>
+                
+                        <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                                The great thing about a diary is that you are able to look back through it and see how you have 
+                                progressed over time. It is important to date every entry you write. Luckily, Penzu dates your entries automatically.
+                        </p>
+
+                        <h4>Create an introductory entry</h4>
+                
+                        <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                                For your first diary entry, try to write an introduction to what your diary will be about. Introduce yourself, what things
+                                 interest you, what you think it important and what you want this dairy to be about. Open up and be yourself.
+                        </p>
+
+                        <h4>Act like you’re writing to a trusted friend</h4>
+                
+                        <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                                Wondering how to write a diary entry? The best way to write is as if you’re talking to your best friend. This is your personal diary,
+                                 for your eyes only, so you should feel comfortable writing as if you’re talking to a trusted companion. As cliché as “Dear Diary”
+                                  may sound, it can really lead you in the write direction in terms of the tone you should be writing in. The goal of a diary
+                                 is to discuss things honestly and candidly, as if you were talking through them with a best friend or family member.
+                        </p>
+
+                        <h4>Have fun!</h4>
+                
+                        <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                                Writing in your diary should never be a chore or a burden, so remember to have fun with it. It can be a place of solace, a place
+                                 of creativity, a place of reflection, a place where your thoughts can roam free. When starting a diary, make sure you are
+                                  writing about things you care about and are passionate about because. As long as you enjoy what you’re writing and the process 
+                                  of it, you will never miss an entry!
+                        </p>
+                
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                    <em>
+                        Compiled from <a href="https://penzu.com/how-to-start-and-write-a-diary">
+                        Penzu</a>
+                    </em>    
+                </p>  
+
+                </div>
+            </div>
+        </div>
+
+        <div class="empty-box"> </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                   <div class="box">
+                        <img  class="img-fluid " src="../images/explorearticle6ii.jpg" alt="PEN'S NIB WRITING" style="width:100%">
+                        <div class="text-inside-article">
+                            <h5>P E N ' S &nbsp;&nbsp;&nbsp;N I B&nbsp;&nbsp;&nbsp; W R I T I N G</h5>
+                        </div>
+                    </div>   
+                </div>
+    
+                <div class="col-6">
+                    <div class="box">
+                            <img  class="img-fluid " src="../images/explorearticle6iii.jpg" alt="PEN ON A DIARY" style="width:100%">
+                            <div class="text-inside-article">
+                                <h5>P E N&nbsp;&nbsp;&nbsp; O N&nbsp;&nbsp;&nbsp; A&nbsp;&nbsp;&nbsp; D I A R Y</h5>
+                            </div>
+                    </div>   
+                </div>
+            </div>
+        </div>    
+
+        <div class="empty-box"> </div>
+        <div class="empty-box"> </div>
+
+        <div class="box">
+            <img class="image-fluid" src="../images/homecover1.jpg" alt="HILLS AND CLOUDS" height="300" style="width:100%">
+            <div class="text" id="middletext" >
+                <h3>S U B S C R I B E&nbsp;&nbsp;&nbsp;&nbsp;U S </h3>
+                THE BEST OF OCTOTHORPE DELIVERED TO YOUR INBOX
+                <br><br>
+                <form name="f1">
+                <textarea rows="1" cols="32" name="email" onsubmit="evalid(f1)" >Your E-mail</textarea>
+                </form>
+                <button id="Bt" class="btn btn-dark bg-dark" onclick="evalid(f1)">
+                    SUBSCRIBE
+                </button>
+            </div>
+        </div>
+
+        <div class="empty-box"> </div>
+        <div class="empty-box"> </div>
+
+        <footer class="page-footer font-small blue pt-4">
+            <div class="container-fluid text-center text-md-left">
+                <div class="row">
+                    <div class="col-md-4 mt-md-0 mt-3">
+                        <a href="../index.html"><img src="../images/octothorpeLogo.PNG" height="40" alt="octothorpeLogo"></a>
+                    </div>
+                    <hr class="clearfix w-100 d-md-none pb-3">
+                    <div class="col-md-4 mb-md-0 mb-3">
+                        <h5 class="text-uppercase">N A V I G A T I O N</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="../index.html">HOME</a><br>
+                            </li>
+                            <li>
+                                <a href="explore.html">EXPLORE</a><br>
+                             </li>
+                            <li>
+                                <a href="portfolio.html">PORTFOLIO</a><br>
+                            </li>
+                            <li>
+                                <a href="../../home.html">ASSIGNMENTS</a><br>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 mb-md-0 mb-3">
+                        <h5 class="text-uppercase">F O L L O W&nbsp;&nbsp;U S </h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="https://facebook.com"><img src="../images/facebook.png" height="30" alt="facebook"></a><br>
+                            </li>
+                            
+                            <li>
+                                <a href="https://twitter.com"><img src="../images/twitter.png" height="30" alt="twitter"></a><br>
+                            </li>
+                            <li>
+                                <a href="https://instagram.com"><img src="../images/instagram.png" height="30" alt="instagram"></a><br>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                </div>
+                <div class="footer-copyright text-center py-3">O C T O T H O R P E&nbsp;&nbsp;&nbsp;
+                    M A G A Z I N E&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;© 2 0 1 9&nbsp;&nbsp;&nbsp;&nbsp;|
+                    &nbsp;&nbsp;&nbsp;&nbsp;  A V H I M A N H U&nbsp;&nbsp;S A P K O T A
+                    &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp; A L L&nbsp;&nbsp;R I G H T S &nbsp;&nbsp;R E S E R V E D<br>
+                    <p style="font-size:0.9vw">
+                        Some Content have been copied from other websites as it is quite difficult to fulfill
+                         all contents of the Magazine in a short period of time.
+                    </p>
+                </div>
+        </footer>
+       
+        <script>
+                function openNav(){
+                  document.getElementById("mynav").style.height="100%";
+                }
+                
+                function closeNav(){
+                  document.getElementById("mynav").style.height="0";
+                }
+        </script>
+             
+    </body>
+</html>

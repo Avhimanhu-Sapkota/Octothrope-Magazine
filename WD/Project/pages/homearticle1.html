@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <link rel="shortcut icon" href="../images/icon.ico" />
+
+        <title>Octothorpe Magazine - Article</title> <!--Title of my webpage-->
+
+        <meta charset="utf-8"/>     <!--for accepting unicode-->
+
+        <meta name="author" content="Avhimanhu Sapkota"/>           <!--Determining the author of the website-->
+
+        <meta name="keywords" content=" "/>     <!--search engine keywords-->
+
+        <meta name="description" content=" "/>   <!--search engine discription-->
+
+        <link rel="stylesheet" type="text/css" href="../style/bootstrap.min.css">
+
+        <link rel="stylesheet" type="text/css" href="../style/style.css">
+
+        <script>
+            
+            function evalid(f1){
+                var e=f1.email.value;
+					   if (e.indexOf('@', 0)==-1 ||e.indexOf('.',0) ==-1){
+					   alert ("P L E A S E    E N T E R    V A L I D    E - M A I L    A D D R E S S    A N D    T R Y    A G A I N ! ! !");
+                           f1.email.value="";
+                           f1.email.focus();
+					   }  
+                       else {
+                        alert("T H A N K    Y O U    F O R    S U B S C R I B I N G    O C T O T H O R P E !");
+                       }
+            }
+        </script>
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+            <a href="../index.html">
+                <img src="../images/octothorpeLogo.PNG" alt="Octothorpe Logo" height="45"> 
+            </a>
+            
+            <div class="collapse navbar-collapse justify-content-center" >
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">HOME <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="explore.html">EXPLORE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">PORTFOLIO</a>
+                    </li>
+                </ul>
+            </div>
+        
+            <div class="nav-right-content">
+                <ul class="navbar-nav">
+                    <li>
+                        <a class="nav-link active collapse navbar-collapse" href="search.html">
+                            <br><br>
+                            <img src="../images/search.png" alt="Search" height="30">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link active collapse navbar-collapse" href="login.html">
+                            <br><br>
+                            <img src="../images/login.png" alt="Login" height="45">
+                        </a>
+                    </li>
+                    <li>
+                        <div style="font-size: 40px; cursor:pointer;" onClick="openNav()">
+                            <img src="../images/drop.png" alt="Dropdown" height="35">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+                
+        <div class="overlay" id="mynav">
+                <a href="#" class="closebtn" onClick="closeNav()">&times;</a>
+                <div class="overlay-content"> 
+                    <a href="../index.html">HOME</a>
+                    <a href="explore.html">EXPLORE</a>
+                    <a href="portfolio.html">PORTFOLIO</a>
+                    <a href="login.html">LOGIN</a>
+                    <a href="search.html">SEARCH</a>
+                    <a href="../../home.html">ASSIGNMENTS</a>
+                </div>
+        </div>
+
+        <div class="box">
+            <img class="image-fluid" src="../images/articlecover1.jpg" alt="NEWSPAPER WITH MAGNIFIER" height="300" style="width:100%">
+            <div class="text">
+                <h2>O C T O T H O R P E&nbsp;&nbsp;&nbsp;&nbsp; M A G A Z I N E</h2>  
+            </div>
+        </div>
+
+        <div class="empty-box"> </div>
+        
+            <div class="container">
+            <div class="row">
+            <div class="box">
+                <h3>R O A D  &nbsp;&nbsp;T R I P &nbsp;&nbsp;G U I D E :<br>P L A N&nbsp;&nbsp;&nbsp;
+                    F O R&nbsp;&nbsp;&nbsp;Y O U R&nbsp;&nbsp;&nbsp;N E X T&nbsp;&nbsp;&nbsp;
+                    R O A D&nbsp;&nbsp;&nbsp;T R I P
+                </h3>
+                <br>
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                    Road tripping is not a mission to take lightly. No matter the destination of your summer trip (because you are taking one, right?),
+                     most of us tend to plan out and get hyped over the destination. Concerts, beaches, extended family, theme parks, camping, thrill-seeking 
+                     of all sorts… These are amazing ways to make memories and live life to the fullest, not to mention recharge after a long Winter and chilly 
+                     Spring – but, like everything else, sometimes the journey is more important.
+                </p>
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                    Road tripping can be stressful; spending hours upon hours in one place with the people that you love? Sorry, but even love isn’t strong enough
+                     to last a 12-hour car ride through the flat plains of the Midwest without at least one argument. But you’ll eventually get past that. Here are
+                     the four stages of planning a road trip.   
+                </p>
+                
+                <h4>PICK A DATE</h4>
+                
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                    This might sound easy, but the truth is that coordinating schedules between you and your buddies/family can be especially difficult this time of year.
+                     Many people try and vacation during the summer, and that can create some office conflicts (obviously, half the office can’t have August off). 
+                     Add to that the fact that some workplaces require you to request days off several weeks in advance, and this can be trickier than you first anticipated.   
+                </p>
+
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                    On the other hand, you probably want to know the weather you can expect on your trip, and you can only reliably predict that a few weeks ahead of time.
+                     Finding a balance between the two can be difficult, especially if you live in an unpredictable climate, but pick a date that is in the middle of summer
+                     if possible, to avoid spring showers or fall winds creeping in on your vacation.
+                </p>
+
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                    Also, try to combine your road trip with other summer outings! This will save you time and money. Obviously, the wishes of your road tripping companions
+                     need to be taken into account as well, but they likely share some interests or connections with you. If you all work together, perhaps it could be 
+                     combined with a business trip (if that’s the case, check to see if you need to track your miles) or to visit a shared family member. 
+                     It might not always be in your best interest to combine road trips, but at least consider it.
+                </p>
+
+                <h4>PLAN YOUR ROUTE</h4>
+
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                    DON’T SKIP THIS ONE. I know it’s tempting to just say, “f*ck it, I’m spontaneous, I’ll just plug the address into my phone once we get out of town.” 
+                    Look, if it’s too good to be true, it probably isn’t, and that rule definitely applies here. No trip can be that easy unless you happen to be driving
+                     a route that you’ve done several times over.
+                </p>
+
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                    Look into the status of all the highways you plan on taking and calculate a rough road time. Of course, you’re not going to be able to predict all the
+                     emergency pit stops, but having an estimate will help you know if you’re veering wildly off course. Everyone swears byseparate map apps, so I won’t 
+                     recommend a specific one to you. Just know that you bear the responsibility for its accuracy, so you might want to double check.
+                </p>
+
+            </div>
+            </div>
+        </div>
+        <div class="empty-box"> </div>
+        
+        <div class="box">
+            <img class="image-fluid " src="../images/homearticle1.jpg" alt="OFF-ROAD TRIPPING SUV" style="width:100%">
+            <div class="text-inside-article">
+                    <h5>O F F - R O A D&nbsp;&nbsp;&nbsp; T R I P P I N G&nbsp;&nbsp;&nbsp; S U V </h5>
+                </div>
+        </div>
+        
+        <div class="empty-box"> </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="box">
+                    <h4>ASSIGN ROLES</h4>
+
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                    Before you head out on the road, discuss with your friends who will be in charge of what. This includes primary tasks, like who will buy your initial snacks,
+                     who will make the road trip playlist, and who will be in charge of gathering any other necessities. Before officially assigning roles, consider the following:
+                     <ul>
+                        <li>
+                            <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                                The driver is responsible for driving. That’s it. This is a grueling enough task without any added responsibilities. Although at some point
+                                 the driver might relinquish the reins out of exhaustion, generally the primary driver owns the car and is therefore assuming a lot of the
+                                 risk from the get-go, especially if any secondary drivers aren’t insured. Let the driver call the shots; they’ve earned it.
+                            </p>
+                        </li>
+                        <li>
+                            <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                                Shotgun is always an enviable position, but not one for the faint of heart. Shotgunners are in charge of navigation, music, and keeping
+                                 the driver awake. The latter is the most important job, but don’t put anyone in this position if you hate their music taste or if they
+                                 have trouble telling their right from their left.
+                            </p>
+                        </li>
+                        <li>
+                            <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                                The backseat is for the slackers. They sleep and distribute snacks. This is for the people you don’t trust up front.
+                            </p>
+                        </li>
+                    </ul>
+
+                <h4>BUDGET</h4>
+
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                    You might think that this should be the first step, but it’s actually important that it takes place after you assign roles. The reason is,
+                     the driver is probably going to have extra expenses. While everyone will chip in for gas, drivers need to make sure their entire car is 
+                     safe for the trip. This includes a lot more than just filling up before you head out, and that should be taken into account when splitting
+                      up financial responsibilities.
+                </p>                
+                
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                    Second, while planning in advance is essential for a stellar road trip, life doesn’t follow a plan. You might’ve had an emergency or unexpected
+                     expense the week before the trip. This obviously isn’t ideal, but moving ahead with the trip without informing your fellow road trippers can only 
+                     end badly. Consider the 50/30/20 finance plan (50% for necessities, 30% for wants, and 20% for debt or savings) and whether your road trip can still 
+                     fit into it. If not, appeal to your friends for help or reconsider if this road trip is worth neglecting your savings account for another month.
+                </p>    
+
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                    Look, I know that that is the sort of advice that comes from your dad, not your favorite lifestyle website, but someone’s gotta say it. Saving is important,
+                     but so is living life! No one except your dad expects you to have a perfect retirement account, but you need to give it a little love consistently. 
+                     Road tripping may be one of the best times you can ever have, but it needs to be planned carefully in order to avoid disaster.
+                </p>  
+                
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                    <em>
+                        Originally written by Dayton Uttinger on Unwritten.<br>
+                        Compiled from <a href="https://www.huffpost.com/entry/the-ultimate-guide-for-planning-your-next-road-trip_n_5988a178e4b015331b0c97d7">
+                        Huffpost</a>
+                    </em>    
+                </p>  
+
+                </div>
+            </div>
+        </div>
+
+        <div class="empty-box"> </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                   <div class="box">
+                        <img  class="img-fluid " src="../images/homearticle1i.jpg" alt="SUV AND PEOPLE IN A ROAD TRIP" style="width:100%">
+                        <div class="text-inside-article">
+                            <h5>S U V&nbsp;&nbsp;&nbsp;A N D&nbsp;&nbsp;&nbsp; P E O P L E&nbsp;&nbsp;&nbsp;
+                                 I N&nbsp;&nbsp;&nbsp; A&nbsp;&nbsp;&nbsp; R O A D &nbsp;&nbsp;&nbsp; T R I P</h5>
+                        </div>
+                    </div>   
+                </div>
+    
+                <div class="col-6">
+                    <div class="box">
+                            <img  class="img-fluid " src="../images/homearticle1ii.jpg" alt="FEET HANGING FORM A CAR'S TOP" style="width:100%">
+                            <div class="text-inside-article">
+                                <h5>F E E T&nbsp;&nbsp;&nbsp;H A N G I N G&nbsp;&nbsp;&nbsp; F O R M&nbsp;&nbsp;&nbsp; 
+                                    A&nbsp;&nbsp;&nbsp; C A R ' S&nbsp;&nbsp;&nbsp; T O P </h5>
+                            </div>
+                    </div>   
+                </div>
+            </div>
+        </div>    
+
+        <div class="empty-box"> </div>
+        <div class="empty-box"> </div>
+
+        <div class="box">
+            <img class="image-fluid" src="../images/cover1.jpg" alt="SNOW COVERED MOUNTAINS" height="300" style="width:100%">
+            <div class="text" id="middletext" >
+                <h3>S U B S C R I B E&nbsp;&nbsp;&nbsp;&nbsp;U S </h3>
+                THE BEST OF OCTOTHORPE DELIVERED TO YOUR INBOX
+                <br><br>
+                <form name="f1">
+                <textarea rows="1" cols="32" name="email" onsubmit="evalid(f1)" >Your E-mail</textarea>
+                </form>
+                <button id="Bt" class="btn btn-dark bg-dark" onclick="evalid(f1)">
+                    SUBSCRIBE
+                </button>
+            </div>
+        </div>
+
+        <div class="empty-box"> </div>
+        <div class="empty-box"> </div>
+
+        <footer class="page-footer font-small blue pt-4">
+            <div class="container-fluid text-center text-md-left">
+                <div class="row">
+                    <div class="col-md-4 mt-md-0 mt-3">
+                        <a href="../index.html"><img src="../images/octothorpeLogo.PNG" height="40" alt="octothorpeLogo"></a>
+                    </div>
+                    <hr class="clearfix w-100 d-md-none pb-3">
+                    <div class="col-md-4 mb-md-0 mb-3">
+                        <h5 class="text-uppercase">N A V I G A T I O N</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="../index.html">HOME</a><br>
+                            </li>
+                            <li>
+                                <a href="explore.html">EXPLORE</a><br>
+                             </li>
+                            <li>
+                                <a href="portfolio.html">PORTFOLIO</a><br>
+                            </li>
+                            <li>
+                                <a href="../../home.html">ASSIGNMENTS</a><br>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 mb-md-0 mb-3">
+                        <h5 class="text-uppercase">F O L L O W&nbsp;&nbsp;U S </h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="https://facebook.com"><img src="../images/facebook.png" height="30" alt="facebook"></a><br>
+                            </li>
+                            
+                            <li>
+                                <a href="https://twitter.com"><img src="../images/twitter.png" height="30" alt="twitter"></a><br>
+                            </li>
+                            <li>
+                                <a href="https://instagram.com"><img src="../images/instagram.png" height="30" alt="instagram"></a><br>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                </div>
+                <div class="footer-copyright text-center py-3">O C T O T H O R P E&nbsp;&nbsp;&nbsp;
+                    M A G A Z I N E&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;© 2 0 1 9&nbsp;&nbsp;&nbsp;&nbsp;|
+                    &nbsp;&nbsp;&nbsp;&nbsp;  A V H I M A N H U&nbsp;&nbsp;S A P K O T A
+                    &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp; A L L&nbsp;&nbsp;R I G H T S &nbsp;&nbsp;R E S E R V E D<br>
+                    <p style="font-size:0.9vw">
+                        Some Content have been copied from other websites as it is quite difficult to fulfill
+                         all contents of the Magazine in a short period of time.
+                    </p>
+                </div>
+        </footer>
+       
+        <script>
+                function openNav(){
+                  document.getElementById("mynav").style.height="100%";
+                }
+                
+                function closeNav(){
+                  document.getElementById("mynav").style.height="0";
+                }
+        </script>
+           
+    </body>
+</html>

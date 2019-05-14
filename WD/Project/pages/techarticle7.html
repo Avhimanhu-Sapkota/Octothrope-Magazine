@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <link rel="shortcut icon" href="../images/icon.ico" />
+
+        <title>Octothorpe Magazine - Article</title> <!--Title of my webpage-->
+
+        <meta charset="utf-8"/>     <!--for accepting unicode-->
+
+        <meta name="author" content="Avhimanhu Sapkota"/>           <!--Determining the author of the website-->
+
+        <meta name="keywords" content=" "/>     <!--search engine keywords-->
+
+        <meta name="description" content=" "/>   <!--search engine discription-->
+
+        <link rel="stylesheet" type="text/css" href="../style/bootstrap.min.css">
+
+        <link rel="stylesheet" type="text/css" href="../style/style.css">
+
+        <script>
+            
+            function evalid(f1){
+                var e=f1.email.value;
+					   if (e.indexOf('@', 0)==-1 ||e.indexOf('.',0) ==-1){
+					   alert ("P L E A S E    E N T E R    V A L I D    E - M A I L    A D D R E S S    A N D    T R Y    A G A I N ! ! !");
+                           f1.email.value="";
+                           f1.email.focus();
+					   }  
+                       else {
+                        alert("T H A N K    Y O U    F O R    S U B S C R I B I N G    O C T O T H O R P E !");
+                       }
+            }
+        </script>
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+            <a href="../index.html">
+                <img src="../images/octothorpeLogo.PNG" alt="Octothorpe Logo" height="45"> 
+            </a>
+            
+            <div class="collapse navbar-collapse justify-content-center" >
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">HOME <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="explore.html">EXPLORE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">PORTFOLIO</a>
+                    </li>
+                </ul>
+            </div>
+        
+            <div class="nav-right-content">
+                <ul class="navbar-nav">
+                    <li>
+                        <a class="nav-link active collapse navbar-collapse" href="search.html">
+                            <br><br>
+                            <img src="../images/search.png" alt="Search" height="30">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link active collapse navbar-collapse" href="login.html">
+                            <br><br>
+                            <img src="../images/login.png" alt="Login" height="45">
+                        </a>
+                    </li>
+                    <li>
+                        <div style="font-size: 40px; cursor:pointer;" onClick="openNav()">
+                            <img src="../images/drop.png" alt="Dropdown" height="35">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+                
+        <div class="overlay" id="mynav">
+                <a href="#" class="closebtn" onClick="closeNav()">&times;</a>
+                <div class="overlay-content"> 
+                    <a href="../index.html">HOME</a>
+                    <a href="explore.html">EXPLORE</a>
+                    <a href="portfolio.html">PORTFOLIO</a>
+                    <a href="login.html">LOGIN</a>
+                    <a href="search.html">SEARCH</a>
+                    <a href="../../home.html">ASSIGNMENTS</a>
+                </div>
+            </div>     
+        
+
+        <div class="box">
+            <img class="image-fluid" src="../images/articlecover5.jpg" alt="NEWSPAPERS" height="300" style="width:100%">
+            <div class="text">
+                <h2>O C T O T H O R P E&nbsp;&nbsp;&nbsp;&nbsp; M A G A Z I N E</h2>  
+            </div>
+        </div>
+
+        <div class="empty-box"> </div>
+        
+            <div class="container">
+            <div class="row">
+            <div class="box">
+                <h3>R A Z E R &nbsp;&nbsp;&nbsp;C E L E B R A T E S&nbsp;&nbsp;&nbsp; S T A R&nbsp;&nbsp;&nbsp;<br> W A R S&nbsp;&nbsp;&nbsp;
+                    D A Y&nbsp;&nbsp;&nbsp; W I T H&nbsp;&nbsp;&nbsp;<br> S T R O M T R O O P E R&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;
+                    T H E M E D&nbsp;&nbsp;&nbsp;<br> G A M I N G&nbsp;&nbsp;&nbsp; A C C E S S O R I E S
+                </h3>
+                <br>
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                    Just in time for Star Wars Day, Razer has launched a series of monochromatic accessories in black-and-white tones 
+                    through its partnership with Disney. The Stormtrooper-themed collection includes a mechanical keyboard, wireless mouse, 
+                    and a massive mouse pad. The collection was launched in conjunction with the event that is held on May 4 each year and was 
+                    designed in partnership with Disney’s Lucasfilm. May 4 was chosen as a pun on the catchphrase May the Force be with you: May 
+                    the Fourth be with you.
+                </p>
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                    “Donning the iconic stormtrooper design, the Razer BlackWidow Lite mechanical keyboard and Atheris wireless mouse are built for 
+                    productivity and performance, tuned for both the office and home environments,” Razer said in a release. “The Star Wars-themed 
+                    Razer Goliathus Extended gaming mouse mat completes the set with a massive surface area for intense work sessions and high-adrenaline
+                     gaming.” 
+                </p>
+                
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                    These new peripherals bear the same signature and key features as the original accessories. Like the original BlackWidow Lite, 
+                    the Stormtrooper edition from the Star Wars collection features the same Razer Orange Mechanical Switches with O-rings for quiet 
+                    operation while still being responsive. The keys are individually backlit, and given that this is a wired keyboard, there is also 
+                    a black-and-white braided cable. The Imperial crest sits on top of the escape key to complete the theme. The BlackWidow Lite
+                     Stormtrooper Edition keyboard retails for $99, a $10 premium over the standard version.
+                </p>
+
+            </div>
+            </div>
+        </div>
+        <div class="empty-box"> </div>
+        
+        <div class="box">
+            <img class="image-fluid " src="../images/techarticle7i.jpg" alt="RAZER MOUSEPAD" style="width:100%">
+            <div class="text-inside-article">
+                    <h5>R A Z E R&nbsp;&nbsp;&nbsp;M O U S E P A D&nbsp;&nbsp;&nbsp; </h5>
+                </div>
+        </div>
+        
+        <div class="empty-box"> </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="box">
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                    The companion Razer Atheris Mouse is also similarly themed in Stormtrooper colors and features the same 2.4GHz wireless or Bluetooth 
+                    connectivity as the standard edition in a pocket-sized form factor. The themed edition retails for $59, a $10 premium over the 
+                    standard $49 version, and comes with the Stormtrooper helmet design printed on top of the mouse itself. There is also a Goliathus
+                     Extended Gaming Mouse Mat with a similar Stormtrooper design to complete the lineup of Star Wars themed accessories. The mouse 
+                     pad retails for $34 and features a taut weave that Razer claims is optimized for sensitivity.
+                </p>                
+                
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                    Unless you’re a Star Wars fan and covet the Stormtrooper-themed wares, gamers can also check out our picks for some great gaming keyboards
+                     and mice alternatives. And if you need a wireless gaming laptop to pair these accessories, be sure to check out our review of Razer’s new Blade with RTX graphics.
+                </p>    
+
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                    Look, I know that that is the sort of advice that comes from your dad, not your favorite lifestyle website, but someone’s gotta say it. Saving is important,
+                     but so is living life! No one except your dad expects you to have a perfect retirement account, but you need to give it a little love consistently. 
+                     Road tripping may be one of the best times you can ever have, but it needs to be planned carefully in order to avoid disaster.
+                </p>  
+                
+                <p style="font-family:Cambria;font-size:1.3vw;text-align: justify;">
+                    <em>
+                        Originally written by Chuong Nguyen.<br>
+                        Compiled from <a href="https://www.digitaltrends.com/computing/razer-stormtrooper-keyboard-mouse-accessories/">
+                        Digital Trends</a>
+                    </em>    
+                </p>  
+
+                </div>
+            </div>
+        </div>
+
+        <div class="empty-box"> </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                   <div class="box">
+                        <img  class="img-fluid " src="../images/techarticle7.jpg" alt="RAZER MOUSE" style="width:100%">
+                        <div class="text-inside-article">
+                            <h5>R A Z E R &nbsp;&nbsp;&nbsp;M O U S E</h5>
+                        </div>
+                    </div>   
+                </div>
+    
+                <div class="col-6">
+                    <div class="box">
+                            <img  class="img-fluid " src="../images/techarticle7ii.jpg" alt="RAZER ACCESSORIES" style="width:100%">
+                            <div class="text-inside-article">
+                                <h5>R A Z E R&nbsp;&nbsp;&nbsp;A C C E S S O R I E S&nbsp;&nbsp;&nbsp; </h5>
+                            </div>
+                    </div>   
+                </div>
+            </div>
+        </div>    
+
+        <div class="empty-box"> </div>
+        <div class="empty-box"> </div>
+
+        <div class="box">
+            <img class="image-fluid" src="../images/homecover1.jpg" alt="HILLS AND CLOUDS" height="300" style="width:100%">
+            <div class="text" id="middletext" >
+                <h3>S U B S C R I B E&nbsp;&nbsp;&nbsp;&nbsp;U S </h3>
+                THE BEST OF OCTOTHORPE DELIVERED TO YOUR INBOX
+                <br><br>
+                <form name="f1">
+                <textarea rows="1" cols="32" name="email" onsubmit="evalid(f1)" >Your E-mail</textarea>
+                </form>
+                <button id="Bt" class="btn btn-dark bg-dark" onclick="evalid(f1)">
+                    SUBSCRIBE
+                </button>
+            </div>
+        </div>
+
+        <div class="empty-box"> </div>
+        <div class="empty-box"> </div>
+
+        <footer class="page-footer font-small blue pt-4">
+            <div class="container-fluid text-center text-md-left">
+                <div class="row">
+                    <div class="col-md-4 mt-md-0 mt-3">
+                        <a href="../index.html"><img src="../images/octothorpeLogo.PNG" height="40" alt="octothorpeLogo"></a>
+                    </div>
+                    <hr class="clearfix w-100 d-md-none pb-3">
+                    <div class="col-md-4 mb-md-0 mb-3">
+                        <h5 class="text-uppercase">N A V I G A T I O N</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="../index.html">HOME</a><br>
+                            </li>
+                            <li>
+                                <a href="explore.html">EXPLORE</a><br>
+                             </li>
+                            <li>
+                                <a href="portfolio.html">PORTFOLIO</a><br>
+                            </li>
+                            <li>
+                                <a href="../../home.html">ASSIGNMENTS</a><br>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 mb-md-0 mb-3">
+                        <h5 class="text-uppercase">F O L L O W&nbsp;&nbsp;U S </h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="https://facebook.com"><img src="../images/facebook.png" height="30" alt="facebook"></a><br>
+                            </li>
+                            
+                            <li>
+                                <a href="https://twitter.com"><img src="../images/twitter.png" height="30" alt="twitter"></a><br>
+                            </li>
+                            <li>
+                                <a href="https://instagram.com"><img src="../images/instagram.png" height="30" alt="instagram"></a><br>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                </div>
+                <div class="footer-copyright text-center py-3">O C T O T H O R P E&nbsp;&nbsp;&nbsp;
+                    M A G A Z I N E&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;© 2 0 1 9&nbsp;&nbsp;&nbsp;&nbsp;|
+                    &nbsp;&nbsp;&nbsp;&nbsp;  A V H I M A N H U&nbsp;&nbsp;S A P K O T A
+                    &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp; A L L&nbsp;&nbsp;R I G H T S &nbsp;&nbsp;R E S E R V E D<br>
+                    <p style="font-size:0.9vw">
+                        Some Content have been copied from other websites as it is quite difficult to fulfill
+                         all contents of the Magazine in a short period of time.
+                    </p>
+                </div>
+        </footer>
+       
+        <script>
+                function openNav(){
+                  document.getElementById("mynav").style.height="100%";
+                }
+                
+                function closeNav(){
+                  document.getElementById("mynav").style.height="0";
+                }
+        </script>
+          
+    </body>
+</html>
